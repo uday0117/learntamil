@@ -6,6 +6,7 @@ import '../core/theme/app_theme.dart';
 import '../core/theme/responsive.dart';
 import '../widgets/in_app_rating_dialog.dart';
 import '../data/content_repository.dart';
+import '../models/learning_item.dart';
 import '../models/quiz_question.dart';
 
 class QuizUserAnswer {
@@ -40,6 +41,7 @@ class _QuizScreenState extends State<QuizScreen> {
   bool _isQuizFinished = false;
   int _summaryFilter = 0; // 0 = All, 1 = Incorrect, 2 = Correct
   bool _showRatingBanner = true;
+  ItemType? _quizMode; // null = Mixed (Words & Sentences), ItemType.word, ItemType.sentence
 
   @override
   void initState() {
@@ -47,12 +49,20 @@ class _QuizScreenState extends State<QuizScreen> {
     _startQuiz();
   }
 
-  void _startQuiz() {
+  void _startQuiz({ItemType? mode, bool resetMode = false}) {
+    if (resetMode) {
+      _quizMode = mode;
+    } else if (mode != null) {
+      _quizMode = mode;
+    }
     // Preload interstitial so it's ready upon quiz completion
     AdService().loadQuizInterstitial();
 
     setState(() {
-      _questions = _repository.generateQuiz(questionCount: 10);
+      _questions = _repository.generateQuiz(
+        questionCount: 10,
+        itemType: _quizMode,
+      );
       _userAnswers.clear();
       _summaryFilter = 0;
       _currentIndex = 0;
@@ -145,6 +155,88 @@ class _QuizScreenState extends State<QuizScreen> {
                 onPressed: widget.onBackToHome,
               )
             : null,
+        actions: [
+          PopupMenuButton<ItemType?>(
+            icon: const Icon(Icons.tune_rounded),
+            tooltip: 'Quiz Mode',
+            initialValue: _quizMode,
+            onSelected: (mode) {
+              _startQuiz(mode: mode, resetMode: true);
+            },
+            itemBuilder: (context) => [
+              PopupMenuItem(
+                value: null,
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.shuffle_rounded,
+                      size: 20,
+                      color: _quizMode == null
+                          ? (isDark ? AppColors.accentGreen : AppColors.primary)
+                          : null,
+                    ),
+                    const SizedBox(width: 10),
+                    Text(
+                      'Mixed (Words & Sentences)',
+                      style: TextStyle(
+                        fontWeight: _quizMode == null
+                            ? FontWeight.bold
+                            : FontWeight.normal,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              PopupMenuItem(
+                value: ItemType.word,
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.menu_book_rounded,
+                      size: 20,
+                      color: _quizMode == ItemType.word
+                          ? (isDark ? AppColors.accentGreen : AppColors.primary)
+                          : null,
+                    ),
+                    const SizedBox(width: 10),
+                    Text(
+                      'Words Only',
+                      style: TextStyle(
+                        fontWeight: _quizMode == ItemType.word
+                            ? FontWeight.bold
+                            : FontWeight.normal,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              PopupMenuItem(
+                value: ItemType.sentence,
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.chat_bubble_outline_rounded,
+                      size: 20,
+                      color: _quizMode == ItemType.sentence
+                          ? (isDark ? AppColors.accentGreen : AppColors.primary)
+                          : null,
+                    ),
+                    const SizedBox(width: 10),
+                    Text(
+                      'Sentences Only',
+                      style: TextStyle(
+                        fontWeight: _quizMode == ItemType.sentence
+                            ? FontWeight.bold
+                            : FontWeight.normal,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(width: 8),
+        ],
       ),
       body: SafeArea(
         child: LayoutBuilder(
@@ -278,6 +370,14 @@ class _QuizScreenState extends State<QuizScreen> {
   }
 
   Widget _buildQuestionCard(QuizQuestion currentQuestion, bool isDark) {
+    final isSentence = currentQuestion.isSentence;
+    final badgeBg = isSentence
+        ? (isDark ? const Color(0xFF132F3D) : AppColors.sentencesBadge)
+        : (isDark ? const Color(0xFF1B3322) : AppColors.wordsBadge);
+    final badgeColor = isSentence
+        ? (isDark ? const Color(0xFF38BDF8) : AppColors.sentencesColor)
+        : (isDark ? const Color(0xFF4ADE80) : AppColors.wordsColor);
+
     return Container(
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
@@ -294,10 +394,44 @@ class _QuizScreenState extends State<QuizScreen> {
       ),
       child: Column(
         children: [
+          // Item type badge (Sentence vs Word)
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+            decoration: BoxDecoration(
+              color: badgeBg,
+              borderRadius: BorderRadius.circular(12),
+              border: Border.all(color: badgeColor.withValues(alpha: 0.3)),
+            ),
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Icon(
+                  isSentence
+                      ? Icons.chat_bubble_outline_rounded
+                      : Icons.menu_book_rounded,
+                  size: 13,
+                  color: badgeColor,
+                ),
+                const SizedBox(width: 6),
+                Text(
+                  isSentence ? 'SENTENCE' : 'WORD',
+                  style: TextStyle(
+                    fontSize: 11,
+                    fontWeight: FontWeight.w800,
+                    letterSpacing: 0.6,
+                    color: badgeColor,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(height: 10),
           Text(
-            'What is the meaning of',
+            isSentence
+                ? 'What does this sentence mean?'
+                : 'What is the meaning of this word?',
             style: TextStyle(
-              fontSize: 15,
+              fontSize: 14,
               fontWeight: FontWeight.w500,
               color: AppColors.subtext(context),
             ),
@@ -308,9 +442,12 @@ class _QuizScreenState extends State<QuizScreen> {
             textAlign: TextAlign.center,
             style: TextStyle(
               fontFamily: 'NotoSansTamil',
-              fontSize: 32,
+              fontSize: currentQuestion.tamil.length > 30
+                  ? 22
+                  : (currentQuestion.tamil.length > 16 ? 26 : 32),
               fontWeight: FontWeight.w800,
               color: isDark ? AppColors.accentGreen : AppColors.primary,
+              height: 1.3,
             ),
           ),
           const SizedBox(height: 6),
@@ -318,9 +455,10 @@ class _QuizScreenState extends State<QuizScreen> {
             '(${currentQuestion.transliteration})',
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontSize: 16,
+              fontSize: currentQuestion.transliteration.length > 35 ? 14 : 16,
               fontWeight: FontWeight.w600,
               color: AppColors.subtext(context),
+              height: 1.3,
             ),
           ),
           const SizedBox(height: 16),
@@ -471,9 +609,10 @@ class _QuizScreenState extends State<QuizScreen> {
               child: Text(
                 optionText,
                 style: TextStyle(
-                  fontSize: 16,
+                  fontSize: 15,
                   fontWeight: FontWeight.w600,
                   color: textColor,
+                  height: 1.35,
                 ),
               ),
             ),
@@ -559,7 +698,7 @@ class _QuizScreenState extends State<QuizScreen> {
                         const SizedBox(height: 6),
                         Text(
                           isPass
-                              ? 'You have a good grasp of these Tamil words!'
+                              ? 'You have a good grasp of these Tamil words and sentences!'
                               : 'Review the question summary below to boost your recall.',
                           textAlign: TextAlign.center,
                           style: TextStyle(
@@ -604,6 +743,62 @@ class _QuizScreenState extends State<QuizScreen> {
                     ),
                   ),
                   const SizedBox(height: 24),
+
+                  // Mode Selector for next quiz session
+                  Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+                    decoration: BoxDecoration(
+                      color: AppColors.surface(context),
+                      borderRadius: BorderRadius.circular(16),
+                      border: Border.all(color: AppColors.borderSide(context)),
+                    ),
+                    child: Row(
+                      children: [
+                        Text(
+                          'Mode:',
+                          style: TextStyle(
+                            fontSize: 13,
+                            fontWeight: FontWeight.w700,
+                            color: AppColors.subtext(context),
+                          ),
+                        ),
+                        const SizedBox(width: 8),
+                        Expanded(
+                          child: SingleChildScrollView(
+                            scrollDirection: Axis.horizontal,
+                            child: Row(
+                              children: [
+                                ChoiceChip(
+                                  label: const Text('Mixed (Random)'),
+                                  selected: _quizMode == null,
+                                  onSelected: (_) {
+                                    setState(() => _quizMode = null);
+                                  },
+                                ),
+                                const SizedBox(width: 6),
+                                ChoiceChip(
+                                  label: const Text('Words Only'),
+                                  selected: _quizMode == ItemType.word,
+                                  onSelected: (_) {
+                                    setState(() => _quizMode = ItemType.word);
+                                  },
+                                ),
+                                const SizedBox(width: 6),
+                                ChoiceChip(
+                                  label: const Text('Sentences Only'),
+                                  selected: _quizMode == ItemType.sentence,
+                                  onSelected: (_) {
+                                    setState(() => _quizMode = ItemType.sentence);
+                                  },
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  const SizedBox(height: 14),
 
                   // Action Buttons (Try Another Quiz / Back to Home)
                   Row(
@@ -840,6 +1035,26 @@ class _QuizScreenState extends State<QuizScreen> {
                                 ),
                                 const SizedBox(width: 8),
                                 Container(
+                                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                  decoration: BoxDecoration(
+                                    color: q.isSentence
+                                        ? (isDark ? const Color(0xFF132F3D) : AppColors.sentencesBadge)
+                                        : (isDark ? const Color(0xFF1B3322) : AppColors.wordsBadge),
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
+                                  child: Text(
+                                    q.isSentence ? 'Sentence' : 'Word',
+                                    style: TextStyle(
+                                      fontSize: 11,
+                                      fontWeight: FontWeight.w700,
+                                      color: q.isSentence
+                                          ? (isDark ? const Color(0xFF38BDF8) : AppColors.sentencesColor)
+                                          : (isDark ? const Color(0xFF4ADE80) : AppColors.wordsColor),
+                                    ),
+                                  ),
+                                ),
+                                const SizedBox(width: 8),
+                                Container(
                                   padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
                                   decoration: BoxDecoration(
                                     color: isCorrect
@@ -908,9 +1123,10 @@ class _QuizScreenState extends State<QuizScreen> {
                               q.tamil,
                               style: TextStyle(
                                 fontFamily: 'NotoSansTamil',
-                                fontSize: 22,
+                                fontSize: q.tamil.length > 25 ? 19 : 22,
                                 fontWeight: FontWeight.w800,
                                 color: isDark ? AppColors.accentGreen : AppColors.primary,
+                                height: 1.3,
                               ),
                             ),
                             const SizedBox(height: 2),

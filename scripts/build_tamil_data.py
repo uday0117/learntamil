@@ -3,7 +3,7 @@
 Tamil Dataset Generator for Learn Tamil Flutter app.
 Generates:
 1. assets/data/words.json (536 words)
-2. assets/data/sentences.json (291 sentences)
+2. assets/data/sentences.json (361 sentences)
 3. lib/data/tamil_data.dart (const fallback dataset)
 """
 
@@ -600,7 +600,7 @@ WORDS_DATA = {
 }
 
 # -------------------------------------------------------------
-# SENTENCES (291 items: s_001 to s_291)
+# SENTENCES (361 items: s_001 to s_361)
 # -------------------------------------------------------------
 SENTENCES_DATA = {
     # Daily Life (s_001 - s_025, s_250 - s_265)
@@ -913,6 +913,95 @@ SENTENCES_DATA = {
     "s_289": ("எனக்கு புதிய தமிழ் வார்த்தைகளைக் கற்றுக் கொடுங்கள்.", "Enakku pudhiya thamizh vārtthaigaḷaik katṟuk koduṅgaḷ.", "Please teach me new Tamil words.", "Learning Tamil"),
     "s_290": ("எனக்கு தமிழ் மொழியும் தமிழ்நாடும் மிகவும் பிடிக்கும்.", "Enakku Thamizh moḻiyum Thamizhnāḍum migavum piḍikkum.", "I really love the land and language of Tamil Nadu.", "Learning Tamil"),
     "s_291": ("நான் நிச்சயமாக கற்க முயற்சிப்பேன்.", "Nāṉ nichayamāga kaṟka muyarchippēṉ.", "I will definitely try to learn.", "Learning Tamil"),
+
+    # New Comprehensive Everyday Sentences (s_292 - s_361)
+    # Daily Life
+    "s_292": ("நான் இப்போதுதான் வீட்டிற்கு வந்தேன்.", "Nāṉ ippōdhudhān vīṭṭiṟku vandhēṉ.", "I just came home.", "Daily Life"),
+    "s_293": ("இன்று எனக்கு நிறைய வேலை இருக்கிறது.", "Indru enakku niṟaiya vēlai irukkiṟadhu.", "I have a lot of work today.", "Daily Life"),
+    "s_294": ("நீங்கள் சற்று ஓய்வெடுங்கள்.", "Nīṅgaḷ satṟu ōyveḍuṅgaḷ.", "Please take some rest.", "Daily Life"),
+    "s_295": ("உங்களுக்கு என்ன உதவி வேண்டும்?", "Uṅgaḷukku eṉṉa udhavi vēṇḍum?", "What help do you need?", "Daily Life"),
+    "s_296": ("நான் உடனே திரும்பி வருகிறேன்.", "Nāṉ uḍaṉē thirumbi varugiṟēṉ.", "I will return immediately.", "Daily Life"),
+    "s_297": ("நேரம் ஆகிவிட்டது, நாம் கிளம்பலாமா?", "Nēram āgiviṭṭadhu, nām kiḷambalāmā?", "It is getting late, shall we leave?", "Daily Life"),
+    "s_298": ("வெளியே மழை பெய்து கொண்டிருக்கிறது.", "Veḷiyē maḻai peydhu koṇḍirukkiṟadhu.", "It is raining outside.", "Daily Life"),
+    "s_299": ("மழைக்காக குடை எடுத்துச் செல்லுங்கள்.", "Maḻaikkāga kuḍai eḍutthuch selluṅgaḷ.", "Take an umbrella for the rain.", "Daily Life"),
+    "s_300": ("இன்று ஞாயிற்றுக்கிழமை விடுமுறை நாள்.", "Indru ñāyitṟukkiḻamai viḍumuṟai nāḷ.", "Today is Sunday, a holiday.", "Daily Life"),
+    "s_301": ("அனைவருக்கும் என் நல்வாழ்த்துகள்.", "Anaivarukkum eṉ nalvāḻthukaḷ.", "My best wishes to everyone.", "Daily Life"),
+
+    # Food & Dining
+    "s_302": ("சாப்பாடு மிகவும் சுவையாக இருக்கிறது.", "Sāppāḍu migavum suvaiyāga irukkiṟadhu.", "The food is very tasty / delicious.", "Food & Dining"),
+    "s_303": ("இன்னும் கொஞ்சம் சாதம் வையுங்கள்.", "Iṉṉum koñjam sādam vaiyuṅgaḷ.", "Please serve a little more rice.", "Food & Dining"),
+    "s_304": ("தயவுசெய்து சுடு தண்ணீர் கொண்டு வாருங்கள்.", "Thayavuseydhu suḍu thaṇṇīr koṇḍu vāruṅgaḷ.", "Please bring hot water.", "Food & Dining"),
+    "s_305": ("எனக்கு சைவ உணவு மிகவும் பிடிக்கும்.", "Enakku saiva uṇavu migavum piḍikkum.", "I like vegetarian food very much.", "Food & Dining"),
+    "s_306": ("இந்த உணவில் உப்பு குறைவாக உள்ளது.", "Indha uṇavil uppu kuṟaivāga uḷḷadhu.", "Salt is low in this food.", "Food & Dining"),
+    "s_307": ("இங்கு ஸ்பெஷல் டிஷ் என்ன இருக்கிறது?", "Iṅgu special dish eṉṉa irukkiṟadhu?", "What special dish do you have here?", "Food & Dining"),
+    "s_308": ("தயவுசெய்து பில் கொண்டு வாருங்கள்.", "Thayavuseydhu bill koṇḍu vāruṅgaḷ.", "Please bring the bill.", "Food & Dining"),
+    "s_309": ("எனக்கு இப்போது மிகவும் பசிக்கிறது.", "Enakku ippōdhu migavum pasikkiṟadhu.", "I am feeling very hungry now.", "Food & Dining"),
+    "s_310": ("சாப்பிட்ட பிறகு இனிப்பு சாப்பிடுவோம்.", "Sāppiṭṭa piṟagu inippu sāppiḍuvōm.", "Let us eat dessert after the meal.", "Food & Dining"),
+
+    # Shopping & Bargaining
+    "s_311": ("இந்த பொருளின் விலை என்ன?", "Indha poruḷiṉ vilai eṉṉa?", "What is the price of this item?", "Shopping & Bargaining"),
+    "s_312": ("கொஞ்சம் தள்ளுபடி செய்து கொடுங்கள்.", "Koñjam thaḷḷubaḍi seydhu koduṅgaḷ.", "Please give a little discount.", "Shopping & Bargaining"),
+    "s_313": ("வேறு ஏதேனும் வண்ணங்கள் உள்ளனவா?", "Vēṟu ēdhēnum vaṇṇaṅgaḷ uḷḷanavā?", "Are there any other colors available?", "Shopping & Bargaining"),
+    "s_314": ("பெரிய அளவு சட்டை கிடைக்குமா?", "Periya aḷavu saṭṭai kiḍaikkumā?", "Can I get a larger size shirt?", "Shopping & Bargaining"),
+    "s_315": ("பொருளை மாற்றிக் கொள்ள ரசீது வேண்டும்.", "Poruḷai mātṟik koḷḷa rasīdhu vēṇḍum.", "Receipt is required to exchange the item.", "Shopping & Bargaining"),
+    "s_316": ("நான் கிரெடிட் கார்டு மூலம் செலுத்தலாமா?", "Nāṉ credit card mūlam selutthukalāmā?", "Can I pay by credit card?", "Shopping & Bargaining"),
+    "s_317": ("இந்த காய்கறிகள் புதியவையா?", "Indha kāygaṟigaḷ pudhiyavaiyā?", "Are these vegetables fresh?", "Shopping & Bargaining"),
+    "s_318": ("ஒரு கிலோ வெங்காயம் எவ்வளவு விலை?", "Oru kilō veṅgāyam evvaḷavu vilai?", "How much is one kilo of onions?", "Shopping & Bargaining"),
+
+    # Auto & Commute
+    "s_319": ("விமான நிலையத்திற்கு எவ்வளவு நேரம் ஆகும்?", "Vimāna nilaiyatthiṟku evvaḷavu nēram āgum?", "How long will it take to reach the airport?", "Auto & Commute"),
+    "s_320": ("ரயில் எந்த நடைமேடையில் வரும்?", "Train endha naḍaimēḍaiyil varum?", "Which platform will the train arrive at?", "Auto & Commute"),
+    "s_321": ("எனக்கு பேருந்து டிக்கெட் எடுக்க வேண்டும்.", "Enakku pērundhu ticket eḍukka vēṇḍum.", "I need to buy a bus ticket.", "Auto & Commute"),
+    "s_322": ("வண்டியை இடது ஓரமாக நிறுத்துங்கள்.", "Vaṇḍiyai iḍadhu ōramāga niṟutthungaḷ.", "Stop the vehicle on the left curb.", "Auto & Commute"),
+    "s_323": ("அருகில் பெட்ரோல் பங்க் எங்குள்ளது?", "Arugil petrol bunk eṅguḷḷadhu?", "Where is the petrol pump nearby?", "Auto & Commute"),
+    "s_324": ("அடுத்த சிக்னலில் நேராக செல்லுங்கள்.", "Aduttha signalil nērāga selluṅgaḷ.", "Go straight at the next traffic light.", "Auto & Commute"),
+    "s_325": ("இந்த பஸ் மத்திய ரயில் நிலையம் செல்லுமா?", "Indha bus madhiya rayil nilaiyam sellumā?", "Does this bus go to Central Railway Station?", "Auto & Commute"),
+    "s_326": ("இணைப்பு ரயில் எப்போது வரும்?", "Iṇaippu rayil eppōdhu varum?", "When does the connecting train arrive?", "Auto & Commute"),
+
+    # Directions & Places
+    "s_327": ("அருகில் ஏடிஎம் எங்கே இருக்கிறது?", "Arugil ATM eṅgē irukkiṟadhu?", "Where is an ATM nearby?", "Directions & Places"),
+    "s_328": ("இந்த முகவரி எங்குள்ளது என்று தெரியுமா?", "Indha mugavari eṅguḷḷadhu eṉṟu theriyumā?", "Do you know where this address is located?", "Directions & Places"),
+    "s_329": ("இங்கிருந்து நடந்து செல்லும் தூரமா?", "Iṅgirundhu naḍandhu sellum dhūramā?", "Is it within walking distance from here?", "Directions & Places"),
+    "s_330": ("பாலத்தின் அடியில் சென்று வலதுபுறம் திரும்புங்கள்.", "Pālatthin aḍiyil sendru valadhipuṟam thirumbuṅgaḷ.", "Go under the bridge and turn right.", "Directions & Places"),
+    "s_331": ("அந்த பெரிய கட்டிடத்திற்குப் பின்னால் உள்ளது.", "Andha periya kaṭṭiḍatthiṟkup piṉṉāl uḷḷadhu.", "It is located behind that large building.", "Directions & Places"),
+    "s_332": ("நேராகச் சென்று இரண்டாவது தெருவில் திரும்புங்கள்.", "Nērāgach sendru iraṇḍāvathu theruvil thirumbuṅgaḷ.", "Go straight and turn into the second street.", "Directions & Places"),
+    "s_333": ("அஞ்சல் அலுவலகம் எத்தனை மணிக்குத் திறக்கும்?", "Añjal aluvalagam etthanai maṇikkut thiṟakkum?", "What time does the post office open?", "Directions & Places"),
+
+    # House & Neighborhood
+    "s_334": ("குடிநீர் குழாய் பழுதாகிவிட்டது.", "Kuḍinīr kuḻāy paḻudhāgiviṭṭadhu.", "The drinking water pipe / tap is damaged.", "House & Neighborhood"),
+    "s_335": ("தயவுசெய்து மின்விசிறியைப் போடுங்கள்.", "Thayavuseydhu miṉvisiriyvaip pōḍuṅgaḷ.", "Please switch on the ceiling fan.", "House & Neighborhood"),
+    "s_336": ("அறையை விட்டுச் செல்லும்போது விளக்கை அணையுங்கள்.", "Aṟaiyai viṭṭuch sellumbōdhu viḷakkai aṇaiyuṅgaḷ.", "Turn off the light when leaving the room.", "House & Neighborhood"),
+    "s_337": ("வீட்டை எப்போதும் சுத்தமாக வைத்திருக்க வேண்டும்.", "Vīṭṭai eppōdhum sutthamāga vaithirukka vēṇḍum.", "We must always keep the house clean.", "House & Neighborhood"),
+    "s_338": ("வீட்டின் கதவை பூட்டிவிட்டீர்களா?", "Vīṭṭiṉ kadhavai pūṭṭiviṭṭīrgaḷā?", "Have you locked the house door?", "House & Neighborhood"),
+    "s_339": ("வீட்டுச் சாவி எங்கே வைத்தீர்கள்?", "Vīṭṭuch sāvi eṅgē vaitthīrgaḷ?", "Where did you keep the house keys?", "House & Neighborhood"),
+    "s_340": ("அண்டை வீட்டாருடன் நல்ல நட்போடு இருங்கள்.", "Aṇḍai vīṭṭāruḍan nalla naṭpōḍu iruṅgaḷ.", "Maintain good friendly relations with neighbors.", "House & Neighborhood"),
+
+    # Work & Office
+    "s_341": ("திங்கட்கிழமை முக்கியமான கூட்டம் உள்ளது.", "Thiṅgaṭkiḻamai mukkiyamāṉa kūṭṭam uḷḷadhu.", "There is an important meeting on Monday.", "Work & Office"),
+    "s_342": ("நான் மாத இறுதி அறிக்கையை அனுப்பிவிட்டேன்.", "Nāṉ mādha irudhi aṟikkaiyai anuppiviṭṭēṉ.", "I have sent the month-end report.", "Work & Office"),
+    "s_343": ("மேலாளர் அலுவலகத்திற்கு எப்போது வருவார்?", "Mēlāḷar aluvalagatthiṟku eppōdhu varuvār?", "When will the manager arrive at the office?", "Work & Office"),
+    "s_344": ("இன்று எனக்கு உடல்நலமில்லை, விடுமுறை வேண்டும்.", "Indru enakku uḍalnalamillai, viḍumuṟai vēṇḍum.", "I am unwell today, I need sick leave.", "Work & Office"),
+    "s_345": ("திட்டப்பணியை சரியான நேரத்தில் முடிக்க வேண்டும்.", "Thiṭṭappaṇiyai sariyāṉa nērathil muḍikka vēṇḍum.", "We need to finish the project on time.", "Work & Office"),
+    "s_346": ("தயவுசெய்து புதிய கூட்ட இணைப்பை அனுப்புங்கள்.", "Thayavuseydhu pudhiya kūṭṭa iṇaippai anuppuṅgaḷ.", "Please send the new meeting link.", "Work & Office"),
+    "s_347": ("நான் இன்று மாலை அலுவலகத்தை விட்டு கிளம்புகிறேன்.", "Nāṉ indru mālai aluvalagatthai viṭṭu kiḷambugiṟēṉ.", "I will leave the office this evening.", "Work & Office"),
+
+    # Emergency & Health
+    "s_348": ("மருத்துவரை உடனடியாகப் பார்க்க வேண்டும்.", "Maruthuvarai uḍaṉaḍiyāgap pārkka vēṇḍum.", "We need to see a doctor right away.", "Emergency & Health"),
+    "s_349": ("எனக்கு கடுமையான வயிற்று வலி உள்ளது.", "Enakku kaḍumaiyāṉa vayiṟṟu vali uḷḷadhu.", "I have severe stomach ache.", "Emergency & Health"),
+    "s_350": ("உடனடியாக காவல் நிலையத்தைத் தொடர்பு கொள்ளுங்கள்.", "Uḍaṉaḍiyāga kāval nilaiyathait thodarbu koḷḷuṅgaḷ.", "Contact the police station immediately.", "Emergency & Health"),
+    "s_351": ("இங்கு முதலுதவி சிகிச்சை பெட்டி உள்ளதா?", "Iṅgu mudhaludhavi sikitchai peṭṭi uḷḷadhā?", "Is there a first aid medical kit here?", "Emergency & Health"),
+    "s_352": ("மருந்து சாப்பிட்ட பிறகு நன்றாக ஓய்வெடுங்கள்.", "Marundhu sāppiṭṭa piṟagu naṉṟāga ōyveḍuṅgaḷ.", "Take the medicine and rest well.", "Emergency & Health"),
+    "s_353": ("அவருக்கு இரத்த அழுத்தம் அதிகமாக உள்ளது.", "Avarukku irattha aḻuttham adhigamāga uḷḷadhu.", "He has high blood pressure.", "Emergency & Health"),
+    "s_354": ("அவசர கால உதவி எண் 108 ஆகும்.", "Avasara kāla udhavi eṇ 108 āgum.", "The emergency ambulance number is 108.", "Emergency & Health"),
+
+    # Learning Tamil
+    "s_355": ("தயவுசெய்து மெதுவாகப் பேசுங்கள், நான் புரிந்துகொள்கிறேன்.", "Thayavuseydhu medhuvāgap pēsuṅgaḷ, nāṉ purindhukoḷgiṟēṉ.", "Please speak slowly, I will understand.", "Learning Tamil"),
+    "s_356": ("இதை மீண்டும் ஒருமுறை விளக்க முடியுமா?", "Idhai mīṇḍum orumuṟai viḷakka muḍiyumā?", "Could you explain this once more?", "Learning Tamil"),
+    "s_357": ("நான் ஆர்வத்துடன் தமிழ் பேசக் கற்றுக்கொள்கிறேன்.", "Nāṉ ārvatthuḍan thamizh pēsak katṟukkoḷgiṟēṉ.", "I am eagerly learning to speak Tamil.", "Learning Tamil"),
+    "s_358": ("உங்களுக்கு நன்றாக தமிழ் பேசத் தெரியுமா?", "Uṅgaḷukku naṉṟāga thamizh pēsat theriyumā?", "Do you know how to speak Tamil well?", "Learning Tamil"),
+    "s_359": ("நான் தினமும் சிறிது நேரம் தமிழ் பயிற்சி செய்வேன்.", "Nāṉ dhiṉamum siṟidhu nēram thamizh payirchi seyvēṉ.", "I practice Tamil for a short while every day.", "Learning Tamil"),
+    "s_360": ("உங்கள் தமிழ் உச்சரிப்பு மிகவும் அழகாக இருக்கிறது.", "Uṅgaḷ thamizh uccharippu migavum aḻagāga irukkiṟadhu.", "Your Tamil pronunciation is very beautiful.", "Learning Tamil"),
+    "s_361": ("பயிற்சி செய்தால் எளிதில் தமிழ் பேசலாம்.", "Payirchi seydhāl eḷidhil thamizh pēsalām.", "With practice, one can easily speak Tamil.", "Learning Tamil"),
 }
 
 def main():
@@ -929,9 +1018,9 @@ def main():
         print(f"ERROR: Missing words: {missing_words}")
         return
 
-    # Check that all keys s_001 to s_291 exist
+    # Check that all keys s_001 to s_361 exist
     missing_sentences = []
-    for i in range(1, 292):
+    for i in range(1, 362):
         k = f"s_{i:03d}"
         if k not in SENTENCES_DATA:
             missing_sentences.append(k)
@@ -954,7 +1043,7 @@ def main():
         })
 
     sentences_json = []
-    for i in range(1, 292):
+    for i in range(1, 362):
         k = f"s_{i:03d}"
         tamil, trans, en, cat = SENTENCES_DATA[k]
         sentences_json.append({

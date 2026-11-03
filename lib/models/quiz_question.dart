@@ -1,3 +1,5 @@
+import 'learning_item.dart';
+
 class QuizQuestion {
   final String id;
   final String tamil;
@@ -5,6 +7,7 @@ class QuizQuestion {
   final List<String> options;
   final int correctIndex;
   final String explanation;
+  final ItemType type;
 
   const QuizQuestion({
     required this.id,
@@ -13,7 +16,10 @@ class QuizQuestion {
     required this.options,
     required this.correctIndex,
     this.explanation = '',
+    this.type = ItemType.word,
   });
 
   String get correctAnswer => options[correctIndex];
+  bool get isSentence => type == ItemType.sentence;
+  bool get isWord => type == ItemType.word;
 }

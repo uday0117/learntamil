@@ -1,3 +1,5 @@
+import 'dart:io';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import '../core/services/ad_service.dart';
@@ -31,6 +33,7 @@ class _AdBannerWidgetState extends State<AdBannerWidget> {
 
   void _loadBannerAd() {
     if (MonetizationService().isPremium) return;
+    if (kIsWeb || (!Platform.isAndroid && !Platform.isIOS)) return;
     _bannerAd = BannerAd(
       adUnitId: AdService().homeBannerAdUnitId,
       size: widget.adSize,

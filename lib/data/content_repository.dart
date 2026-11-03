@@ -13,7 +13,7 @@ abstract class IContentRepository {
   List<LearningItem> getAllItems();
   LearningItem? getItemById(String id);
   List<LearningItem> search(String query, {ItemType? filterType});
-  List<QuizQuestion> generateQuiz({int questionCount = 10});
+  List<QuizQuestion> generateQuiz({int questionCount = 10, ItemType? itemType});
 }
 
 class ContentRepository implements IContentRepository {
@@ -131,10 +131,32 @@ class ContentRepository implements IContentRepository {
   }
 
   @override
-  List<QuizQuestion> generateQuiz({int questionCount = 10}) {
+  List<QuizQuestion> generateQuiz({
+    int questionCount = 10,
+    ItemType? itemType,
+  }) {
     final random = Random();
-    // Prefer words and short sentences for best quiz clarity
-    final pool = List<LearningItem>.from(_words)..shuffle(random);
+
+    List<LearningItem> pool;
+    if (itemType == ItemType.word) {
+      pool = List<LearningItem>.from(_words)..shuffle(random);
+    } else if (itemType == ItemType.sentence) {
+      pool = List<LearningItem>.from(_sentences)..shuffle(random);
+    } else {
+      // Mixed mode: randomly mix both words and sentences
+      // To ensure a rich, well-distributed experience, randomly sample from both
+      final targetWords = (questionCount / 2).round();
+      final targetSentences = questionCount - targetWords;
+
+      final shuffledWords = List<LearningItem>.from(_words)..shuffle(random);
+      final shuffledSentences = List<LearningItem>.from(_sentences)..shuffle(random);
+
+      final selectedWords = shuffledWords.take(targetWords).toList();
+      final selectedSentences = shuffledSentences.take(targetSentences).toList();
+
+      pool = [...selectedWords, ...selectedSentences]..shuffle(random);
+    }
+
     final count = min(questionCount, pool.length);
     final selectedItems = pool.take(count).toList();
 
@@ -144,10 +166,12 @@ class ContentRepository implements IContentRepository {
       final current = selectedItems[i];
       final correctAnswer = current.english;
 
-      // Pick 3 random distractor answers from other words
-      final otherAnswers = _words
-          .where((w) => w.id != current.id && w.english != correctAnswer)
-          .map((w) => w.english)
+      // Pick 3 random distractor answers matching the item's type (word or sentence)
+      // so distractors are natural, plausible, and grammatically comparable
+      final candidateSource = current.isSentence ? _sentences : _words;
+      final otherAnswers = candidateSource
+          .where((item) => item.id != current.id && item.english != correctAnswer)
+          .map((item) => item.english)
           .toSet()
           .toList()
         ..shuffle(random);
@@ -164,6 +188,7 @@ class ContentRepository implements IContentRepository {
           transliteration: current.transliteration,
           options: allOptions,
           correctIndex: correctIndex,
+          type: current.type,
         ),
       );
     }

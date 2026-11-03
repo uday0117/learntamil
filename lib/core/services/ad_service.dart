@@ -6,8 +6,8 @@ import 'monetization_service.dart';
 /// Centralized service for Google Mobile Ads (AdMob)
 ///
 /// Configured Ad Units:
-/// - Home Banner: learn_tamil_home_banner (ca-app-pub-1451522103593938/7708609710)
-/// - Quiz Interstitial: learn_tamil_quiz_interstitial (ca-app-pub-1451522103593938/2755665931)
+/// - Home Banner: learn_tamil_home_banner (ca-app-pub-1451522103593938/3716493422)
+/// - Quiz Interstitial: learn_tamil_quiz_interstitial (ca-app-pub-1451522103593938/8777248414)
 class AdService {
   static final AdService _instance = AdService._internal();
   factory AdService() => _instance;
@@ -61,6 +61,10 @@ class AdService {
   /// Initialize MobileAds SDK
   Future<void> init() async {
     if (_isInitialized) return;
+    if (kIsWeb || (!Platform.isAndroid && !Platform.isIOS)) {
+      _isInitialized = true;
+      return;
+    }
     try {
       final status = await MobileAds.instance.initialize();
       _isInitialized = true;
@@ -75,6 +79,7 @@ class AdService {
   /// Preload the Quiz Interstitial Ad
   void loadQuizInterstitial() {
     if (MonetizationService().isPremium) return;
+    if (kIsWeb || (!Platform.isAndroid && !Platform.isIOS)) return;
     if (!_isInitialized || _isInterstitialLoading || _quizInterstitialAd != null) {
       return;
     }
@@ -94,24 +99,15 @@ class AdService {
         onAdFailedToLoad: (error) {
           _isInterstitialLoading = false;
           _quizInterstitialAd = null;
-          debugPrint('AdService: Quiz Interstitial failed to load: ${error.message} (Code: ${error.code})');
-          // Fallback to official Google test unit if prod failed in testing
-          if (adUnitId != (Platform.isIOS ? testIosInterstitialId : testAndroidInterstitialId)) {
-            final fallbackId = Platform.isIOS ? testIosInterstitialId : testAndroidInterstitialId;
-            InterstitialAd.load(
-              adUnitId: fallbackId,
-              request: const AdRequest(),
-              adLoadCallback: InterstitialAdLoadCallback(
-                onAdLoaded: (fallbackAd) {
-                  _quizInterstitialAd = fallbackAd;
-                  debugPrint('AdService: Fallback test interstitial loaded successfully.');
-                },
-                onAdFailedToLoad: (fallbackErr) {
-                  debugPrint('AdService: Fallback interstitial failed: ${fallbackErr.message}');
-                },
-              ),
-            );
-          }
+          debugPrint(
+              'AdService: Quiz Interstitial failed to load: ${error.message} (Code: ${error.code})');
+          // In production/release builds, NEVER fallback to test ads!
+          // Schedule a delayed background retry to load the production ad again.
+          Future.delayed(const Duration(seconds: 30), () {
+            if (_quizInterstitialAd == null && !_isInterstitialLoading) {
+              loadQuizInterstitial();
+            }
+          });
         },
       ),
     );
