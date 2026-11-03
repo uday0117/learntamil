@@ -8,6 +8,7 @@ import 'monetization_service.dart';
 /// Configured Ad Units:
 /// - Home Banner: learn_tamil_home_banner (ca-app-pub-1451522103593938/3716493422)
 /// - Quiz Interstitial: learn_tamil_quiz_interstitial (ca-app-pub-1451522103593938/8777248414)
+/// - Rewarded Video: learn_tamil_rewarded_bonus (ca-app-pub-1451522103593938/2560817711)
 class AdService {
   static final AdService _instance = AdService._internal();
   factory AdService() => _instance;
@@ -16,6 +17,8 @@ class AdService {
   bool _isInitialized = false;
   InterstitialAd? _quizInterstitialAd;
   bool _isInterstitialLoading = false;
+  RewardedAd? _rewardedAd;
+  bool _isRewardedLoading = false;
 
   /// In debug mode, Google AdMob requires test ad units to avoid policy violations.
   /// When false in debug mode, standard Google test ad units are used.
@@ -27,6 +30,8 @@ class AdService {
       'ca-app-pub-1451522103593938/3716493422';
   static const String prodQuizInterstitialId =
       'ca-app-pub-1451522103593938/8777248414';
+  static const String prodRewardedAdId =
+      'ca-app-pub-1451522103593938/2560817711';
 
   // Standard Google AdMob Test Ad Units
   static const String testAndroidBannerId =
@@ -38,6 +43,11 @@ class AdService {
       'ca-app-pub-3940256099942544/1033173712';
   static const String testIosInterstitialId =
       'ca-app-pub-3940256099942544/4411468910';
+
+  static const String testAndroidRewardedId =
+      'ca-app-pub-3940256099942544/5224354917';
+  static const String testIosRewardedId =
+      'ca-app-pub-3940256099942544/1712485313';
 
   /// Returns whether test ads should be served
   bool get shouldUseTestAds => kDebugMode && !forceLiveAds;
@@ -58,6 +68,17 @@ class AdService {
     return prodQuizInterstitialId;
   }
 
+  /// Effective Rewarded Ad Unit ID
+  String get rewardedAdUnitId {
+    if (shouldUseTestAds) {
+      return Platform.isIOS ? testIosRewardedId : testAndroidRewardedId;
+    }
+    return prodRewardedAdId;
+  }
+
+  /// Returns true if a rewarded ad is loaded and ready to present immediately
+  bool get isRewardedAdReady => _rewardedAd != null;
+
   /// Initialize MobileAds SDK
   Future<void> init() async {
     if (_isInitialized) return;
@@ -69,8 +90,9 @@ class AdService {
       final status = await MobileAds.instance.initialize();
       _isInitialized = true;
       debugPrint('AdService: MobileAds initialized: ${status.adapterStatuses}');
-      // Pre-load the quiz interstitial ad so it is ready when quiz completes
+      // Pre-load the quiz interstitial and rewarded ads so they are ready
       loadQuizInterstitial();
+      loadRewardedAd();
     } catch (e) {
       debugPrint('AdService: Failed to initialize MobileAds: $e');
     }
@@ -163,9 +185,120 @@ class AdService {
     ad.show();
   }
 
+  /// Preload the Rewarded Ad
+  void loadRewardedAd() {
+    if (kIsWeb || (!Platform.isAndroid && !Platform.isIOS)) return;
+    if (!_isInitialized || _isRewardedLoading || _rewardedAd != null) {
+      return;
+    }
+
+    _isRewardedLoading = true;
+    final adUnitId = rewardedAdUnitId;
+
+    RewardedAd.load(
+      adUnitId: adUnitId,
+      request: const AdRequest(),
+      rewardedAdLoadCallback: RewardedAdLoadCallback(
+        onAdLoaded: (ad) {
+          _isRewardedLoading = false;
+          _rewardedAd = ad;
+          debugPrint('AdService: Rewarded ad loaded successfully.');
+        },
+        onAdFailedToLoad: (error) {
+          _isRewardedLoading = false;
+          _rewardedAd = null;
+          debugPrint(
+              'AdService: Rewarded ad failed to load: ${error.message} (Code: ${error.code})');
+          // In production/release builds, NEVER fallback to test ads!
+          // Schedule a delayed background retry to load the production ad again.
+          Future.delayed(const Duration(seconds: 30), () {
+            if (_rewardedAd == null && !_isRewardedLoading) {
+              loadRewardedAd();
+            }
+          });
+        },
+      ),
+    );
+  }
+
+  /// Show the preloaded Rewarded Ad.
+  /// Calls [onUserEarnedReward] when the user finishes viewing the ad.
+  /// If ad is not ready or fails, gracefully proceeds so user is never blocked or frustrated.
+  Future<void> showRewardedAd({
+    required void Function(RewardItem reward) onUserEarnedReward,
+    VoidCallback? onDismissed,
+    VoidCallback? onUnavailable,
+  }) async {
+    // Premium users bypass the ad completely and earn reward immediately
+    if (MonetizationService().isPremium) {
+      onUserEarnedReward(RewardItem(1, 'Bonus Round'));
+      onDismissed?.call();
+      return;
+    }
+
+    // If ad is actively loading, wait up to 1500ms
+    if (_rewardedAd == null && _isRewardedLoading) {
+      int waited = 0;
+      while (_isRewardedLoading && _rewardedAd == null && waited < 1500) {
+        await Future.delayed(const Duration(milliseconds: 150));
+        waited += 150;
+      }
+    }
+
+    final ad = _rewardedAd;
+    if (ad == null) {
+      debugPrint('AdService: Rewarded ad not ready yet.');
+      if (onUnavailable != null) {
+        onUnavailable();
+      } else {
+        // If no explicit unavailable callback, unlock the reward anyway so the user experience is smooth!
+        onUserEarnedReward(RewardItem(1, 'Bonus Round'));
+      }
+      onDismissed?.call();
+      loadRewardedAd(); // Try loading again for next time
+      return;
+    }
+
+    bool userEarnedReward = false;
+
+    ad.fullScreenContentCallback = FullScreenContentCallback(
+      onAdShowedFullScreenContent: (ad) {
+        debugPrint('AdService: Rewarded ad displayed full screen.');
+      },
+      onAdDismissedFullScreenContent: (ad) {
+        debugPrint('AdService: Rewarded ad dismissed by user.');
+        ad.dispose();
+        _rewardedAd = null;
+        onDismissed?.call();
+        // Pre-load for next time
+        loadRewardedAd();
+      },
+      onAdFailedToShowFullScreenContent: (ad, error) {
+        debugPrint('AdService: Rewarded ad failed to show: ${error.message}');
+        ad.dispose();
+        _rewardedAd = null;
+        // Grant reward anyway on show error so UX is 5-star
+        if (!userEarnedReward) {
+          onUserEarnedReward(RewardItem(1, 'Bonus Round'));
+        }
+        onDismissed?.call();
+        loadRewardedAd();
+      },
+    );
+
+    ad.show(
+      onUserEarnedReward: (adWithoutView, reward) {
+        userEarnedReward = true;
+        onUserEarnedReward(reward);
+      },
+    );
+  }
+
   /// Dispose cached ads on shutdown
   void dispose() {
     _quizInterstitialAd?.dispose();
     _quizInterstitialAd = null;
+    _rewardedAd?.dispose();
+    _rewardedAd = null;
   }
 }

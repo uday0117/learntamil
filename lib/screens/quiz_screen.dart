@@ -42,6 +42,8 @@ class _QuizScreenState extends State<QuizScreen> {
   int _summaryFilter = 0; // 0 = All, 1 = Incorrect, 2 = Correct
   bool _showRatingBanner = true;
   ItemType? _quizMode; // null = Mixed (Words & Sentences), ItemType.word, ItemType.sentence
+  bool _isBonusRound = false;
+  bool _isRewardedAdLoading = false;
 
   @override
   void initState() {
@@ -55,10 +57,12 @@ class _QuizScreenState extends State<QuizScreen> {
     } else if (mode != null) {
       _quizMode = mode;
     }
-    // Preload interstitial so it's ready upon quiz completion
+    // Preload interstitial and rewarded ads so they are ready upon quiz completion
     AdService().loadQuizInterstitial();
+    AdService().loadRewardedAd();
 
     setState(() {
+      _isBonusRound = false;
       _questions = _repository.generateQuiz(
         questionCount: 10,
         itemType: _quizMode,
@@ -71,6 +75,74 @@ class _QuizScreenState extends State<QuizScreen> {
       _score = 0;
       _isQuizFinished = false;
     });
+  }
+
+  void _startBonusRound() {
+    setState(() {
+      _isBonusRound = true;
+      _isRewardedAdLoading = false;
+      _questions = _repository.generateQuiz(
+        questionCount: 5,
+        itemType: _quizMode,
+      );
+      _userAnswers.clear();
+      _summaryFilter = 0;
+      _currentIndex = 0;
+      _selectedIndex = null;
+      _answered = false;
+      _score = 0;
+      _isQuizFinished = false;
+    });
+
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: const Row(
+          children: [
+            Icon(Icons.stars_rounded, color: Colors.amberAccent, size: 22),
+            SizedBox(width: 10),
+            Expanded(
+              child: Text(
+                '🏆 Bonus Challenge Unlocked! 5 Extra Questions.',
+                style: TextStyle(fontWeight: FontWeight.w600, color: Colors.white),
+              ),
+            ),
+          ],
+        ),
+        backgroundColor: const Color(0xFF1E293B),
+        behavior: SnackBarBehavior.floating,
+        duration: const Duration(seconds: 3),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+      ),
+    );
+  }
+
+  void _onUnlockBonusChallengeTapped() async {
+    if (_isRewardedAdLoading) return;
+
+    setState(() {
+      _isRewardedAdLoading = true;
+    });
+
+    await AdService().showRewardedAd(
+      onUserEarnedReward: (reward) {
+        if (mounted) {
+          _startBonusRound();
+        }
+      },
+      onUnavailable: () {
+        if (mounted) {
+          // If ad is offline or unavailable, grant the bonus challenge anyway for great UX!
+          _startBonusRound();
+        }
+      },
+      onDismissed: () {
+        if (mounted) {
+          setState(() {
+            _isRewardedAdLoading = false;
+          });
+        }
+      },
+    );
   }
 
   void _selectOption(int index) {
@@ -244,31 +316,75 @@ class _QuizScreenState extends State<QuizScreen> {
             final isLandscapeMode = constraints.maxWidth > constraints.maxHeight &&
                 constraints.maxHeight < 560;
 
-            final progressBar = Row(
+            final progressBar = Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
               children: [
-                Expanded(
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(6),
-                    child: LinearProgressIndicator(
-                      value: progress,
-                      minHeight: 8,
-                      backgroundColor: isDark
-                          ? AppColors.darkBorder
-                          : AppColors.border,
-                      valueColor: AlwaysStoppedAnimation<Color>(
-                        isDark ? AppColors.accentGreen : AppColors.primary,
+                if (_isBonusRound) ...[
+                  Container(
+                    padding:
+                        const EdgeInsets.symmetric(horizontal: 10, vertical: 3),
+                    margin: const EdgeInsets.only(bottom: 8),
+                    decoration: BoxDecoration(
+                      color: isDark
+                          ? const Color(0xFF1E3A2B)
+                          : const Color(0xFFDCFCE7),
+                      borderRadius: BorderRadius.circular(12),
+                      border: Border.all(
+                        color: isDark
+                            ? const Color(0xFF2E684B)
+                            : const Color(0xFF86EFAC),
+                        width: 0.8,
                       ),
                     ),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        const Icon(Icons.stars_rounded,
+                            size: 14, color: Color(0xFFEAB308)),
+                        const SizedBox(width: 5),
+                        Text(
+                          'BONUS CHALLENGE ROUND',
+                          style: TextStyle(
+                            fontSize: 10.5,
+                            fontWeight: FontWeight.w800,
+                            letterSpacing: 0.8,
+                            color: isDark
+                                ? AppColors.accentGreen
+                                : const Color(0xFF15803D),
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
-                ),
-                const SizedBox(width: 14),
-                Text(
-                  '${_currentIndex + 1}/${_questions.length}',
-                  style: TextStyle(
-                    fontSize: 14,
-                    fontWeight: FontWeight.w700,
-                    color: AppColors.text(context),
-                  ),
+                ],
+                Row(
+                  children: [
+                    Expanded(
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(6),
+                        child: LinearProgressIndicator(
+                          value: progress,
+                          minHeight: 8,
+                          backgroundColor: isDark
+                              ? AppColors.darkBorder
+                              : AppColors.border,
+                          valueColor: AlwaysStoppedAnimation<Color>(
+                            isDark ? AppColors.accentGreen : AppColors.primary,
+                          ),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 14),
+                    Text(
+                      '${_currentIndex + 1}/${_questions.length}',
+                      style: TextStyle(
+                        fontSize: 14,
+                        fontWeight: FontWeight.w700,
+                        color: AppColors.text(context),
+                      ),
+                    ),
+                  ],
                 ),
               ],
             );
@@ -688,7 +804,9 @@ class _QuizScreenState extends State<QuizScreen> {
                         ),
                         const SizedBox(height: 16),
                         Text(
-                          isPass ? 'Outstanding Effort!' : 'Keep Practicing!',
+                          _isBonusRound
+                              ? 'Bonus Challenge Cleared!'
+                              : (isPass ? 'Outstanding Effort!' : 'Keep Practicing!'),
                           style: TextStyle(
                             fontSize: 22,
                             fontWeight: FontWeight.w800,
@@ -697,9 +815,11 @@ class _QuizScreenState extends State<QuizScreen> {
                         ),
                         const SizedBox(height: 6),
                         Text(
-                          isPass
-                              ? 'You have a good grasp of these Tamil words and sentences!'
-                              : 'Review the question summary below to boost your recall.',
+                          _isBonusRound
+                              ? 'You took on the bonus challenge and proved your Tamil knowledge!'
+                              : (isPass
+                                  ? 'You have a good grasp of these Tamil words and sentences!'
+                                  : 'Review the question summary below to boost your recall.'),
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             fontSize: 14,
@@ -742,7 +862,14 @@ class _QuizScreenState extends State<QuizScreen> {
                       ],
                     ),
                   ),
-                  const SizedBox(height: 24),
+
+                  // Bonus Challenge Card (Rewarded Video Ad) or Completion Banner
+                  if (!_isBonusRound)
+                    _buildBonusChallengeCard(isDark)
+                  else
+                    _buildBonusCompletedBanner(isDark),
+
+                  const SizedBox(height: 18),
 
                   // Mode Selector for next quiz session
                   Container(
@@ -1266,6 +1393,174 @@ class _QuizScreenState extends State<QuizScreen> {
               fontSize: 18,
               fontWeight: FontWeight.w800,
               color: color,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildBonusChallengeCard(bool isDark) {
+    return Container(
+      margin: const EdgeInsets.only(top: 18),
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: isDark
+              ? [const Color(0xFF192E24), const Color(0xFF0F241A)]
+              : [const Color(0xFFF0FDF4), const Color(0xFFDCFCE7)],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+        ),
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(
+          color: isDark ? const Color(0xFF22543D) : const Color(0xFF86EFAC),
+          width: 1.2,
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withValues(alpha: isDark ? 0.2 : 0.04),
+            blurRadius: 10,
+            offset: const Offset(0, 3),
+          ),
+        ],
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Container(
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  color: isDark ? const Color(0xFF234B36) : const Color(0xFFBBF7D0),
+                  shape: BoxShape.circle,
+                ),
+                child: const Icon(
+                  Icons.stars_rounded,
+                  color: Color(0xFFEAB308),
+                  size: 24,
+                ),
+              ),
+              const SizedBox(width: 10),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      children: [
+                        Text(
+                          'Bonus Challenge Round',
+                          style: TextStyle(
+                            fontSize: 15,
+                            fontWeight: FontWeight.w800,
+                            color: isDark
+                                ? AppColors.accentGreen
+                                : const Color(0xFF15803D),
+                          ),
+                        ),
+                        const SizedBox(width: 6),
+                        Container(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 6, vertical: 1.5),
+                          decoration: BoxDecoration(
+                            color: isDark
+                                ? Colors.white12
+                                : Colors.black.withValues(alpha: 0.06),
+                            borderRadius: BorderRadius.circular(4),
+                          ),
+                          child: Text(
+                            'REWARD',
+                            style: TextStyle(
+                              fontSize: 8.5,
+                              fontWeight: FontWeight.w800,
+                              letterSpacing: 0.5,
+                              color: isDark
+                                  ? Colors.white70
+                                  : AppColors.textMuted,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 2),
+                    Text(
+                      'Unlock 5 extra challenge questions to boost your mastery!',
+                      style: TextStyle(
+                        fontSize: 12.5,
+                        color: AppColors.subtext(context),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 12),
+          SizedBox(
+            width: double.infinity,
+            child: FilledButton.icon(
+              onPressed:
+                  _isRewardedAdLoading ? null : _onUnlockBonusChallengeTapped,
+              icon: _isRewardedAdLoading
+                  ? const SizedBox(
+                      width: 16,
+                      height: 16,
+                      child: CircularProgressIndicator(
+                        strokeWidth: 2,
+                        color: Colors.white,
+                      ),
+                    )
+                  : const Icon(Icons.play_circle_filled_rounded, size: 20),
+              label: Text(
+                _isRewardedAdLoading
+                    ? 'Loading Challenge...'
+                    : 'Unlock 5 Bonus Questions (Watch Video)',
+                style: const TextStyle(
+                  fontWeight: FontWeight.w700,
+                  fontSize: 13.5,
+                ),
+              ),
+              style: FilledButton.styleFrom(
+                backgroundColor:
+                    isDark ? AppColors.accentGreen : const Color(0xFF16A34A),
+                foregroundColor: isDark ? Colors.black : Colors.white,
+                padding: const EdgeInsets.symmetric(vertical: 12),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(12),
+                ),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildBonusCompletedBanner(bool isDark) {
+    return Container(
+      margin: const EdgeInsets.only(top: 18),
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+      decoration: BoxDecoration(
+        color: isDark ? const Color(0xFF1B3322) : const Color(0xFFDCFCE7),
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(
+          color: isDark ? const Color(0xFF2E684B) : const Color(0xFF86EFAC),
+        ),
+      ),
+      child: Row(
+        children: [
+          const Icon(Icons.emoji_events_rounded,
+              color: Color(0xFFEAB308), size: 22),
+          const SizedBox(width: 10),
+          Expanded(
+            child: Text(
+              'Bonus Challenge Complete! Excellent dedication.',
+              style: TextStyle(
+                fontWeight: FontWeight.w700,
+                fontSize: 13,
+                color: isDark ? AppColors.accentGreen : const Color(0xFF15803D),
+              ),
             ),
           ),
         ],
