@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "881055055497",
-    "project_id": "learn-kannada-f5c5c",
-    "storage_bucket": "learn-kannada-f5c5c.firebasestorage.app"
+    "project_number": "839894939468",
+    "project_id": "learn-tamil-102cf",
+    "storage_bucket": "learn-tamil-102cf.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:881055055497:android:31a4f603840f15dd745058",
+        "mobilesdk_app_id": "1:839894939468:android:c321ca2f070c60a94a41e9",
         "android_client_info": {
           "package_name": "com.ukrsolutions.learntamil"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBceaK5VuqhTtW34SqocFDDMLF-QnccQjo"
+          "current_key": "AIzaSyDvo_0nysUysBZhMEfYGWzlpIQfjIeDoqI"
         }
       ],
       "services": {

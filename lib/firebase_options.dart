@@ -50,19 +50,18 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBceaK5VuqhTtW34SqocFDDMLF-QnccQjo',
-    appId: '1:881055055497:android:31a4f603840f15dd745058',
-    messagingSenderId: '881055055497',
-    projectId: 'learn-kannada-f5c5c',
-    storageBucket: 'learn-kannada-f5c5c.firebasestorage.app',
+    apiKey: 'AIzaSyDvo_0nysUysBZhMEfYGWzlpIQfjIeDoqI',
+    appId: '1:839894939468:android:c321ca2f070c60a94a41e9',
+    messagingSenderId: '839894939468',
+    projectId: 'learn-tamil-102cf',
+    storageBucket: 'learn-tamil-102cf.firebasestorage.app',
   );
-
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCYFhoSrVO9pp-MKBDItas-eP_09lDcGpA',
-    appId: '1:881055055497:ios:c08848937efd4027745058',
-    messagingSenderId: '881055055497',
-    projectId: 'learn-kannada-f5c5c',
-    storageBucket: 'learn-kannada-f5c5c.firebasestorage.app',
+    apiKey: 'AIzaSyCnJyQNhgO3S8iZYxrJlPvW4m5AeO7L5Rc',
+    appId: '1:839894939468:ios:72269516479efbb24a41e9',
+    messagingSenderId: '839894939468',
+    projectId: 'learn-tamil-102cf',
+    storageBucket: 'learn-tamil-102cf.firebasestorage.app',
     iosBundleId: 'com.ukrsolutions.learntamil',
   );
 }
