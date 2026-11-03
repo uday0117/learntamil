@@ -70,6 +70,3 @@ class LearnTamilApp extends StatelessWidget {
     );
   }
 }
-
-/// Backward compatibility alias
-typedef LearnKannadaApp = LearnTamilApp;

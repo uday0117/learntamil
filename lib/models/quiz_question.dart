@@ -6,9 +6,6 @@ class QuizQuestion {
   final int correctIndex;
   final String explanation;
 
-  /// Backward-compatible alias
-  String get kannada => tamil;
-
   const QuizQuestion({
     required this.id,
     required this.tamil,

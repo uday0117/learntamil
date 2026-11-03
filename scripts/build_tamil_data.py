@@ -947,7 +947,6 @@ def main():
         words_json.append({
             "id": k,
             "tamil": tamil,
-            "kannada": tamil, # Backwards compatibility fallback
             "transliteration": trans,
             "english": en,
             "category": cat,
@@ -961,7 +960,6 @@ def main():
         sentences_json.append({
             "id": k,
             "tamil": tamil,
-            "kannada": tamil, # Backwards compatibility fallback
             "transliteration": trans,
             "english": en,
             "category": cat,

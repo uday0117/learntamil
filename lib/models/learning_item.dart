@@ -8,9 +8,6 @@ class LearningItem {
   final String category;
   final ItemType type;
 
-  /// Backward-compatible alias for existing references
-  String get kannada => tamil;
-
   const LearningItem({
     required this.id,
     required this.tamil,
@@ -26,7 +23,6 @@ class LearningItem {
   Map<String, dynamic> toJson() => {
         'id': id,
         'tamil': tamil,
-        'kannada': tamil,
         'transliteration': transliteration,
         'english': english,
         'category': category,
@@ -35,7 +31,7 @@ class LearningItem {
 
   factory LearningItem.fromJson(Map<String, dynamic> json) => LearningItem(
         id: json['id'] as String,
-        tamil: (json['tamil'] ?? json['kannada']) as String,
+        tamil: (json['tamil'] ?? '') as String,
         transliteration: json['transliteration'] as String,
         english: json['english'] as String,
         category: json['category'] as String,

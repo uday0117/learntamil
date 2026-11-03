@@ -2,7 +2,6 @@
   {
     "id": "w_001",
     "tamil": "வணக்கம்",
-    "kannada": "வணக்கம்",
     "transliteration": "Vaṇakkam",
     "english": "Hello / Greetings",
     "category": "Greetings",
@@ -11,7 +10,6 @@
   {
     "id": "w_002",
     "tamil": "நன்றி",
-    "kannada": "நன்றி",
     "transliteration": "Naṉṟi",
     "english": "Thank you",
     "category": "Greetings",
@@ -20,7 +18,6 @@
   {
     "id": "w_003",
     "tamil": "மிக்க நன்றி",
-    "kannada": "மிக்க நன்றி",
     "transliteration": "Mikka naṉṟi",
     "english": "Thank you very much",
     "category": "Greetings",
@@ -29,7 +26,6 @@
   {
     "id": "w_004",
     "tamil": "ஆம்",
-    "kannada": "ஆம்",
     "transliteration": "Ām",
     "english": "Yes",
     "category": "Greetings",
@@ -38,7 +34,6 @@
   {
     "id": "w_005",
     "tamil": "இல்லை",
-    "kannada": "இல்லை",
     "transliteration": "Illai",
     "english": "No / Not there",
     "category": "Greetings",
@@ -47,7 +42,6 @@
   {
     "id": "w_006",
     "tamil": "தயவுசெய்து",
-    "kannada": "தயவுசெய்து",
     "transliteration": "Thayavuseydhu",
     "english": "Please",
     "category": "Greetings",
@@ -56,7 +50,6 @@
   {
     "id": "w_007",
     "tamil": "மன்னிக்கவும்",
-    "kannada": "மன்னிக்கவும்",
     "transliteration": "Maṉṉikkavum",
     "english": "Sorry / Excuse me",
     "category": "Greetings",
@@ -65,7 +58,6 @@
   {
     "id": "w_008",
     "tamil": "காலை வணக்கம்",
-    "kannada": "காலை வணக்கம்",
     "transliteration": "Kālai vaṇakkam",
     "english": "Good morning",
     "category": "Greetings",
@@ -74,7 +66,6 @@
   {
     "id": "w_009",
     "tamil": "மதிய வணக்கம்",
-    "kannada": "மதிய வணக்கம்",
     "transliteration": "Madhiya vaṇakkam",
     "english": "Good afternoon",
     "category": "Greetings",
@@ -83,7 +74,6 @@
   {
     "id": "w_010",
     "tamil": "மாலை வணக்கம்",
-    "kannada": "மாலை வணக்கம்",
     "transliteration": "Mālai vaṇakkam",
     "english": "Good evening",
     "category": "Greetings",
@@ -92,7 +82,6 @@
   {
     "id": "w_011",
     "tamil": "இரவு வணக்கம்",
-    "kannada": "இரவு வணக்கம்",
     "transliteration": "Iravu vaṇakkam",
     "english": "Good night",
     "category": "Greetings",
@@ -101,7 +90,6 @@
   {
     "id": "w_012",
     "tamil": "நல்வரவு",
-    "kannada": "நல்வரவு",
     "transliteration": "Nalvaravu",
     "english": "Welcome",
     "category": "Greetings",
@@ -110,7 +98,6 @@
   {
     "id": "w_013",
     "tamil": "மீண்டும் சந்திப்போம்",
-    "kannada": "மீண்டும் சந்திப்போம்",
     "transliteration": "Mīṇḍum sandhippōm",
     "english": "See you again",
     "category": "Greetings",
@@ -119,7 +106,6 @@
   {
     "id": "w_014",
     "tamil": "போய் வருகிறேன்",
-    "kannada": "போய் வருகிறேன்",
     "transliteration": "Pōy varugiṟēṉ",
     "english": "Bye (I will come back)",
     "category": "Greetings",
@@ -128,7 +114,6 @@
   {
     "id": "w_015",
     "tamil": "வாழ்த்துகள்",
-    "kannada": "வாழ்த்துகள்",
     "transliteration": "Vāḻthukaḷ",
     "english": "Congratulations / Best wishes",
     "category": "Greetings",
@@ -137,7 +122,6 @@
   {
     "id": "w_016",
     "tamil": "சரி",
-    "kannada": "சரி",
     "transliteration": "Sari",
     "english": "Okay / Fine",
     "category": "Greetings",
@@ -146,7 +130,6 @@
   {
     "id": "w_017",
     "tamil": "பரவாயில்லை",
-    "kannada": "பரவாயில்லை",
     "transliteration": "Paravāyillai",
     "english": "No problem / It is okay",
     "category": "Greetings",
@@ -155,7 +138,6 @@
   {
     "id": "w_018",
     "tamil": "நிச்சயமாக",
-    "kannada": "நிச்சயமாக",
     "transliteration": "Nichayamāga",
     "english": "Definitely / Sure",
     "category": "Greetings",
@@ -164,7 +146,6 @@
   {
     "id": "w_019",
     "tamil": "போதும்",
-    "kannada": "போதும்",
     "transliteration": "Pōdhum",
     "english": "Enough",
     "category": "Greetings",
@@ -173,7 +154,6 @@
   {
     "id": "w_020",
     "tamil": "வேண்டாம்",
-    "kannada": "வேண்டாம்",
     "transliteration": "Vēṇḍām",
     "english": "Don't want",
     "category": "Greetings",
@@ -182,7 +162,6 @@
   {
     "id": "w_021",
     "tamil": "வேண்டும்",
-    "kannada": "வேண்டும்",
     "transliteration": "Vēṇḍum",
     "english": "Want / Need",
     "category": "Greetings",
@@ -191,7 +170,6 @@
   {
     "id": "w_022",
     "tamil": "தெரியும்",
-    "kannada": "தெரியும்",
     "transliteration": "Theriyum",
     "english": "Know",
     "category": "Greetings",
@@ -200,7 +178,6 @@
   {
     "id": "w_023",
     "tamil": "தெரியாது",
-    "kannada": "தெரியாது",
     "transliteration": "Theriyādhu",
     "english": "Don't know",
     "category": "Greetings",
@@ -209,7 +186,6 @@
   {
     "id": "w_024",
     "tamil": "ஆயிற்று",
-    "kannada": "ஆயிற்று",
     "transliteration": "Āyitru",
     "english": "Done / Finished",
     "category": "Greetings",
@@ -218,7 +194,6 @@
   {
     "id": "w_025",
     "tamil": "ஆகவில்லை",
-    "kannada": "ஆகவில்லை",
     "transliteration": "Āgavillai",
     "english": "Not done yet",
     "category": "Greetings",
@@ -227,7 +202,6 @@
   {
     "id": "w_026",
     "tamil": "நான்",
-    "kannada": "நான்",
     "transliteration": "Nāṉ",
     "english": "I / Me",
     "category": "People & Pronouns",
@@ -236,7 +210,6 @@
   {
     "id": "w_027",
     "tamil": "நீங்கள்",
-    "kannada": "நீங்கள்",
     "transliteration": "Nīṅgaḷ",
     "english": "You (Respectful / Formal / Plural)",
     "category": "People & Pronouns",
@@ -245,7 +218,6 @@
   {
     "id": "w_028",
     "tamil": "நீ",
-    "kannada": "நீ",
     "transliteration": "Nī",
     "english": "You (Informal)",
     "category": "People & Pronouns",
@@ -254,7 +226,6 @@
   {
     "id": "w_029",
     "tamil": "நாங்கள்",
-    "kannada": "நாங்கள்",
     "transliteration": "Nāṅgaḷ",
     "english": "We / Us",
     "category": "People & Pronouns",
@@ -263,7 +234,6 @@
   {
     "id": "w_030",
     "tamil": "அவன்",
-    "kannada": "அவன்",
     "transliteration": "Avaṉ",
     "english": "He (Informal)",
     "category": "People & Pronouns",
@@ -272,7 +242,6 @@
   {
     "id": "w_031",
     "tamil": "அவர்கள்",
-    "kannada": "அவர்கள்",
     "transliteration": "Avargaḷ",
     "english": "He/She (Respectful) or They",
     "category": "People & Pronouns",
@@ -281,7 +250,6 @@
   {
     "id": "w_032",
     "tamil": "அவள்",
-    "kannada": "அவள்",
     "transliteration": "Avaḷ",
     "english": "She (Informal)",
     "category": "People & Pronouns",
@@ -290,7 +258,6 @@
   {
     "id": "w_033",
     "tamil": "இவன்",
-    "kannada": "இவன்",
     "transliteration": "Ivaṉ",
     "english": "This man (Informal)",
     "category": "People & Pronouns",
@@ -299,7 +266,6 @@
   {
     "id": "w_034",
     "tamil": "இவள்",
-    "kannada": "இவள்",
     "transliteration": "Ivaḷ",
     "english": "This woman (Informal)",
     "category": "People & Pronouns",
@@ -308,7 +274,6 @@
   {
     "id": "w_035",
     "tamil": "இவர்கள்",
-    "kannada": "இவர்கள்",
     "transliteration": "Ivargaḷ",
     "english": "This person (Respectful) / These people",
     "category": "People & Pronouns",
@@ -317,7 +282,6 @@
   {
     "id": "w_036",
     "tamil": "இது",
-    "kannada": "இது",
     "transliteration": "Idhu",
     "english": "This (Thing/Object)",
     "category": "People & Pronouns",
@@ -326,7 +290,6 @@
   {
     "id": "w_037",
     "tamil": "அது",
-    "kannada": "அது",
     "transliteration": "Adhu",
     "english": "That (Thing/Object)",
     "category": "People & Pronouns",
@@ -335,7 +298,6 @@
   {
     "id": "w_038",
     "tamil": "இவை",
-    "kannada": "இவை",
     "transliteration": "Ivai",
     "english": "These (Objects)",
     "category": "People & Pronouns",
@@ -344,7 +306,6 @@
   {
     "id": "w_039",
     "tamil": "அவை",
-    "kannada": "அவை",
     "transliteration": "Avai",
     "english": "Those (Objects)",
     "category": "People & Pronouns",
@@ -353,7 +314,6 @@
   {
     "id": "w_040",
     "tamil": "என்னுடைய",
-    "kannada": "என்னுடைய",
     "transliteration": "Eṉṉuḍaiya",
     "english": "My / Mine",
     "category": "People & Pronouns",
@@ -362,7 +322,6 @@
   {
     "id": "w_041",
     "tamil": "உங்களுடைய",
-    "kannada": "உங்களுடைய",
     "transliteration": "Uṅgaḷuḍaiya",
     "english": "Your (Respectful)",
     "category": "People & Pronouns",
@@ -371,7 +330,6 @@
   {
     "id": "w_042",
     "tamil": "எங்களுடைய",
-    "kannada": "எங்களுடைய",
     "transliteration": "Eṅgaḷuḍaiya",
     "english": "Our / Ours",
     "category": "People & Pronouns",
@@ -380,7 +338,6 @@
   {
     "id": "w_043",
     "tamil": "அவர்களுடைய",
-    "kannada": "அவர்களுடைய",
     "transliteration": "Avargaḷuḍaiya",
     "english": "Their / His / Her (Respectful)",
     "category": "People & Pronouns",
@@ -389,7 +346,6 @@
   {
     "id": "w_044",
     "tamil": "மக்கள்",
-    "kannada": "மக்கள்",
     "transliteration": "Makkaḷ",
     "english": "People",
     "category": "People & Pronouns",
@@ -398,7 +354,6 @@
   {
     "id": "w_045",
     "tamil": "நண்பன்",
-    "kannada": "நண்பன்",
     "transliteration": "Naṇbaṉ",
     "english": "Friend",
     "category": "People & Pronouns",
@@ -407,7 +362,6 @@
   {
     "id": "w_046",
     "tamil": "என்ன",
-    "kannada": "என்ன",
     "transliteration": "Eṉṉa",
     "english": "What",
     "category": "Questions",
@@ -416,7 +370,6 @@
   {
     "id": "w_047",
     "tamil": "எங்கே",
-    "kannada": "எங்கே",
     "transliteration": "Eṅgē",
     "english": "Where",
     "category": "Questions",
@@ -425,7 +378,6 @@
   {
     "id": "w_048",
     "tamil": "ஏன்",
-    "kannada": "ஏன்",
     "transliteration": "Ēṉ",
     "english": "Why",
     "category": "Questions",
@@ -434,7 +386,6 @@
   {
     "id": "w_049",
     "tamil": "எப்போது",
-    "kannada": "எப்போது",
     "transliteration": "Eppōdhu",
     "english": "When",
     "category": "Questions",
@@ -443,7 +394,6 @@
   {
     "id": "w_050",
     "tamil": "யார்",
-    "kannada": "யார்",
     "transliteration": "Yār",
     "english": "Who",
     "category": "Questions",
@@ -452,7 +402,6 @@
   {
     "id": "w_051",
     "tamil": "யாருடைய",
-    "kannada": "யாருடைய",
     "transliteration": "Yāruḍaiya",
     "english": "Whose",
     "category": "Questions",
@@ -461,7 +410,6 @@
   {
     "id": "w_052",
     "tamil": "எப்படி",
-    "kannada": "எப்படி",
     "transliteration": "Eppaḍi",
     "english": "How",
     "category": "Questions",
@@ -470,7 +418,6 @@
   {
     "id": "w_053",
     "tamil": "எவ்வளவு",
-    "kannada": "எவ்வளவு",
     "transliteration": "Evvaḷavu",
     "english": "How much / How many",
     "category": "Questions",
@@ -479,7 +426,6 @@
   {
     "id": "w_054",
     "tamil": "எந்த",
-    "kannada": "எந்த",
     "transliteration": "Endha",
     "english": "Which",
     "category": "Questions",
@@ -488,7 +434,6 @@
   {
     "id": "w_055",
     "tamil": "எது",
-    "kannada": "எது",
     "transliteration": "Edhu",
     "english": "Which one",
     "category": "Questions",
@@ -497,7 +442,6 @@
   {
     "id": "w_056",
     "tamil": "எங்கிருந்து",
-    "kannada": "எங்கிருந்து",
     "transliteration": "Eṅgirundhu",
     "english": "From where",
     "category": "Questions",
@@ -506,7 +450,6 @@
   {
     "id": "w_057",
     "tamil": "எங்கு",
-    "kannada": "எங்கு",
     "transliteration": "Eṅgu",
     "english": "To where",
     "category": "Questions",
@@ -515,7 +458,6 @@
   {
     "id": "w_058",
     "tamil": "யாருக்கு",
-    "kannada": "யாருக்கு",
     "transliteration": "Yārukku",
     "english": "To whom",
     "category": "Questions",
@@ -524,7 +466,6 @@
   {
     "id": "w_059",
     "tamil": "எதற்காக",
-    "kannada": "எதற்காக",
     "transliteration": "Edharkāga",
     "english": "For what reason",
     "category": "Questions",
@@ -533,7 +474,6 @@
   {
     "id": "w_060",
     "tamil": "என்ன நடந்தது",
-    "kannada": "என்ன நடந்தது",
     "transliteration": "Eṉṉa naḍandhadhu",
     "english": "What happened",
     "category": "Questions",
@@ -542,7 +482,6 @@
   {
     "id": "w_061",
     "tamil": "இது என்ன",
-    "kannada": "இது என்ன",
     "transliteration": "Idhu eṉṉa",
     "english": "What is this",
     "category": "Questions",
@@ -551,7 +490,6 @@
   {
     "id": "w_062",
     "tamil": "ஒன்று",
-    "kannada": "ஒன்று",
     "transliteration": "Oṉdṟu",
     "english": "One (1)",
     "category": "Numbers",
@@ -560,7 +498,6 @@
   {
     "id": "w_063",
     "tamil": "இரண்டு",
-    "kannada": "இரண்டு",
     "transliteration": "Iraṇḍu",
     "english": "Two (2)",
     "category": "Numbers",
@@ -569,7 +506,6 @@
   {
     "id": "w_064",
     "tamil": "மூன்று",
-    "kannada": "மூன்று",
     "transliteration": "Mūṉdṟu",
     "english": "Three (3)",
     "category": "Numbers",
@@ -578,7 +514,6 @@
   {
     "id": "w_065",
     "tamil": "நான்கு",
-    "kannada": "நான்கு",
     "transliteration": "Nāṉgu",
     "english": "Four (4)",
     "category": "Numbers",
@@ -587,7 +522,6 @@
   {
     "id": "w_066",
     "tamil": "ஐந்து",
-    "kannada": "ஐந்து",
     "transliteration": "Aindhu",
     "english": "Five (5)",
     "category": "Numbers",
@@ -596,7 +530,6 @@
   {
     "id": "w_067",
     "tamil": "ஆறு",
-    "kannada": "ஆறு",
     "transliteration": "Āṟu",
     "english": "Six (6)",
     "category": "Numbers",
@@ -605,7 +538,6 @@
   {
     "id": "w_068",
     "tamil": "ஏழு",
-    "kannada": "ஏழு",
     "transliteration": "Ēḻu",
     "english": "Seven (7)",
     "category": "Numbers",
@@ -614,7 +546,6 @@
   {
     "id": "w_069",
     "tamil": "எட்டு",
-    "kannada": "எட்டு",
     "transliteration": "Eṭṭu",
     "english": "Eight (8)",
     "category": "Numbers",
@@ -623,7 +554,6 @@
   {
     "id": "w_070",
     "tamil": "ஒன்பது",
-    "kannada": "ஒன்பது",
     "transliteration": "Oṉbadhu",
     "english": "Nine (9)",
     "category": "Numbers",
@@ -632,7 +562,6 @@
   {
     "id": "w_071",
     "tamil": "பத்து",
-    "kannada": "பத்து",
     "transliteration": "Patthu",
     "english": "Ten (10)",
     "category": "Numbers",
@@ -641,7 +570,6 @@
   {
     "id": "w_072",
     "tamil": "பதினொன்று",
-    "kannada": "பதினொன்று",
     "transliteration": "Padhinoṉdṟu",
     "english": "Eleven (11)",
     "category": "Numbers",
@@ -650,7 +578,6 @@
   {
     "id": "w_073",
     "tamil": "பன்னிரண்டு",
-    "kannada": "பன்னிரண்டு",
     "transliteration": "Paṉṉiraṇḍu",
     "english": "Twelve (12)",
     "category": "Numbers",
@@ -659,7 +586,6 @@
   {
     "id": "w_074",
     "tamil": "பதிமூன்று",
-    "kannada": "பதிமூன்று",
     "transliteration": "Padhimūṉdṟu",
     "english": "Thirteen (13)",
     "category": "Numbers",
@@ -668,7 +594,6 @@
   {
     "id": "w_075",
     "tamil": "பதினான்கு",
-    "kannada": "பதினான்கு",
     "transliteration": "Padhināṉgu",
     "english": "Fourteen (14)",
     "category": "Numbers",
@@ -677,7 +602,6 @@
   {
     "id": "w_076",
     "tamil": "பதினைந்து",
-    "kannada": "பதினைந்து",
     "transliteration": "Padhinaindhu",
     "english": "Fifteen (15)",
     "category": "Numbers",
@@ -686,7 +610,6 @@
   {
     "id": "w_077",
     "tamil": "பதினாறு",
-    "kannada": "பதினாறு",
     "transliteration": "Padhināṟu",
     "english": "Sixteen (16)",
     "category": "Numbers",
@@ -695,7 +618,6 @@
   {
     "id": "w_078",
     "tamil": "பதினேழு",
-    "kannada": "பதினேழு",
     "transliteration": "Padhinēḻu",
     "english": "Seventeen (17)",
     "category": "Numbers",
@@ -704,7 +626,6 @@
   {
     "id": "w_079",
     "tamil": "பதினெட்டு",
-    "kannada": "பதினெட்டு",
     "transliteration": "Padhineṭṭu",
     "english": "Eighteen (18)",
     "category": "Numbers",
@@ -713,7 +634,6 @@
   {
     "id": "w_080",
     "tamil": "பத்தொன்பது",
-    "kannada": "பத்தொன்பது",
     "transliteration": "Patthoṉbadhu",
     "english": "Nineteen (19)",
     "category": "Numbers",
@@ -722,7 +642,6 @@
   {
     "id": "w_081",
     "tamil": "இருபது",
-    "kannada": "இருபது",
     "transliteration": "Irubadhu",
     "english": "Twenty (20)",
     "category": "Numbers",
@@ -731,7 +650,6 @@
   {
     "id": "w_082",
     "tamil": "முப்பது",
-    "kannada": "முப்பது",
     "transliteration": "Muppadhu",
     "english": "Thirty (30)",
     "category": "Numbers",
@@ -740,7 +658,6 @@
   {
     "id": "w_083",
     "tamil": "நாற்பது",
-    "kannada": "நாற்பது",
     "transliteration": "Nāṟpadhu",
     "english": "Forty (40)",
     "category": "Numbers",
@@ -749,7 +666,6 @@
   {
     "id": "w_084",
     "tamil": "ஐம்பது",
-    "kannada": "ஐம்பது",
     "transliteration": "Aimpadhu",
     "english": "Fifty (50)",
     "category": "Numbers",
@@ -758,7 +674,6 @@
   {
     "id": "w_085",
     "tamil": "அறுபது",
-    "kannada": "அறுபது",
     "transliteration": "Aṟubadhu",
     "english": "Sixty (60)",
     "category": "Numbers",
@@ -767,7 +682,6 @@
   {
     "id": "w_086",
     "tamil": "எழுபது",
-    "kannada": "எழுபது",
     "transliteration": "Eḻubadhu",
     "english": "Seventy (70)",
     "category": "Numbers",
@@ -776,7 +690,6 @@
   {
     "id": "w_087",
     "tamil": "எண்பது",
-    "kannada": "எண்பது",
     "transliteration": "Eṇbadhu",
     "english": "Eighty (80)",
     "category": "Numbers",
@@ -785,7 +698,6 @@
   {
     "id": "w_088",
     "tamil": "தொண்ணூறு",
-    "kannada": "தொண்ணூறு",
     "transliteration": "Thoṇṇūṟu",
     "english": "Ninety (90)",
     "category": "Numbers",
@@ -794,7 +706,6 @@
   {
     "id": "w_089",
     "tamil": "நூறு",
-    "kannada": "நூறு",
     "transliteration": "Nūṟu",
     "english": "Hundred (100)",
     "category": "Numbers",
@@ -803,7 +714,6 @@
   {
     "id": "w_090",
     "tamil": "ஐந்நூறு",
-    "kannada": "ஐந்நூறு",
     "transliteration": "Ain-nūṟu",
     "english": "Five Hundred (500)",
     "category": "Numbers",
@@ -812,7 +722,6 @@
   {
     "id": "w_091",
     "tamil": "ஆயிரம்",
-    "kannada": "ஆயிரம்",
     "transliteration": "Āyiram",
     "english": "Thousand (1,000)",
     "category": "Numbers",
@@ -821,7 +730,6 @@
   {
     "id": "w_092",
     "tamil": "லட்சம்",
-    "kannada": "லட்சம்",
     "transliteration": "Latsam",
     "english": "Lakh (100,000)",
     "category": "Numbers",
@@ -830,7 +738,6 @@
   {
     "id": "w_093",
     "tamil": "கோடி",
-    "kannada": "கோடி",
     "transliteration": "Kōḍi",
     "english": "Crore (10 Million)",
     "category": "Numbers",
@@ -839,7 +746,6 @@
   {
     "id": "w_094",
     "tamil": "அரை",
-    "kannada": "அரை",
     "transliteration": "Arai",
     "english": "Half",
     "category": "Numbers",
@@ -848,7 +754,6 @@
   {
     "id": "w_095",
     "tamil": "கால்",
-    "kannada": "கால்",
     "transliteration": "Kāl",
     "english": "Quarter",
     "category": "Numbers",
@@ -857,7 +762,6 @@
   {
     "id": "w_096",
     "tamil": "முக்கால்",
-    "kannada": "முக்கால்",
     "transliteration": "Mukkāl",
     "english": "Three-quarters",
     "category": "Numbers",
@@ -866,7 +770,6 @@
   {
     "id": "w_097",
     "tamil": "இன்று",
-    "kannada": "இன்று",
     "transliteration": "Indru",
     "english": "Today",
     "category": "Time & Calendar",
@@ -875,7 +778,6 @@
   {
     "id": "w_098",
     "tamil": "நாளை",
-    "kannada": "நாளை",
     "transliteration": "Nāḷai",
     "english": "Tomorrow",
     "category": "Time & Calendar",
@@ -884,7 +786,6 @@
   {
     "id": "w_099",
     "tamil": "நாளை மறுநாள்",
-    "kannada": "நாளை மறுநாள்",
     "transliteration": "Nāḷai marunāḷ",
     "english": "Day after tomorrow",
     "category": "Time & Calendar",
@@ -893,7 +794,6 @@
   {
     "id": "w_100",
     "tamil": "நேற்று",
-    "kannada": "நேற்று",
     "transliteration": "Nētru",
     "english": "Yesterday",
     "category": "Time & Calendar",
@@ -902,7 +802,6 @@
   {
     "id": "w_101",
     "tamil": "முந்தாநாள்",
-    "kannada": "முந்தாநாள்",
     "transliteration": "Mundhānāḷ",
     "english": "Day before yesterday",
     "category": "Time & Calendar",
@@ -911,7 +810,6 @@
   {
     "id": "w_102",
     "tamil": "இப்போது",
-    "kannada": "இப்போது",
     "transliteration": "Ippōdhu",
     "english": "Now",
     "category": "Time & Calendar",
@@ -920,7 +818,6 @@
   {
     "id": "w_103",
     "tamil": "பிறகு",
-    "kannada": "பிறகு",
     "transliteration": "Piṟagu",
     "english": "Later / Afterwards",
     "category": "Time & Calendar",
@@ -929,7 +826,6 @@
   {
     "id": "w_104",
     "tamil": "சீக்கிரம்",
-    "kannada": "சீக்கிரம்",
     "transliteration": "Sīkkiram",
     "english": "Quickly / Early",
     "category": "Time & Calendar",
@@ -938,7 +834,6 @@
   {
     "id": "w_105",
     "tamil": "மெதுவாக",
-    "kannada": "மெதுவாக",
     "transliteration": "Medhuvāga",
     "english": "Slow / Slowly",
     "category": "Time & Calendar",
@@ -947,7 +842,6 @@
   {
     "id": "w_106",
     "tamil": "எப்போதும்",
-    "kannada": "எப்போதும்",
     "transliteration": "Eppōdhum",
     "english": "Always",
     "category": "Time & Calendar",
@@ -956,7 +850,6 @@
   {
     "id": "w_107",
     "tamil": "காலை",
-    "kannada": "காலை",
     "transliteration": "Kālai",
     "english": "Morning",
     "category": "Time & Calendar",
@@ -965,7 +858,6 @@
   {
     "id": "w_108",
     "tamil": "மதியம்",
-    "kannada": "மதியம்",
     "transliteration": "Madhiyam",
     "english": "Afternoon",
     "category": "Time & Calendar",
@@ -974,7 +866,6 @@
   {
     "id": "w_109",
     "tamil": "மாலை",
-    "kannada": "மாலை",
     "transliteration": "Mālai",
     "english": "Evening",
     "category": "Time & Calendar",
@@ -983,7 +874,6 @@
   {
     "id": "w_110",
     "tamil": "இரவு",
-    "kannada": "இரவு",
     "transliteration": "Iravu",
     "english": "Night",
     "category": "Time & Calendar",
@@ -992,7 +882,6 @@
   {
     "id": "w_111",
     "tamil": "மணி",
-    "kannada": "மணி",
     "transliteration": "Maṇi",
     "english": "Hour / O'clock",
     "category": "Time & Calendar",
@@ -1001,7 +890,6 @@
   {
     "id": "w_112",
     "tamil": "நிமிடம்",
-    "kannada": "நிமிடம்",
     "transliteration": "Nimiḍam",
     "english": "Minute",
     "category": "Time & Calendar",
@@ -1010,7 +898,6 @@
   {
     "id": "w_113",
     "tamil": "நாள்",
-    "kannada": "நாள்",
     "transliteration": "Nāḷ",
     "english": "Day",
     "category": "Time & Calendar",
@@ -1019,7 +906,6 @@
   {
     "id": "w_114",
     "tamil": "வாரம்",
-    "kannada": "வாரம்",
     "transliteration": "Vāram",
     "english": "Week",
     "category": "Time & Calendar",
@@ -1028,7 +914,6 @@
   {
     "id": "w_115",
     "tamil": "மாதம்",
-    "kannada": "மாதம்",
     "transliteration": "Mādham",
     "english": "Month",
     "category": "Time & Calendar",
@@ -1037,7 +922,6 @@
   {
     "id": "w_116",
     "tamil": "வருடம்",
-    "kannada": "வருடம்",
     "transliteration": "Varuḍam",
     "english": "Year",
     "category": "Time & Calendar",
@@ -1046,7 +930,6 @@
   {
     "id": "w_117",
     "tamil": "ஞாயிறு",
-    "kannada": "ஞாயிறு",
     "transliteration": "Ñāyiṟu",
     "english": "Sunday",
     "category": "Time & Calendar",
@@ -1055,7 +938,6 @@
   {
     "id": "w_118",
     "tamil": "திங்கள்",
-    "kannada": "திங்கள்",
     "transliteration": "Thiṅgaḷ",
     "english": "Monday",
     "category": "Time & Calendar",
@@ -1064,7 +946,6 @@
   {
     "id": "w_119",
     "tamil": "புதன்",
-    "kannada": "புதன்",
     "transliteration": "Pudhaṉ",
     "english": "Wednesday",
     "category": "Time & Calendar",
@@ -1073,7 +954,6 @@
   {
     "id": "w_120",
     "tamil": "வெள்ளி",
-    "kannada": "வெள்ளி",
     "transliteration": "Veḷḷi",
     "english": "Friday",
     "category": "Time & Calendar",
@@ -1082,7 +962,6 @@
   {
     "id": "w_121",
     "tamil": "சனி",
-    "kannada": "சனி",
     "transliteration": "Saṉi",
     "english": "Saturday",
     "category": "Time & Calendar",
@@ -1091,7 +970,6 @@
   {
     "id": "w_122",
     "tamil": "ஆட்டோ",
-    "kannada": "ஆட்டோ",
     "transliteration": "Āṭṭō",
     "english": "Auto rickshaw",
     "category": "Travel & Commute",
@@ -1100,7 +978,6 @@
   {
     "id": "w_123",
     "tamil": "பேருந்து",
-    "kannada": "பேருந்து",
     "transliteration": "Pērundhu",
     "english": "Bus",
     "category": "Travel & Commute",
@@ -1109,7 +986,6 @@
   {
     "id": "w_124",
     "tamil": "மெட்ரோ ரயில்",
-    "kannada": "மெட்ரோ ரயில்",
     "transliteration": "Meṭrō rayil",
     "english": "Metro train",
     "category": "Travel & Commute",
@@ -1118,7 +994,6 @@
   {
     "id": "w_125",
     "tamil": "ரயில்",
-    "kannada": "ரயில்",
     "transliteration": "Rayil",
     "english": "Train",
     "category": "Travel & Commute",
@@ -1127,7 +1002,6 @@
   {
     "id": "w_126",
     "tamil": "விமானம்",
-    "kannada": "விமானம்",
     "transliteration": "Vimāṉam",
     "english": "Aeroplane",
     "category": "Travel & Commute",
@@ -1136,7 +1010,6 @@
   {
     "id": "w_127",
     "tamil": "சாலை",
-    "kannada": "சாலை",
     "transliteration": "Sālai",
     "english": "Road / Street",
     "category": "Travel & Commute",
@@ -1145,7 +1018,6 @@
   {
     "id": "w_128",
     "tamil": "நிறுத்தம்",
-    "kannada": "நிறுத்தம்",
     "transliteration": "Niṟuttham",
     "english": "Stop / Station",
     "category": "Travel & Commute",
@@ -1154,7 +1026,6 @@
   {
     "id": "w_129",
     "tamil": "பயணச்சீட்டு",
-    "kannada": "பயணச்சீட்டு",
     "transliteration": "Payaṇachīṭṭu",
     "english": "Ticket",
     "category": "Travel & Commute",
@@ -1163,7 +1034,6 @@
   {
     "id": "w_130",
     "tamil": "வாடகை",
-    "kannada": "வாடகை",
     "transliteration": "Vāḍagai",
     "english": "Fare / Rent",
     "category": "Travel & Commute",
@@ -1172,7 +1042,6 @@
   {
     "id": "w_131",
     "tamil": "மீட்டர்",
-    "kannada": "மீட்டர்",
     "transliteration": "Mīṭṭar",
     "english": "Fare meter",
     "category": "Travel & Commute",
@@ -1181,7 +1050,6 @@
   {
     "id": "w_132",
     "tamil": "நேராக",
-    "kannada": "நேராக",
     "transliteration": "Nērāga",
     "english": "Straight",
     "category": "Travel & Commute",
@@ -1190,7 +1058,6 @@
   {
     "id": "w_133",
     "tamil": "வலது பக்கம்",
-    "kannada": "வலது பக்கம்",
     "transliteration": "Valadhu pakkam",
     "english": "Right side",
     "category": "Travel & Commute",
@@ -1199,7 +1066,6 @@
   {
     "id": "w_134",
     "tamil": "இடது பக்கம்",
-    "kannada": "இடது பக்கம்",
     "transliteration": "Iḍadhu pakkam",
     "english": "Left side",
     "category": "Travel & Commute",
@@ -1208,7 +1074,6 @@
   {
     "id": "w_135",
     "tamil": "முன்னால்",
-    "kannada": "முன்னால்",
     "transliteration": "Muṉṉāl",
     "english": "Ahead / Forward",
     "category": "Travel & Commute",
@@ -1217,7 +1082,6 @@
   {
     "id": "w_136",
     "tamil": "பின்னால்",
-    "kannada": "பின்னால்",
     "transliteration": "Piṉṉāl",
     "english": "Behind / Back",
     "category": "Travel & Commute",
@@ -1226,7 +1090,6 @@
   {
     "id": "w_137",
     "tamil": "அருகில்",
-    "kannada": "அருகில்",
     "transliteration": "Arugil",
     "english": "Near / Close",
     "category": "Travel & Commute",
@@ -1235,7 +1098,6 @@
   {
     "id": "w_138",
     "tamil": "தூரம்",
-    "kannada": "தூரம்",
     "transliteration": "Dhūram",
     "english": "Far / Distant",
     "category": "Travel & Commute",
@@ -1244,7 +1106,6 @@
   {
     "id": "w_139",
     "tamil": "மேலே",
-    "kannada": "மேலே",
     "transliteration": "Mēlē",
     "english": "Above / Up",
     "category": "Travel & Commute",
@@ -1253,7 +1114,6 @@
   {
     "id": "w_140",
     "tamil": "கீழே",
-    "kannada": "கீழே",
     "transliteration": "Kīḻē",
     "english": "Below / Down",
     "category": "Travel & Commute",
@@ -1262,7 +1122,6 @@
   {
     "id": "w_141",
     "tamil": "உள்ளே",
-    "kannada": "உள்ளே",
     "transliteration": "Uḷḷē",
     "english": "Inside",
     "category": "Travel & Commute",
@@ -1271,7 +1130,6 @@
   {
     "id": "w_142",
     "tamil": "வெளியே",
-    "kannada": "வெளியே",
     "transliteration": "Veḷiyē",
     "english": "Outside",
     "category": "Travel & Commute",
@@ -1280,7 +1138,6 @@
   {
     "id": "w_143",
     "tamil": "நிறுத்துங்கள்",
-    "kannada": "நிறுத்துங்கள்",
     "transliteration": "Niṟutthungaḷ",
     "english": "Please stop",
     "category": "Travel & Commute",
@@ -1289,7 +1146,6 @@
   {
     "id": "w_144",
     "tamil": "போங்கள்",
-    "kannada": "போங்கள்",
     "transliteration": "Pōṅgaḷ",
     "english": "Please go",
     "category": "Travel & Commute",
@@ -1298,7 +1154,6 @@
   {
     "id": "w_145",
     "tamil": "வாருங்கள்",
-    "kannada": "வாருங்கள்",
     "transliteration": "Vāruṅgaḷ",
     "english": "Please come",
     "category": "Travel & Commute",
@@ -1307,7 +1162,6 @@
   {
     "id": "w_146",
     "tamil": "இறங்குங்கள்",
-    "kannada": "இறங்குங்கள்",
     "transliteration": "Iṟaṅguṅgaḷ",
     "english": "Get down / Alight",
     "category": "Travel & Commute",
@@ -1316,7 +1170,6 @@
   {
     "id": "w_147",
     "tamil": "இடம்",
-    "kannada": "இடம்",
     "transliteration": "Iḍam",
     "english": "Place / Spot / Space",
     "category": "Travel & Commute",
@@ -1325,7 +1178,6 @@
   {
     "id": "w_148",
     "tamil": "ஊர்",
-    "kannada": "ஊர்",
     "transliteration": "Ūr",
     "english": "Town / Hometown / City",
     "category": "Travel & Commute",
@@ -1334,7 +1186,6 @@
   {
     "id": "w_149",
     "tamil": "முகவரி",
-    "kannada": "முகவரி",
     "transliteration": "Mugavari",
     "english": "Address",
     "category": "Travel & Commute",
@@ -1343,7 +1194,6 @@
   {
     "id": "w_150",
     "tamil": "போக்குவரத்து நெரிசல்",
-    "kannada": "போக்குவரத்து நெரிசல்",
     "transliteration": "Pōkkuvaratthu nerisal",
     "english": "Traffic",
     "category": "Travel & Commute",
@@ -1352,7 +1202,6 @@
   {
     "id": "w_151",
     "tamil": "மேம்பாலம்",
-    "kannada": "மேம்பாலம்",
     "transliteration": "Mēmpālam",
     "english": "Bridge / Flyover",
     "category": "Travel & Commute",
@@ -1361,7 +1210,6 @@
   {
     "id": "w_152",
     "tamil": "வளைவு",
-    "kannada": "வளைவு",
     "transliteration": "Vaḷaivu",
     "english": "Turn / Curve",
     "category": "Travel & Commute",
@@ -1370,7 +1218,6 @@
   {
     "id": "w_153",
     "tamil": "ரவுண்டானா",
-    "kannada": "ரவுண்டானா",
     "transliteration": "Ravuṇḍāṉā",
     "english": "Circle / Roundabout",
     "category": "Travel & Commute",
@@ -1379,7 +1226,6 @@
   {
     "id": "w_154",
     "tamil": "ஓட்டுநர்",
-    "kannada": "ஓட்டுநர்",
     "transliteration": "Ōṭṭunar",
     "english": "Driver",
     "category": "Travel & Commute",
@@ -1388,7 +1234,6 @@
   {
     "id": "w_155",
     "tamil": "போகலாம்",
-    "kannada": "போகலாம்",
     "transliteration": "Pōgalām",
     "english": "Let us go",
     "category": "Travel & Commute",
@@ -1397,7 +1242,6 @@
   {
     "id": "w_156",
     "tamil": "காத்திருங்கள்",
-    "kannada": "காத்திருங்கள்",
     "transliteration": "Kātthiruṅgaḷ",
     "english": "Please wait",
     "category": "Travel & Commute",
@@ -1406,7 +1250,6 @@
   {
     "id": "w_157",
     "tamil": "கடை",
-    "kannada": "கடை",
     "transliteration": "Kaḍai",
     "english": "Shop / Store",
     "category": "Shopping & Money",
@@ -1415,7 +1258,6 @@
   {
     "id": "w_158",
     "tamil": "சந்தை",
-    "kannada": "சந்தை",
     "transliteration": "Sandhai",
     "english": "Market",
     "category": "Shopping & Money",
@@ -1424,7 +1266,6 @@
   {
     "id": "w_159",
     "tamil": "பணம்",
-    "kannada": "பணம்",
     "transliteration": "Paṇam",
     "english": "Money / Cash",
     "category": "Shopping & Money",
@@ -1433,7 +1274,6 @@
   {
     "id": "w_160",
     "tamil": "காசு",
-    "kannada": "காசு",
     "transliteration": "Kāsu",
     "english": "Money (Colloquial)",
     "category": "Shopping & Money",
@@ -1442,7 +1282,6 @@
   {
     "id": "w_161",
     "tamil": "விலை",
-    "kannada": "விலை",
     "transliteration": "Vilai",
     "english": "Price / Rate",
     "category": "Shopping & Money",
@@ -1451,7 +1290,6 @@
   {
     "id": "w_162",
     "tamil": "சில்லறை",
-    "kannada": "சில்லறை",
     "transliteration": "Sillaṟai",
     "english": "Small change / Coins",
     "category": "Shopping & Money",
@@ -1460,7 +1298,6 @@
   {
     "id": "w_163",
     "tamil": "ரசீது",
-    "kannada": "ரசீது",
     "transliteration": "Rasīdhu",
     "english": "Receipt / Bill",
     "category": "Shopping & Money",
@@ -1469,7 +1306,6 @@
   {
     "id": "w_164",
     "tamil": "வாங்குதல்",
-    "kannada": "வாங்குதல்",
     "transliteration": "Vāṅgudhal",
     "english": "Purchase / Shopping",
     "category": "Shopping & Money",
@@ -1478,7 +1314,6 @@
   {
     "id": "w_165",
     "tamil": "குறைவு",
-    "kannada": "குறைவு",
     "transliteration": "Kuṟaivu",
     "english": "Less / Cheaper",
     "category": "Shopping & Money",
@@ -1487,7 +1322,6 @@
   {
     "id": "w_166",
     "tamil": "அதிகம்",
-    "kannada": "அதிகம்",
     "transliteration": "Adhigam",
     "english": "More / Excess",
     "category": "Shopping & Money",
@@ -1496,7 +1330,6 @@
   {
     "id": "w_167",
     "tamil": "விலை அதிகம்",
-    "kannada": "விலை அதிகம்",
     "transliteration": "Vilai adhigam",
     "english": "Expensive",
     "category": "Shopping & Money",
@@ -1505,7 +1338,6 @@
   {
     "id": "w_168",
     "tamil": "மலிவு",
-    "kannada": "மலிவு",
     "transliteration": "Malivu",
     "english": "Cheap / Inexpensive",
     "category": "Shopping & Money",
@@ -1514,7 +1346,6 @@
   {
     "id": "w_169",
     "tamil": "பை",
-    "kannada": "பை",
     "transliteration": "Pai",
     "english": "Bag / Sack",
     "category": "Shopping & Money",
@@ -1523,7 +1354,6 @@
   {
     "id": "w_170",
     "tamil": "எடை",
-    "kannada": "எடை",
     "transliteration": "Eḍai",
     "english": "Weight",
     "category": "Shopping & Money",
@@ -1532,7 +1362,6 @@
   {
     "id": "w_171",
     "tamil": "கிலோ",
-    "kannada": "கிலோ",
     "transliteration": "Kilō",
     "english": "Kilogram (Kg)",
     "category": "Shopping & Money",
@@ -1541,7 +1370,6 @@
   {
     "id": "w_172",
     "tamil": "லிட்டர்",
-    "kannada": "லிட்டர்",
     "transliteration": "Liṭṭar",
     "english": "Litre",
     "category": "Shopping & Money",
@@ -1550,7 +1378,6 @@
   {
     "id": "w_173",
     "tamil": "புதிய",
-    "kannada": "புதிய",
     "transliteration": "Pudhiya",
     "english": "Fresh",
     "category": "Shopping & Money",
@@ -1559,7 +1386,6 @@
   {
     "id": "w_174",
     "tamil": "பழைய",
-    "kannada": "பழைய",
     "transliteration": "Paḻaiya",
     "english": "Old / Stale",
     "category": "Shopping & Money",
@@ -1568,7 +1394,6 @@
   {
     "id": "w_175",
     "tamil": "புதுசு",
-    "kannada": "புதுசு",
     "transliteration": "Pudhusu",
     "english": "New",
     "category": "Shopping & Money",
@@ -1577,7 +1402,6 @@
   {
     "id": "w_176",
     "tamil": "கொடுங்கள்",
-    "kannada": "கொடுங்கள்",
     "transliteration": "Koduṅgaḷ",
     "english": "Please give",
     "category": "Shopping & Money",
@@ -1586,7 +1410,6 @@
   {
     "id": "w_177",
     "tamil": "எடுங்கள்",
-    "kannada": "எடுங்கள்",
     "transliteration": "Eduṅgaḷ",
     "english": "Please take",
     "category": "Shopping & Money",
@@ -1595,7 +1418,6 @@
   {
     "id": "w_178",
     "tamil": "காட்டுங்கள்",
-    "kannada": "காட்டுங்கள்",
     "transliteration": "Kāṭṭuṅgaḷ",
     "english": "Please show",
     "category": "Shopping & Money",
@@ -1604,7 +1426,6 @@
   {
     "id": "w_179",
     "tamil": "இன்னொன்று",
-    "kannada": "இன்னொன்று",
     "transliteration": "Iṉṉoṉdṟu",
     "english": "Another one",
     "category": "Shopping & Money",
@@ -1613,7 +1434,6 @@
   {
     "id": "w_180",
     "tamil": "வேறு",
-    "kannada": "வேறு",
     "transliteration": "Vēṟu",
     "english": "Different / Other",
     "category": "Shopping & Money",
@@ -1622,7 +1442,6 @@
   {
     "id": "w_181",
     "tamil": "மொத்தம்",
-    "kannada": "மொத்தம்",
     "transliteration": "Mottham",
     "english": "Total / Altogether",
     "category": "Shopping & Money",
@@ -1631,7 +1450,6 @@
   {
     "id": "w_182",
     "tamil": "தள்ளுபடி",
-    "kannada": "தள்ளுபடி",
     "transliteration": "Thaḷḷubaḍi",
     "english": "Discount / Offer",
     "category": "Shopping & Money",
@@ -1640,7 +1458,6 @@
   {
     "id": "w_183",
     "tamil": "கட்டணம்",
-    "kannada": "கட்டணம்",
     "transliteration": "Kaṭṭaṇam",
     "english": "Payment",
     "category": "Shopping & Money",
@@ -1649,7 +1466,6 @@
   {
     "id": "w_184",
     "tamil": "அட்டை",
-    "kannada": "அட்டை",
     "transliteration": "Aṭṭai",
     "english": "Card (Debit/Credit)",
     "category": "Shopping & Money",
@@ -1658,7 +1474,6 @@
   {
     "id": "w_185",
     "tamil": "கணக்கு",
-    "kannada": "கணக்கு",
     "transliteration": "Kaṇakku",
     "english": "Account",
     "category": "Shopping & Money",
@@ -1667,7 +1482,6 @@
   {
     "id": "w_186",
     "tamil": "மீதி",
-    "kannada": "மீதி",
     "transliteration": "Mīdhi",
     "english": "Remaining balance",
     "category": "Shopping & Money",
@@ -1676,7 +1490,6 @@
   {
     "id": "w_187",
     "tamil": "தண்ணீர்",
-    "kannada": "தண்ணீர்",
     "transliteration": "Thaṇṇīr",
     "english": "Water",
     "category": "Food & Dining",
@@ -1685,7 +1498,6 @@
   {
     "id": "w_188",
     "tamil": "தேநீர்",
-    "kannada": "தேநீர்",
     "transliteration": "Thēnīr",
     "english": "Tea",
     "category": "Food & Dining",
@@ -1694,7 +1506,6 @@
   {
     "id": "w_189",
     "tamil": "காபி",
-    "kannada": "காபி",
     "transliteration": "Kāpi",
     "english": "Coffee",
     "category": "Food & Dining",
@@ -1703,7 +1514,6 @@
   {
     "id": "w_190",
     "tamil": "பால்",
-    "kannada": "பால்",
     "transliteration": "Pāl",
     "english": "Milk",
     "category": "Food & Dining",
@@ -1712,7 +1522,6 @@
   {
     "id": "w_191",
     "tamil": "சாதம்",
-    "kannada": "சாதம்",
     "transliteration": "Sādham",
     "english": "Cooked rice",
     "category": "Food & Dining",
@@ -1721,7 +1530,6 @@
   {
     "id": "w_192",
     "tamil": "ரசம்",
-    "kannada": "ரசம்",
     "transliteration": "Rasam",
     "english": "Rasam / Lentil soup",
     "category": "Food & Dining",
@@ -1730,7 +1538,6 @@
   {
     "id": "w_193",
     "tamil": "சாம்பார்",
-    "kannada": "சாம்பார்",
     "transliteration": "Sāmbār",
     "english": "Sambar",
     "category": "Food & Dining",
@@ -1739,7 +1546,6 @@
   {
     "id": "w_194",
     "tamil": "சப்பாத்தி",
-    "kannada": "சப்பாத்தி",
     "transliteration": "Sappātthi",
     "english": "Roti / Flatbread",
     "category": "Food & Dining",
@@ -1748,7 +1554,6 @@
   {
     "id": "w_195",
     "tamil": "தோசை",
-    "kannada": "தோசை",
     "transliteration": "Dhōsai",
     "english": "Dosa",
     "category": "Food & Dining",
@@ -1757,7 +1562,6 @@
   {
     "id": "w_196",
     "tamil": "இட்லி",
-    "kannada": "இட்லி",
     "transliteration": "Iṭli",
     "english": "Idli",
     "category": "Food & Dining",
@@ -1766,7 +1570,6 @@
   {
     "id": "w_197",
     "tamil": "உப்புமா",
-    "kannada": "உப்புமா",
     "transliteration": "Uppumā",
     "english": "Upma",
     "category": "Food & Dining",
@@ -1775,7 +1578,6 @@
   {
     "id": "w_198",
     "tamil": "தயிர்",
-    "kannada": "தயிர்",
     "transliteration": "Thayir",
     "english": "Curd / Yogurt",
     "category": "Food & Dining",
@@ -1784,7 +1586,6 @@
   {
     "id": "w_199",
     "tamil": "மோர்",
-    "kannada": "மோர்",
     "transliteration": "Mōr",
     "english": "Buttermilk",
     "category": "Food & Dining",
@@ -1793,7 +1594,6 @@
   {
     "id": "w_200",
     "tamil": "நெய்",
-    "kannada": "நெய்",
     "transliteration": "Ney",
     "english": "Ghee / Clarified butter",
     "category": "Food & Dining",
@@ -1802,7 +1602,6 @@
   {
     "id": "w_201",
     "tamil": "சர்க்கரை",
-    "kannada": "சர்க்கரை",
     "transliteration": "Sarkkarai",
     "english": "Sugar",
     "category": "Food & Dining",
@@ -1811,7 +1610,6 @@
   {
     "id": "w_202",
     "tamil": "உப்பு",
-    "kannada": "உப்பு",
     "transliteration": "Uppu",
     "english": "Salt",
     "category": "Food & Dining",
@@ -1820,7 +1618,6 @@
   {
     "id": "w_203",
     "tamil": "காரம்",
-    "kannada": "காரம்",
     "transliteration": "Kāram",
     "english": "Spicy / Hot",
     "category": "Food & Dining",
@@ -1829,7 +1626,6 @@
   {
     "id": "w_204",
     "tamil": "இனிப்பு",
-    "kannada": "இனிப்பு",
     "transliteration": "Inippu",
     "english": "Sweet",
     "category": "Food & Dining",
@@ -1838,7 +1634,6 @@
   {
     "id": "w_205",
     "tamil": "புளிப்பு",
-    "kannada": "புளிப்பு",
     "transliteration": "Puḷippu",
     "english": "Sour",
     "category": "Food & Dining",
@@ -1847,7 +1642,6 @@
   {
     "id": "w_206",
     "tamil": "கசப்பு",
-    "kannada": "கசப்பு",
     "transliteration": "Kasappu",
     "english": "Bitter",
     "category": "Food & Dining",
@@ -1856,7 +1650,6 @@
   {
     "id": "w_207",
     "tamil": "சூடான",
-    "kannada": "சூடான",
     "transliteration": "Sūḍāṉa",
     "english": "Hot (Temperature)",
     "category": "Food & Dining",
@@ -1865,7 +1658,6 @@
   {
     "id": "w_208",
     "tamil": "குளிர்ந்த",
-    "kannada": "குளிர்ந்த",
     "transliteration": "Kuḷirndha",
     "english": "Cold / Chilled",
     "category": "Food & Dining",
@@ -1874,7 +1666,6 @@
   {
     "id": "w_209",
     "tamil": "சுவை",
-    "kannada": "சுவை",
     "transliteration": "Suvai",
     "english": "Taste / Delicious",
     "category": "Food & Dining",
@@ -1883,7 +1674,6 @@
   {
     "id": "w_210",
     "tamil": "சாப்பாடு",
-    "kannada": "சாப்பாடு",
     "transliteration": "Sāppāḍu",
     "english": "Meal / Lunch / Dinner",
     "category": "Food & Dining",
@@ -1892,7 +1682,6 @@
   {
     "id": "w_211",
     "tamil": "சிற்றுண்டி",
-    "kannada": "சிற்றுண்டி",
     "transliteration": "Siṟṟuṇḍi",
     "english": "Breakfast / Snacks",
     "category": "Food & Dining",
@@ -1901,7 +1690,6 @@
   {
     "id": "w_212",
     "tamil": "பழம்",
-    "kannada": "பழம்",
     "transliteration": "Paḻam",
     "english": "Fruit",
     "category": "Food & Dining",
@@ -1910,7 +1698,6 @@
   {
     "id": "w_213",
     "tamil": "காய்கறி",
-    "kannada": "காய்கறி",
     "transliteration": "Kāygaṟi",
     "english": "Vegetable",
     "category": "Food & Dining",
@@ -1919,7 +1706,6 @@
   {
     "id": "w_214",
     "tamil": "வெங்காயம்",
-    "kannada": "வெங்காயம்",
     "transliteration": "Veṅgāyam",
     "english": "Onion",
     "category": "Food & Dining",
@@ -1928,7 +1714,6 @@
   {
     "id": "w_215",
     "tamil": "தக்காளி",
-    "kannada": "தக்காளி",
     "transliteration": "Thakkāḷi",
     "english": "Tomato",
     "category": "Food & Dining",
@@ -1937,7 +1722,6 @@
   {
     "id": "w_216",
     "tamil": "உருளைக்கிழங்கு",
-    "kannada": "உருளைக்கிழங்கு",
     "transliteration": "Uruḷaikkiḻaṅgu",
     "english": "Potato",
     "category": "Food & Dining",
@@ -1946,7 +1730,6 @@
   {
     "id": "w_217",
     "tamil": "தேங்காய்",
-    "kannada": "தேங்காய்",
     "transliteration": "Thēṅgāy",
     "english": "Coconut",
     "category": "Food & Dining",
@@ -1955,7 +1738,6 @@
   {
     "id": "w_218",
     "tamil": "வாழைப்பழம்",
-    "kannada": "வாழைப்பழம்",
     "transliteration": "Vāḻaippaḻam",
     "english": "Banana",
     "category": "Food & Dining",
@@ -1964,7 +1746,6 @@
   {
     "id": "w_219",
     "tamil": "ஆப்பிள்",
-    "kannada": "ஆப்பிள்",
     "transliteration": "Āppiḷ",
     "english": "Apple",
     "category": "Food & Dining",
@@ -1973,7 +1754,6 @@
   {
     "id": "w_220",
     "tamil": "மாம்பழம்",
-    "kannada": "மாம்பழம்",
     "transliteration": "Māmbaḻam",
     "english": "Mango",
     "category": "Food & Dining",
@@ -1982,7 +1762,6 @@
   {
     "id": "w_221",
     "tamil": "தட்டு",
-    "kannada": "தட்டு",
     "transliteration": "Thaṭṭu",
     "english": "Plate",
     "category": "Food & Dining",
@@ -1991,7 +1770,6 @@
   {
     "id": "w_222",
     "tamil": "கரண்டி",
-    "kannada": "கரண்டி",
     "transliteration": "Karaṇḍi",
     "english": "Spoon",
     "category": "Food & Dining",
@@ -2000,7 +1778,6 @@
   {
     "id": "w_223",
     "tamil": "டம்ளர்",
-    "kannada": "டம்ளர்",
     "transliteration": "Ḍamḷar",
     "english": "Glass / Tumbler",
     "category": "Food & Dining",
@@ -2009,7 +1786,6 @@
   {
     "id": "w_224",
     "tamil": "உணவகம்",
-    "kannada": "உணவகம்",
     "transliteration": "Uṇavagam",
     "english": "Restaurant / Hotel",
     "category": "Food & Dining",
@@ -2018,7 +1794,6 @@
   {
     "id": "w_225",
     "tamil": "பார்சல்",
-    "kannada": "பார்சல்",
     "transliteration": "Pārsal",
     "english": "Takeaway / Parcel",
     "category": "Food & Dining",
@@ -2027,7 +1802,6 @@
   {
     "id": "w_226",
     "tamil": "பசி",
-    "kannada": "பசி",
     "transliteration": "Pasi",
     "english": "Hunger",
     "category": "Food & Dining",
@@ -2036,7 +1810,6 @@
   {
     "id": "w_227",
     "tamil": "வாருங்கள்",
-    "kannada": "வாருங்கள்",
     "transliteration": "Vāruṅgaḷ",
     "english": "Come (Formal)",
     "category": "Common Verbs",
@@ -2045,7 +1818,6 @@
   {
     "id": "w_228",
     "tamil": "வா",
-    "kannada": "வா",
     "transliteration": "Vā",
     "english": "Come (Informal)",
     "category": "Common Verbs",
@@ -2054,7 +1826,6 @@
   {
     "id": "w_229",
     "tamil": "போங்கள்",
-    "kannada": "போங்கள்",
     "transliteration": "Pōṅgaḷ",
     "english": "Go (Formal)",
     "category": "Common Verbs",
@@ -2063,7 +1834,6 @@
   {
     "id": "w_230",
     "tamil": "போ",
-    "kannada": "போ",
     "transliteration": "Pō",
     "english": "Go (Informal)",
     "category": "Common Verbs",
@@ -2072,7 +1842,6 @@
   {
     "id": "w_231",
     "tamil": "சாப்பிடுங்கள்",
-    "kannada": "சாப்பிடுங்கள்",
     "transliteration": "Sāppiḍuṅgaḷ",
     "english": "Eat (Formal)",
     "category": "Common Verbs",
@@ -2081,7 +1850,6 @@
   {
     "id": "w_232",
     "tamil": "குடியுங்கள்",
-    "kannada": "குடியுங்கள்",
     "transliteration": "Kuḍiyuṅgaḷ",
     "english": "Drink (Formal)",
     "category": "Common Verbs",
@@ -2090,7 +1858,6 @@
   {
     "id": "w_233",
     "tamil": "குடி",
-    "kannada": "குடி",
     "transliteration": "Kuḍi",
     "english": "Drink (Informal)",
     "category": "Common Verbs",
@@ -2099,7 +1866,6 @@
   {
     "id": "w_234",
     "tamil": "தூங்குங்கள்",
-    "kannada": "தூங்குங்கள்",
     "transliteration": "Thūṅguṅgaḷ",
     "english": "Sleep",
     "category": "Common Verbs",
@@ -2108,7 +1874,6 @@
   {
     "id": "w_235",
     "tamil": "எழுந்திருங்கள்",
-    "kannada": "எழுந்திருங்கள்",
     "transliteration": "Eḻundhiruṅgaḷ",
     "english": "Wake up / Rise",
     "category": "Common Verbs",
@@ -2117,7 +1882,6 @@
   {
     "id": "w_236",
     "tamil": "பாருங்கள்",
-    "kannada": "பாருங்கள்",
     "transliteration": "Pāruṅgaḷ",
     "english": "Look / Watch / See",
     "category": "Common Verbs",
@@ -2126,7 +1890,6 @@
   {
     "id": "w_237",
     "tamil": "பேசுங்கள்",
-    "kannada": "பேசுங்கள்",
     "transliteration": "Pēsuṅgaḷ",
     "english": "Speak / Talk",
     "category": "Common Verbs",
@@ -2135,7 +1898,6 @@
   {
     "id": "w_238",
     "tamil": "சொல்லுங்கள்",
-    "kannada": "சொல்லுங்கள்",
     "transliteration": "Solluṅgaḷ",
     "english": "Tell / Say",
     "category": "Common Verbs",
@@ -2144,7 +1906,6 @@
   {
     "id": "w_239",
     "tamil": "கேளுங்கள்",
-    "kannada": "கேளுங்கள்",
     "transliteration": "Kēḷuṅgaḷ",
     "english": "Listen / Ask",
     "category": "Common Verbs",
@@ -2153,7 +1914,6 @@
   {
     "id": "w_240",
     "tamil": "செய்யுங்கள்",
-    "kannada": "செய்யுங்கள்",
     "transliteration": "Seyyuṅgaḷ",
     "english": "Do (Formal)",
     "category": "Common Verbs",
@@ -2162,7 +1922,6 @@
   {
     "id": "w_241",
     "tamil": "செய்",
-    "kannada": "செய்",
     "transliteration": "Sey",
     "english": "Do (Informal)",
     "category": "Common Verbs",
@@ -2171,7 +1930,6 @@
   {
     "id": "w_242",
     "tamil": "கொடுங்கள்",
-    "kannada": "கொடுங்கள்",
     "transliteration": "Koduṅgaḷ",
     "english": "Give (Formal)",
     "category": "Common Verbs",
@@ -2180,7 +1938,6 @@
   {
     "id": "w_243",
     "tamil": "கொடு",
-    "kannada": "கொடு",
     "transliteration": "Kodu",
     "english": "Give (Informal)",
     "category": "Common Verbs",
@@ -2189,7 +1946,6 @@
   {
     "id": "w_244",
     "tamil": "எடுங்கள்",
-    "kannada": "எடுங்கள்",
     "transliteration": "Eduṅgaḷ",
     "english": "Take (Formal)",
     "category": "Common Verbs",
@@ -2198,7 +1954,6 @@
   {
     "id": "w_245",
     "tamil": "எடு",
-    "kannada": "எடு",
     "transliteration": "Edu",
     "english": "Take (Informal)",
     "category": "Common Verbs",
@@ -2207,7 +1962,6 @@
   {
     "id": "w_246",
     "tamil": "உட்காருங்கள்",
-    "kannada": "உட்காருங்கள்",
     "transliteration": "Uṭkāruṅgaḷ",
     "english": "Sit down (Formal)",
     "category": "Common Verbs",
@@ -2216,7 +1970,6 @@
   {
     "id": "w_247",
     "tamil": "நில்லுங்கள்",
-    "kannada": "நில்லுங்கள்",
     "transliteration": "Nilluṅgaḷ",
     "english": "Stand / Stop",
     "category": "Common Verbs",
@@ -2225,7 +1978,6 @@
   {
     "id": "w_248",
     "tamil": "நடங்கள்",
-    "kannada": "நடங்கள்",
     "transliteration": "Naḍaṅgaḷ",
     "english": "Walk",
     "category": "Common Verbs",
@@ -2234,7 +1986,6 @@
   {
     "id": "w_249",
     "tamil": "ஓடுங்கள்",
-    "kannada": "ஓடுங்கள்",
     "transliteration": "Ōḍuṅgaḷ",
     "english": "Run",
     "category": "Common Verbs",
@@ -2243,7 +1994,6 @@
   {
     "id": "w_250",
     "tamil": "படியுங்கள்",
-    "kannada": "படியுங்கள்",
     "transliteration": "Paḍiyuṅgaḷ",
     "english": "Read / Study",
     "category": "Common Verbs",
@@ -2252,7 +2002,6 @@
   {
     "id": "w_251",
     "tamil": "எழுதுங்கள்",
-    "kannada": "எழுதுங்கள்",
     "transliteration": "Eḻudhuṅgaḷ",
     "english": "Write",
     "category": "Common Verbs",
@@ -2261,7 +2010,6 @@
   {
     "id": "w_252",
     "tamil": "கற்றுக்கொள்ளுங்கள்",
-    "kannada": "கற்றுக்கொள்ளுங்கள்",
     "transliteration": "Katrukkoḷḷuṅgaḷ",
     "english": "Learn",
     "category": "Common Verbs",
@@ -2270,7 +2018,6 @@
   {
     "id": "w_253",
     "tamil": "கற்றுக்கொடுங்கள்",
-    "kannada": "கற்றுக்கொடுங்கள்",
     "transliteration": "Katrukkoḍuṅgaḷ",
     "english": "Teach",
     "category": "Common Verbs",
@@ -2279,7 +2026,6 @@
   {
     "id": "w_254",
     "tamil": "திறங்கள்",
-    "kannada": "திறங்கள்",
     "transliteration": "Thiṟaṅgaḷ",
     "english": "Open",
     "category": "Common Verbs",
@@ -2288,7 +2034,6 @@
   {
     "id": "w_255",
     "tamil": "மூடுங்கள்",
-    "kannada": "மூடுங்கள்",
     "transliteration": "Mūḍuṅgaḷ",
     "english": "Close / Shut",
     "category": "Common Verbs",
@@ -2297,7 +2042,6 @@
   {
     "id": "w_256",
     "tamil": "அனுப்புங்கள்",
-    "kannada": "அனுப்புங்கள்",
     "transliteration": "Anuppuṅgaḷ",
     "english": "Send",
     "category": "Common Verbs",
@@ -2306,7 +2050,6 @@
   {
     "id": "w_257",
     "tamil": "அழையுங்கள்",
-    "kannada": "அழையுங்கள்",
     "transliteration": "Aḻaiyuṅgaḷ",
     "english": "Make a call",
     "category": "Common Verbs",
@@ -2315,7 +2058,6 @@
   {
     "id": "w_258",
     "tamil": "கழுவுங்கள்",
-    "kannada": "கழுவுங்கள்",
     "transliteration": "Kaḻuvuṅgaḷ",
     "english": "Wash",
     "category": "Common Verbs",
@@ -2324,7 +2066,6 @@
   {
     "id": "w_259",
     "tamil": "குளியுங்கள்",
-    "kannada": "குளியுங்கள்",
     "transliteration": "Kuḷiyuṅgaḷ",
     "english": "Take a bath",
     "category": "Common Verbs",
@@ -2333,7 +2074,6 @@
   {
     "id": "w_260",
     "tamil": "நினைவில் வையுங்கள்",
-    "kannada": "நினைவில் வையுங்கள்",
     "transliteration": "Ninaivil vaiyuṅgaḷ",
     "english": "Remember",
     "category": "Common Verbs",
@@ -2342,7 +2082,6 @@
   {
     "id": "w_261",
     "tamil": "மறந்துவிட்டது",
-    "kannada": "மறந்துவிட்டது",
     "transliteration": "Maṟandhuvittadhu",
     "english": "Forgot",
     "category": "Common Verbs",
@@ -2351,7 +2090,6 @@
   {
     "id": "w_262",
     "tamil": "உதவுங்கள்",
-    "kannada": "உதவுங்கள்",
     "transliteration": "Udhavuṅgaḷ",
     "english": "Help",
     "category": "Common Verbs",
@@ -2360,7 +2098,6 @@
   {
     "id": "w_263",
     "tamil": "சரிபாருங்கள்",
-    "kannada": "சரிபாருங்கள்",
     "transliteration": "Saripāruṅgaḷ",
     "english": "Check / Test",
     "category": "Common Verbs",
@@ -2369,7 +2106,6 @@
   {
     "id": "w_264",
     "tamil": "மாற்றுங்கள்",
-    "kannada": "மாற்றுங்கள்",
     "transliteration": "Māṟṟuṅgaḷ",
     "english": "Change / Exchange",
     "category": "Common Verbs",
@@ -2378,7 +2114,6 @@
   {
     "id": "w_265",
     "tamil": "முயற்சி செய்யுங்கள்",
-    "kannada": "முயற்சி செய்யுங்கள்",
     "transliteration": "Muyarchi seyyuṅgaḷ",
     "english": "Try",
     "category": "Common Verbs",
@@ -2387,7 +2122,6 @@
   {
     "id": "w_266",
     "tamil": "தேர்ந்தெடுங்கள்",
-    "kannada": "தேர்ந்தெடுங்கள்",
     "transliteration": "Thērndheḍuṅgaḷ",
     "english": "Choose / Select",
     "category": "Common Verbs",
@@ -2396,7 +2130,6 @@
   {
     "id": "w_267",
     "tamil": "தப்பித்துக் கொள்ளுங்கள்",
-    "kannada": "தப்பித்துக் கொள்ளுங்கள்",
     "transliteration": "Thappitthuk koḷḷuṅgaḷ",
     "english": "Escape / Avoid",
     "category": "Common Verbs",
@@ -2405,7 +2138,6 @@
   {
     "id": "w_268",
     "tamil": "ஓய்வெடுங்கள்",
-    "kannada": "ஓய்வெடுங்கள்",
     "transliteration": "Ōyveḍuṅgaḷ",
     "english": "Take rest",
     "category": "Common Verbs",
@@ -2414,7 +2146,6 @@
   {
     "id": "w_269",
     "tamil": "விளையாடுங்கள்",
-    "kannada": "விளையாடுங்கள்",
     "transliteration": "Viḷaiyāḍuṅgaḷ",
     "english": "Play",
     "category": "Common Verbs",
@@ -2423,7 +2154,6 @@
   {
     "id": "w_270",
     "tamil": "பாடுங்கள்",
-    "kannada": "பாடுங்கள்",
     "transliteration": "Pāḍuṅgaḷ",
     "english": "Sing",
     "category": "Common Verbs",
@@ -2432,7 +2162,6 @@
   {
     "id": "w_271",
     "tamil": "ஆடுங்கள்",
-    "kannada": "ஆடுங்கள்",
     "transliteration": "Āḍuṅgaḷ",
     "english": "Dance",
     "category": "Common Verbs",
@@ -2441,7 +2170,6 @@
   {
     "id": "w_272",
     "tamil": "சிரியுங்கள்",
-    "kannada": "சிரியுங்கள்",
     "transliteration": "Siriyuṅgaḷ",
     "english": "Laugh / Smile",
     "category": "Common Verbs",
@@ -2450,7 +2178,6 @@
   {
     "id": "w_273",
     "tamil": "அழுங்கள்",
-    "kannada": "அழுங்கள்",
     "transliteration": "Aḻuṅgaḷ",
     "english": "Cry",
     "category": "Common Verbs",
@@ -2459,7 +2186,6 @@
   {
     "id": "w_274",
     "tamil": "வாழுங்கள்",
-    "kannada": "வாழுங்கள்",
     "transliteration": "Vāḻuṅgaḷ",
     "english": "Live",
     "category": "Common Verbs",
@@ -2468,7 +2194,6 @@
   {
     "id": "w_275",
     "tamil": "சாதியுங்கள்",
-    "kannada": "சாதியுங்கள்",
     "transliteration": "Sādhiyuṅgaḷ",
     "english": "Achieve",
     "category": "Common Verbs",
@@ -2477,7 +2202,6 @@
   {
     "id": "w_276",
     "tamil": "செலவிடுங்கள்",
-    "kannada": "செலவிடுங்கள்",
     "transliteration": "Selaviḍuṅgaḷ",
     "english": "Spend",
     "category": "Common Verbs",
@@ -2486,7 +2210,6 @@
   {
     "id": "w_277",
     "tamil": "அப்பா",
-    "kannada": "அப்பா",
     "transliteration": "Appā",
     "english": "Father",
     "category": "Family & Relationships",
@@ -2495,7 +2218,6 @@
   {
     "id": "w_278",
     "tamil": "அம்மா",
-    "kannada": "அம்மா",
     "transliteration": "Ammā",
     "english": "Mother",
     "category": "Family & Relationships",
@@ -2504,7 +2226,6 @@
   {
     "id": "w_279",
     "tamil": "அண்ணன்",
-    "kannada": "அண்ணன்",
     "transliteration": "Aṇṇaṉ",
     "english": "Elder Brother",
     "category": "Family & Relationships",
@@ -2513,7 +2234,6 @@
   {
     "id": "w_280",
     "tamil": "தம்பி",
-    "kannada": "தம்பி",
     "transliteration": "Thambi",
     "english": "Younger Brother",
     "category": "Family & Relationships",
@@ -2522,7 +2242,6 @@
   {
     "id": "w_281",
     "tamil": "அக்கா",
-    "kannada": "அக்கா",
     "transliteration": "Akkā",
     "english": "Elder Sister",
     "category": "Family & Relationships",
@@ -2531,7 +2250,6 @@
   {
     "id": "w_282",
     "tamil": "தங்கை",
-    "kannada": "தங்கை",
     "transliteration": "Thaṅgai",
     "english": "Younger Sister",
     "category": "Family & Relationships",
@@ -2540,7 +2258,6 @@
   {
     "id": "w_283",
     "tamil": "தாத்தா",
-    "kannada": "தாத்தா",
     "transliteration": "Thātthā",
     "english": "Grandfather",
     "category": "Family & Relationships",
@@ -2549,7 +2266,6 @@
   {
     "id": "w_284",
     "tamil": "பாட்டி",
-    "kannada": "பாட்டி",
     "transliteration": "Pāṭṭi",
     "english": "Grandmother",
     "category": "Family & Relationships",
@@ -2558,7 +2274,6 @@
   {
     "id": "w_285",
     "tamil": "மகன்",
-    "kannada": "மகன்",
     "transliteration": "Magaṉ",
     "english": "Son",
     "category": "Family & Relationships",
@@ -2567,7 +2282,6 @@
   {
     "id": "w_286",
     "tamil": "மகள்",
-    "kannada": "மகள்",
     "transliteration": "Magaḷ",
     "english": "Daughter",
     "category": "Family & Relationships",
@@ -2576,7 +2290,6 @@
   {
     "id": "w_287",
     "tamil": "கணவர்",
-    "kannada": "கணவர்",
     "transliteration": "Kaṇavar",
     "english": "Husband",
     "category": "Family & Relationships",
@@ -2585,7 +2298,6 @@
   {
     "id": "w_288",
     "tamil": "மனைவி",
-    "kannada": "மனைவி",
     "transliteration": "Manaivi",
     "english": "Wife",
     "category": "Family & Relationships",
@@ -2594,7 +2306,6 @@
   {
     "id": "w_289",
     "tamil": "குழந்தைகள்",
-    "kannada": "குழந்தைகள்",
     "transliteration": "Kuzhandhaigaḷ",
     "english": "Children",
     "category": "Family & Relationships",
@@ -2603,7 +2314,6 @@
   {
     "id": "w_290",
     "tamil": "சித்தப்பா",
-    "kannada": "சித்தப்பா",
     "transliteration": "Sitthappā",
     "english": "Paternal Uncle (Younger)",
     "category": "Family & Relationships",
@@ -2612,7 +2322,6 @@
   {
     "id": "w_291",
     "tamil": "பெரியப்பா",
-    "kannada": "பெரியப்பா",
     "transliteration": "Periyappā",
     "english": "Paternal Uncle (Elder)",
     "category": "Family & Relationships",
@@ -2621,7 +2330,6 @@
   {
     "id": "w_292",
     "tamil": "சித்தி",
-    "kannada": "சித்தி",
     "transliteration": "Sitthi",
     "english": "Aunt (Younger)",
     "category": "Family & Relationships",
@@ -2630,7 +2338,6 @@
   {
     "id": "w_293",
     "tamil": "மாமா",
-    "kannada": "மாமா",
     "transliteration": "Māmā",
     "english": "Maternal Uncle / Father-in-law",
     "category": "Family & Relationships",
@@ -2639,7 +2346,6 @@
   {
     "id": "w_294",
     "tamil": "அத்தை",
-    "kannada": "அத்தை",
     "transliteration": "Atthai",
     "english": "Maternal Aunt / Mother-in-law",
     "category": "Family & Relationships",
@@ -2648,7 +2354,6 @@
   {
     "id": "w_295",
     "tamil": "உறவினர்",
-    "kannada": "உறவினர்",
     "transliteration": "Uṟaviṉar",
     "english": "Relative",
     "category": "Family & Relationships",
@@ -2657,7 +2362,6 @@
   {
     "id": "w_296",
     "tamil": "குடும்பம்",
-    "kannada": "குடும்பம்",
     "transliteration": "Kuḍumbam",
     "english": "Family",
     "category": "Family & Relationships",
@@ -2666,7 +2370,6 @@
   {
     "id": "w_297",
     "tamil": "விருந்தினர்",
-    "kannada": "விருந்தினர்",
     "transliteration": "Virundhiṉar",
     "english": "Guest",
     "category": "Family & Relationships",
@@ -2675,7 +2378,6 @@
   {
     "id": "w_298",
     "tamil": "அண்டைவீட்டார்",
-    "kannada": "அண்டைவீட்டார்",
     "transliteration": "Aṇḍaivīṭṭār",
     "english": "Neighbor",
     "category": "Family & Relationships",
@@ -2684,7 +2386,6 @@
   {
     "id": "w_299",
     "tamil": "தோழி",
-    "kannada": "தோழி",
     "transliteration": "Thōḻi",
     "english": "Female friend",
     "category": "Family & Relationships",
@@ -2693,7 +2394,6 @@
   {
     "id": "w_300",
     "tamil": "குரு",
-    "kannada": "குரு",
     "transliteration": "Guru",
     "english": "Teacher / Mentor",
     "category": "Family & Relationships",
@@ -2702,7 +2402,6 @@
   {
     "id": "w_301",
     "tamil": "மாணவர்",
-    "kannada": "மாணவர்",
     "transliteration": "Māṇavar",
     "english": "Student / Disciple",
     "category": "Family & Relationships",
@@ -2711,7 +2410,6 @@
   {
     "id": "w_302",
     "tamil": "வேலை",
-    "kannada": "வேலை",
     "transliteration": "Vēlai",
     "english": "Work / Job",
     "category": "Work & Office",
@@ -2720,7 +2418,6 @@
   {
     "id": "w_303",
     "tamil": "அலுவலகம்",
-    "kannada": "அலுவலகம்",
     "transliteration": "Aluvalagam",
     "english": "Office",
     "category": "Work & Office",
@@ -2729,7 +2426,6 @@
   {
     "id": "w_304",
     "tamil": "கூட்டம்",
-    "kannada": "கூட்டம்",
     "transliteration": "Kūṭṭam",
     "english": "Meeting",
     "category": "Work & Office",
@@ -2738,7 +2434,6 @@
   {
     "id": "w_305",
     "tamil": "கணினி",
-    "kannada": "கணினி",
     "transliteration": "Kaṇiṉi",
     "english": "Computer / Laptop",
     "category": "Work & Office",
@@ -2747,7 +2442,6 @@
   {
     "id": "w_306",
     "tamil": "கைப்பேசி",
-    "kannada": "கைப்பேசி",
     "transliteration": "Kaippēsi",
     "english": "Telephone / Mobile",
     "category": "Work & Office",
@@ -2756,7 +2450,6 @@
   {
     "id": "w_307",
     "tamil": "இணையம்",
-    "kannada": "இணையம்",
     "transliteration": "Iṇaiyam",
     "english": "Internet",
     "category": "Work & Office",
@@ -2765,7 +2458,6 @@
   {
     "id": "w_308",
     "tamil": "மின்னஞ்சல்",
-    "kannada": "மின்னஞ்சல்",
     "transliteration": "Miṉṉañjal",
     "english": "Email",
     "category": "Work & Office",
@@ -2774,7 +2466,6 @@
   {
     "id": "w_309",
     "tamil": "செய்தி",
-    "kannada": "செய்தி",
     "transliteration": "Seydhi",
     "english": "Message",
     "category": "Work & Office",
@@ -2783,7 +2474,6 @@
   {
     "id": "w_310",
     "tamil": "சம்பளம்",
-    "kannada": "சம்பளம்",
     "transliteration": "Sambaḷam",
     "english": "Salary",
     "category": "Work & Office",
@@ -2792,7 +2482,6 @@
   {
     "id": "w_311",
     "tamil": "விடுமுறை",
-    "kannada": "விடுமுறை",
     "transliteration": "Viḍumuṟai",
     "english": "Holiday / Leave",
     "category": "Work & Office",
@@ -2801,7 +2490,6 @@
   {
     "id": "w_312",
     "tamil": "மேலாளர்",
-    "kannada": "மேலாளர்",
     "transliteration": "Mēlāḷar",
     "english": "Manager",
     "category": "Work & Office",
@@ -2810,7 +2498,6 @@
   {
     "id": "w_313",
     "tamil": "சக பணியாளர்",
-    "kannada": "சக பணியாளர்",
     "transliteration": "Saga paṇiyāḷar",
     "english": "Colleague",
     "category": "Work & Office",
@@ -2819,7 +2506,6 @@
   {
     "id": "w_314",
     "tamil": "திட்டம்",
-    "kannada": "திட்டம்",
     "transliteration": "Thiṭṭam",
     "english": "Project / Plan",
     "category": "Work & Office",
@@ -2828,7 +2514,6 @@
   {
     "id": "w_315",
     "tamil": "குழு",
-    "kannada": "குழு",
     "transliteration": "Kuḻu",
     "english": "Team",
     "category": "Work & Office",
@@ -2837,7 +2522,6 @@
   {
     "id": "w_316",
     "tamil": "ஆவணம்",
-    "kannada": "ஆவணம்",
     "transliteration": "Āvaṇam",
     "english": "Document / File",
     "category": "Work & Office",
@@ -2846,7 +2530,6 @@
   {
     "id": "w_317",
     "tamil": "பிரச்சனை",
-    "kannada": "பிரச்சனை",
     "transliteration": "Pirachanaai",
     "english": "Problem / Issue",
     "category": "Work & Office",
@@ -2855,7 +2538,6 @@
   {
     "id": "w_318",
     "tamil": "தீர்வு",
-    "kannada": "தீர்வு",
     "transliteration": "Thīrvu",
     "english": "Solution",
     "category": "Work & Office",
@@ -2864,7 +2546,6 @@
   {
     "id": "w_319",
     "tamil": "கடைசி நாள்",
-    "kannada": "கடைசி நாள்",
     "transliteration": "Kaḍaisi nāḷ",
     "english": "Deadline",
     "category": "Work & Office",
@@ -2873,7 +2554,6 @@
   {
     "id": "w_320",
     "tamil": "விளக்கக்காட்சி",
-    "kannada": "விளக்கக்காட்சி",
     "transliteration": "Viḷakkakkāṭchi",
     "english": "Presentation",
     "category": "Work & Office",
@@ -2882,7 +2562,6 @@
   {
     "id": "w_321",
     "tamil": "நேர்காணல்",
-    "kannada": "நேர்காணல்",
     "transliteration": "Nērgāṇal",
     "english": "Interview / Face-to-face",
     "category": "Work & Office",
@@ -2891,7 +2570,6 @@
   {
     "id": "w_322",
     "tamil": "முன்னேற்றம்",
-    "kannada": "முன்னேற்றம்",
     "transliteration": "Muṉṉēṟṟam",
     "english": "Progress",
     "category": "Work & Office",
@@ -2900,7 +2578,6 @@
   {
     "id": "w_323",
     "tamil": "அறிக்கை",
-    "kannada": "அறிக்கை",
     "transliteration": "Aṟikkai",
     "english": "Report",
     "category": "Work & Office",
@@ -2909,7 +2586,6 @@
   {
     "id": "w_324",
     "tamil": "கடவுச்சொல்",
-    "kannada": "கடவுச்சொல்",
     "transliteration": "Kaḍavuchol",
     "english": "Password",
     "category": "Work & Office",
@@ -2918,7 +2594,6 @@
   {
     "id": "w_325",
     "tamil": "அச்சுப்பொறி",
-    "kannada": "அச்சுப்பொறி",
     "transliteration": "Achuppoṟi",
     "english": "Printer",
     "category": "Work & Office",
@@ -2927,7 +2602,6 @@
   {
     "id": "w_326",
     "tamil": "நிறுவனம்",
-    "kannada": "நிறுவனம்",
     "transliteration": "Niṟuvaṉam",
     "english": "Company",
     "category": "Work & Office",
@@ -2936,7 +2610,6 @@
   {
     "id": "w_327",
     "tamil": "வணிகம்",
-    "kannada": "வணிகம்",
     "transliteration": "Vaṇigam",
     "english": "Business",
     "category": "Work & Office",
@@ -2945,7 +2618,6 @@
   {
     "id": "w_328",
     "tamil": "வாடிக்கையாளர்",
-    "kannada": "வாடிக்கையாளர்",
     "transliteration": "Vāḍikkaiyāḷar",
     "english": "Customer / Client",
     "category": "Work & Office",
@@ -2954,7 +2626,6 @@
   {
     "id": "w_329",
     "tamil": "ஒப்பந்தம்",
-    "kannada": "ஒப்பந்தம்",
     "transliteration": "Oppandham",
     "english": "Agreement / Contract",
     "category": "Work & Office",
@@ -2963,7 +2634,6 @@
   {
     "id": "w_330",
     "tamil": "உதவி மையம்",
-    "kannada": "உதவி மையம்",
     "transliteration": "Udhavi maiyam",
     "english": "Helpline / Support",
     "category": "Work & Office",
@@ -2972,7 +2642,6 @@
   {
     "id": "w_331",
     "tamil": "பழக்கம்",
-    "kannada": "பழக்கம்",
     "transliteration": "Paḻakkam",
     "english": "Practice / Habit",
     "category": "Work & Office",
@@ -2981,7 +2650,6 @@
   {
     "id": "w_332",
     "tamil": "நல்ல",
-    "kannada": "நல்ல",
     "transliteration": "Nalla",
     "english": "Good / Nice",
     "category": "Adjectives",
@@ -2990,7 +2658,6 @@
   {
     "id": "w_333",
     "tamil": "கெட்ட",
-    "kannada": "கெட்ட",
     "transliteration": "Keṭṭa",
     "english": "Bad",
     "category": "Adjectives",
@@ -2999,7 +2666,6 @@
   {
     "id": "w_334",
     "tamil": "பெரிய",
-    "kannada": "பெரிய",
     "transliteration": "Periya",
     "english": "Big / Large",
     "category": "Adjectives",
@@ -3008,7 +2674,6 @@
   {
     "id": "w_335",
     "tamil": "சிறிய",
-    "kannada": "சிறிய",
     "transliteration": "Siṟiya",
     "english": "Small / Little",
     "category": "Adjectives",
@@ -3017,7 +2682,6 @@
   {
     "id": "w_336",
     "tamil": "அழகான",
-    "kannada": "அழகான",
     "transliteration": "Aḻagāṉa",
     "english": "Beautiful",
     "category": "Adjectives",
@@ -3026,7 +2690,6 @@
   {
     "id": "w_337",
     "tamil": "எளிதான",
-    "kannada": "எளிதான",
     "transliteration": "Eḷidhāṉa",
     "english": "Easy / Simple",
     "category": "Adjectives",
@@ -3035,7 +2698,6 @@
   {
     "id": "w_338",
     "tamil": "கடினமான",
-    "kannada": "கடினமான",
     "transliteration": "Kaḍiṉamāṉa",
     "english": "Difficult / Hard",
     "category": "Adjectives",
@@ -3044,7 +2706,6 @@
   {
     "id": "w_339",
     "tamil": "சுத்தமான",
-    "kannada": "சுத்தமான",
     "transliteration": "Sutthamāṉa",
     "english": "Clean / Pure",
     "category": "Adjectives",
@@ -3053,7 +2714,6 @@
   {
     "id": "w_340",
     "tamil": "அழுக்கான",
-    "kannada": "அழுக்கான",
     "transliteration": "Aḻukkāṉa",
     "english": "Dirty",
     "category": "Adjectives",
@@ -3062,7 +2722,6 @@
   {
     "id": "w_341",
     "tamil": "வேகமான",
-    "kannada": "வேகமான",
     "transliteration": "Vēgamāṉa",
     "english": "Fast / Speed",
     "category": "Adjectives",
@@ -3071,7 +2730,6 @@
   {
     "id": "w_342",
     "tamil": "மெதுவான",
-    "kannada": "மெதுவான",
     "transliteration": "Medhuvāṉa",
     "english": "Slow",
     "category": "Adjectives",
@@ -3080,7 +2738,6 @@
   {
     "id": "w_343",
     "tamil": "கனமான",
-    "kannada": "கனமான",
     "transliteration": "Kaṉamāṉa",
     "english": "Heavy",
     "category": "Adjectives",
@@ -3089,7 +2746,6 @@
   {
     "id": "w_344",
     "tamil": "லேசான",
-    "kannada": "லேசான",
     "transliteration": "Lēsāṉa",
     "english": "Lightweight",
     "category": "Adjectives",
@@ -3098,7 +2754,6 @@
   {
     "id": "w_345",
     "tamil": "நீளமான",
-    "kannada": "நீளமான",
     "transliteration": "Nīḷamāṉa",
     "english": "Long / Tall",
     "category": "Adjectives",
@@ -3107,7 +2762,6 @@
   {
     "id": "w_346",
     "tamil": "குட்டையான",
-    "kannada": "குட்டையான",
     "transliteration": "Kuṭṭaiyāṉa",
     "english": "Short (Height)",
     "category": "Adjectives",
@@ -3116,7 +2770,6 @@
   {
     "id": "w_347",
     "tamil": "உயரமான",
-    "kannada": "உயரமான",
     "transliteration": "Uyaramāṉa",
     "english": "High / Tall",
     "category": "Adjectives",
@@ -3125,7 +2778,6 @@
   {
     "id": "w_348",
     "tamil": "ஆழமான",
-    "kannada": "ஆழமான",
     "transliteration": "Āḻamāṉa",
     "english": "Deep",
     "category": "Adjectives",
@@ -3134,7 +2786,6 @@
   {
     "id": "w_349",
     "tamil": "சூடான",
-    "kannada": "சூடான",
     "transliteration": "Sūḍāṉa",
     "english": "Warm / Hot",
     "category": "Adjectives",
@@ -3143,7 +2794,6 @@
   {
     "id": "w_350",
     "tamil": "குளிர்ச்சியான",
-    "kannada": "குளிர்ச்சியான",
     "transliteration": "Kuḷirchiyāṉa",
     "english": "Cool / Refreshing",
     "category": "Adjectives",
@@ -3152,7 +2802,6 @@
   {
     "id": "w_351",
     "tamil": "வலிமையான",
-    "kannada": "வலிமையான",
     "transliteration": "Valimaiyāṉa",
     "english": "Strong",
     "category": "Adjectives",
@@ -3161,7 +2810,6 @@
   {
     "id": "w_352",
     "tamil": "பலவீனமான",
-    "kannada": "பலவீனமான",
     "transliteration": "Balavīṉamāṉa",
     "english": "Weak",
     "category": "Adjectives",
@@ -3170,7 +2818,6 @@
   {
     "id": "w_353",
     "tamil": "உண்மை",
-    "kannada": "உண்மை",
     "transliteration": "Uṇmai",
     "english": "True / Fact",
     "category": "Adjectives",
@@ -3179,7 +2826,6 @@
   {
     "id": "w_354",
     "tamil": "பொய்",
-    "kannada": "பொய்",
     "transliteration": "Poy",
     "english": "Lie / False",
     "category": "Adjectives",
@@ -3188,7 +2834,6 @@
   {
     "id": "w_355",
     "tamil": "முக்கியமான",
-    "kannada": "முக்கியமான",
     "transliteration": "Mukkiyamāṉa",
     "english": "Important",
     "category": "Adjectives",
@@ -3197,7 +2842,6 @@
   {
     "id": "w_356",
     "tamil": "சிறப்பான",
-    "kannada": "சிறப்பான",
     "transliteration": "Siṟappāṉa",
     "english": "Special",
     "category": "Adjectives",
@@ -3206,7 +2850,6 @@
   {
     "id": "w_357",
     "tamil": "முழுமையான",
-    "kannada": "முழுமையான",
     "transliteration": "Muḻumaiyāṉa",
     "english": "Complete / Full",
     "category": "Adjectives",
@@ -3215,7 +2858,6 @@
   {
     "id": "w_358",
     "tamil": "காலியான",
-    "kannada": "காலியான",
     "transliteration": "Kāliyāṉa",
     "english": "Empty",
     "category": "Adjectives",
@@ -3224,7 +2866,6 @@
   {
     "id": "w_359",
     "tamil": "நிறைந்துள்ளது",
-    "kannada": "நிறைந்துள்ளது",
     "transliteration": "Niṟaindhuḷḷadhu",
     "english": "It is full",
     "category": "Adjectives",
@@ -3233,7 +2874,6 @@
   {
     "id": "w_360",
     "tamil": "பாதுகாப்பான",
-    "kannada": "பாதுகாப்பான",
     "transliteration": "Pādhugāppāṉa",
     "english": "Safe / Secure",
     "category": "Adjectives",
@@ -3242,7 +2882,6 @@
   {
     "id": "w_361",
     "tamil": "ஆபத்தான",
-    "kannada": "ஆபத்தான",
     "transliteration": "Ābatthāṉa",
     "english": "Danger / Risky",
     "category": "Adjectives",
@@ -3251,7 +2890,6 @@
   {
     "id": "w_362",
     "tamil": "அமைதியான",
-    "kannada": "அமைதியான",
     "transliteration": "Amaidhiyāṉa",
     "english": "Quiet / Peaceful",
     "category": "Adjectives",
@@ -3260,7 +2898,6 @@
   {
     "id": "w_363",
     "tamil": "சத்தமான",
-    "kannada": "சத்தமான",
     "transliteration": "Satthamāṉa",
     "english": "Noisy",
     "category": "Adjectives",
@@ -3269,7 +2906,6 @@
   {
     "id": "w_364",
     "tamil": "சரியான",
-    "kannada": "சரியான",
     "transliteration": "Sariyāṉa",
     "english": "Correct / Right",
     "category": "Adjectives",
@@ -3278,7 +2914,6 @@
   {
     "id": "w_365",
     "tamil": "தவறான",
-    "kannada": "தவறான",
     "transliteration": "Thavaṟāṉa",
     "english": "Wrong / Incorrect",
     "category": "Adjectives",
@@ -3287,7 +2922,6 @@
   {
     "id": "w_366",
     "tamil": "இலவசமான",
-    "kannada": "இலவசமான",
     "transliteration": "Ilavasamāṉa",
     "english": "Free of cost / Appropriate",
     "category": "Adjectives",
@@ -3296,7 +2930,6 @@
   {
     "id": "w_367",
     "tamil": "மருத்துவர்",
-    "kannada": "மருத்துவர்",
     "transliteration": "Marutthuvar",
     "english": "Doctor",
     "category": "Health & Emergency",
@@ -3305,7 +2938,6 @@
   {
     "id": "w_368",
     "tamil": "மருத்துவமனை",
-    "kannada": "மருத்துவமனை",
     "transliteration": "Marutthuvamaṉai",
     "english": "Hospital",
     "category": "Health & Emergency",
@@ -3314,7 +2946,6 @@
   {
     "id": "w_369",
     "tamil": "மருந்து",
-    "kannada": "மருந்து",
     "transliteration": "Marundhu",
     "english": "Medicine",
     "category": "Health & Emergency",
@@ -3323,7 +2954,6 @@
   {
     "id": "w_370",
     "tamil": "வலி",
-    "kannada": "வலி",
     "transliteration": "Vali",
     "english": "Pain / Ache",
     "category": "Health & Emergency",
@@ -3332,7 +2962,6 @@
   {
     "id": "w_371",
     "tamil": "காய்ச்சல்",
-    "kannada": "காய்ச்சல்",
     "transliteration": "Kāychal",
     "english": "Fever",
     "category": "Health & Emergency",
@@ -3341,7 +2970,6 @@
   {
     "id": "w_372",
     "tamil": "சளி",
-    "kannada": "சளி",
     "transliteration": "Saḷi",
     "english": "Cold / Runny nose",
     "category": "Health & Emergency",
@@ -3350,7 +2978,6 @@
   {
     "id": "w_373",
     "tamil": "இருமல்",
-    "kannada": "இருமல்",
     "transliteration": "Irumal",
     "english": "Cough",
     "category": "Health & Emergency",
@@ -3359,7 +2986,6 @@
   {
     "id": "w_374",
     "tamil": "தலைவலி",
-    "kannada": "தலைவலி",
     "transliteration": "Thalaivali",
     "english": "Headache",
     "category": "Health & Emergency",
@@ -3368,7 +2994,6 @@
   {
     "id": "w_375",
     "tamil": "வயிற்று வலி",
-    "kannada": "வயிற்று வலி",
     "transliteration": "Vayiṟṟu vali",
     "english": "Stomach ache",
     "category": "Health & Emergency",
@@ -3377,7 +3002,6 @@
   {
     "id": "w_376",
     "tamil": "காயம்",
-    "kannada": "காயம்",
     "transliteration": "Kāyam",
     "english": "Wound / Injury",
     "category": "Health & Emergency",
@@ -3386,7 +3010,6 @@
   {
     "id": "w_377",
     "tamil": "காவல்துறை",
-    "kannada": "காவல்துறை",
     "transliteration": "Kāvalthuṟai",
     "english": "Police",
     "category": "Health & Emergency",
@@ -3395,7 +3018,6 @@
   {
     "id": "w_378",
     "tamil": "ஆம்புலன்ஸ்",
-    "kannada": "ஆம்புலன்ஸ்",
     "transliteration": "Āmbulans",
     "english": "Ambulance",
     "category": "Health & Emergency",
@@ -3404,7 +3026,6 @@
   {
     "id": "w_379",
     "tamil": "உதவி",
-    "kannada": "உதவி",
     "transliteration": "Udhavi",
     "english": "Help",
     "category": "Health & Emergency",
@@ -3413,7 +3034,6 @@
   {
     "id": "w_380",
     "tamil": "அவசரம்",
-    "kannada": "அவசரம்",
     "transliteration": "Avasaram",
     "english": "Urgent / Emergency",
     "category": "Health & Emergency",
@@ -3422,7 +3042,6 @@
   {
     "id": "w_381",
     "tamil": "விபத்து",
-    "kannada": "விபத்து",
     "transliteration": "Vibatthu",
     "english": "Accident",
     "category": "Health & Emergency",
@@ -3431,7 +3050,6 @@
   {
     "id": "w_382",
     "tamil": "மருந்தகம்",
-    "kannada": "மருந்தகம்",
     "transliteration": "Marundhagam",
     "english": "Pharmacy / Medical store",
     "category": "Health & Emergency",
@@ -3440,7 +3058,6 @@
   {
     "id": "w_383",
     "tamil": "ஆரோக்கியம்",
-    "kannada": "ஆரோக்கியம்",
     "transliteration": "Ārōkkiyam",
     "english": "Health / Wellness",
     "category": "Health & Emergency",
@@ -3449,7 +3066,6 @@
   {
     "id": "w_384",
     "tamil": "சிகிச்சை",
-    "kannada": "சிகிச்சை",
     "transliteration": "Sikichhai",
     "english": "Treatment",
     "category": "Health & Emergency",
@@ -3458,7 +3074,6 @@
   {
     "id": "w_385",
     "tamil": "ரத்தம்",
-    "kannada": "ரத்தம்",
     "transliteration": "Rattham",
     "english": "Blood",
     "category": "Health & Emergency",
@@ -3467,7 +3082,6 @@
   {
     "id": "w_386",
     "tamil": "ஊசி",
-    "kannada": "ஊசி",
     "transliteration": "Ūsi",
     "english": "Injection / Vaccine",
     "category": "Health & Emergency",
@@ -3476,7 +3090,6 @@
   {
     "id": "w_387",
     "tamil": "மாத்திரை",
-    "kannada": "மாத்திரை",
     "transliteration": "Mātthirai",
     "english": "Tablet / Pill",
     "category": "Health & Emergency",
@@ -3485,7 +3098,6 @@
   {
     "id": "w_388",
     "tamil": "தீ",
-    "kannada": "தீ",
     "transliteration": "Thī",
     "english": "Fire",
     "category": "Health & Emergency",
@@ -3494,7 +3106,6 @@
   {
     "id": "w_389",
     "tamil": "திருட்டு",
-    "kannada": "திருட்டு",
     "transliteration": "Thiruṭṭu",
     "english": "Theft / Burglary",
     "category": "Health & Emergency",
@@ -3503,7 +3114,6 @@
   {
     "id": "w_390",
     "tamil": "காணாமல் போனது",
-    "kannada": "காணாமல் போனது",
     "transliteration": "Kāṇāmal pōnadhu",
     "english": "Missing / Lost",
     "category": "Health & Emergency",
@@ -3512,7 +3122,6 @@
   {
     "id": "w_391",
     "tamil": "பாதுகாப்பு",
-    "kannada": "பாதுகாப்பு",
     "transliteration": "Pādhugāppu",
     "english": "Safety / Protection",
     "category": "Health & Emergency",
@@ -3521,7 +3130,6 @@
   {
     "id": "w_392",
     "tamil": "வீடு",
-    "kannada": "வீடு",
     "transliteration": "Vīḍu",
     "english": "House / Home",
     "category": "House & Objects",
@@ -3530,7 +3138,6 @@
   {
     "id": "w_393",
     "tamil": "அறை",
-    "kannada": "அறை",
     "transliteration": "Aṟai",
     "english": "Room",
     "category": "House & Objects",
@@ -3539,7 +3146,6 @@
   {
     "id": "w_394",
     "tamil": "கதவு",
-    "kannada": "கதவு",
     "transliteration": "Kadhavu",
     "english": "Door",
     "category": "House & Objects",
@@ -3548,7 +3154,6 @@
   {
     "id": "w_395",
     "tamil": "ஜன்னல்",
-    "kannada": "ஜன்னல்",
     "transliteration": "Jannal",
     "english": "Window",
     "category": "House & Objects",
@@ -3557,7 +3162,6 @@
   {
     "id": "w_396",
     "tamil": "படுக்கை",
-    "kannada": "படுக்கை",
     "transliteration": "Paḍukkai",
     "english": "Bed / Mattress",
     "category": "House & Objects",
@@ -3566,7 +3170,6 @@
   {
     "id": "w_397",
     "tamil": "மேஜை",
-    "kannada": "மேஜை",
     "transliteration": "Mējai",
     "english": "Table / Desk",
     "category": "House & Objects",
@@ -3575,7 +3178,6 @@
   {
     "id": "w_398",
     "tamil": "நாற்காலி",
-    "kannada": "நாற்காலி",
     "transliteration": "Nāṟkāli",
     "english": "Chair",
     "category": "House & Objects",
@@ -3584,7 +3186,6 @@
   {
     "id": "w_399",
     "tamil": "விளக்கு",
-    "kannada": "விளக்கு",
     "transliteration": "Viḷakku",
     "english": "Light / Lamp",
     "category": "House & Objects",
@@ -3593,7 +3194,6 @@
   {
     "id": "w_400",
     "tamil": "மின்விசிறி",
-    "kannada": "மின்விசிறி",
     "transliteration": "Miṉvisiri",
     "english": "Ceiling Fan",
     "category": "House & Objects",
@@ -3602,7 +3202,6 @@
   {
     "id": "w_401",
     "tamil": "சாவி",
-    "kannada": "சாவி",
     "transliteration": "Sāvi",
     "english": "Key",
     "category": "House & Objects",
@@ -3611,7 +3210,6 @@
   {
     "id": "w_402",
     "tamil": "பூட்டு",
-    "kannada": "பூட்டு",
     "transliteration": "Pūṭṭu",
     "english": "Lock",
     "category": "House & Objects",
@@ -3620,7 +3218,6 @@
   {
     "id": "w_403",
     "tamil": "துணி",
-    "kannada": "துணி",
     "transliteration": "Thuṇi",
     "english": "Clothes / Fabric",
     "category": "House & Objects",
@@ -3629,7 +3226,6 @@
   {
     "id": "w_404",
     "tamil": "காலணி",
-    "kannada": "காலணி",
     "transliteration": "Kālaṇi",
     "english": "Slippers / Footwear",
     "category": "House & Objects",
@@ -3638,7 +3234,6 @@
   {
     "id": "w_405",
     "tamil": "புத்தகம்",
-    "kannada": "புத்தகம்",
     "transliteration": "Putthagam",
     "english": "Book",
     "category": "House & Objects",
@@ -3647,7 +3242,6 @@
   {
     "id": "w_406",
     "tamil": "பேனா",
-    "kannada": "பேனா",
     "transliteration": "Pēṉā",
     "english": "Pen",
     "category": "House & Objects",
@@ -3656,7 +3250,6 @@
   {
     "id": "w_407",
     "tamil": "கண்ணாடி",
-    "kannada": "கண்ணாடி",
     "transliteration": "Kaṇṇāḍi",
     "english": "Mirror",
     "category": "House & Objects",
@@ -3665,7 +3258,6 @@
   {
     "id": "w_408",
     "tamil": "குப்பை",
-    "kannada": "குப்பை",
     "transliteration": "Kuppai",
     "english": "Garbage / Dust",
     "category": "House & Objects",
@@ -3674,7 +3266,6 @@
   {
     "id": "w_409",
     "tamil": "குப்பைத்தொட்டி",
-    "kannada": "குப்பைத்தொட்டி",
     "transliteration": "Kuppaitthoṭṭi",
     "english": "Dustbin / Trash can",
     "category": "House & Objects",
@@ -3683,7 +3274,6 @@
   {
     "id": "w_410",
     "tamil": "அடுப்பு",
-    "kannada": "அடுப்பு",
     "transliteration": "Aḍuppu",
     "english": "Stove / Kitchen",
     "category": "House & Objects",
@@ -3692,7 +3282,6 @@
   {
     "id": "w_411",
     "tamil": "வாளி",
-    "kannada": "வாளி",
     "transliteration": "Vāḷi",
     "english": "Bucket",
     "category": "House & Objects",
@@ -3701,7 +3290,6 @@
   {
     "id": "w_412",
     "tamil": "சோப்பு",
-    "kannada": "சோப்பு",
     "transliteration": "Sōppu",
     "english": "Soap",
     "category": "House & Objects",
@@ -3710,7 +3298,6 @@
   {
     "id": "w_413",
     "tamil": "துண்டு",
-    "kannada": "துண்டு",
     "transliteration": "Thuṇḍu",
     "english": "Towel",
     "category": "House & Objects",
@@ -3719,7 +3306,6 @@
   {
     "id": "w_414",
     "tamil": "வெளிச்சம்",
-    "kannada": "வெளிச்சம்",
     "transliteration": "Veḷichham",
     "english": "Light / Brightness",
     "category": "House & Objects",
@@ -3728,7 +3314,6 @@
   {
     "id": "w_415",
     "tamil": "இருட்டு",
-    "kannada": "இருட்டு",
     "transliteration": "Iruṭṭu",
     "english": "Darkness",
     "category": "House & Objects",
@@ -3737,7 +3322,6 @@
   {
     "id": "w_416",
     "tamil": "குடை",
-    "kannada": "குடை",
     "transliteration": "Kuḍai",
     "english": "Umbrella",
     "category": "House & Objects",
@@ -3746,7 +3330,6 @@
   {
     "id": "w_417",
     "tamil": "மழை",
-    "kannada": "மழை",
     "transliteration": "Maḻai",
     "english": "Rain",
     "category": "Weather & Nature",
@@ -3755,7 +3338,6 @@
   {
     "id": "w_418",
     "tamil": "வெயில்",
-    "kannada": "வெயில்",
     "transliteration": "Veyil",
     "english": "Sunlight / Sunshine",
     "category": "Weather & Nature",
@@ -3764,7 +3346,6 @@
   {
     "id": "w_419",
     "tamil": "காற்று",
-    "kannada": "காற்று",
     "transliteration": "Kāṟṟu",
     "english": "Wind / Air",
     "category": "Weather & Nature",
@@ -3773,7 +3354,6 @@
   {
     "id": "w_420",
     "tamil": "மேகம்",
-    "kannada": "மேகம்",
     "transliteration": "Mēgam",
     "english": "Cloud",
     "category": "Weather & Nature",
@@ -3782,7 +3362,6 @@
   {
     "id": "w_421",
     "tamil": "குளிர்",
-    "kannada": "குளிர்",
     "transliteration": "Kuḷir",
     "english": "Coldness / Winter chill",
     "category": "Weather & Nature",
@@ -3791,7 +3370,6 @@
   {
     "id": "w_422",
     "tamil": "வெப்பம்",
-    "kannada": "வெப்பம்",
     "transliteration": "Veppam",
     "english": "Heat / Humidity",
     "category": "Weather & Nature",
@@ -3800,7 +3378,6 @@
   {
     "id": "w_423",
     "tamil": "வானம்",
-    "kannada": "வானம்",
     "transliteration": "Vāṉam",
     "english": "Sky",
     "category": "Weather & Nature",
@@ -3809,7 +3386,6 @@
   {
     "id": "w_424",
     "tamil": "பூமி",
-    "kannada": "பூமி",
     "transliteration": "Bhūmi",
     "english": "Earth / Ground",
     "category": "Weather & Nature",
@@ -3818,7 +3394,6 @@
   {
     "id": "w_425",
     "tamil": "மரம்",
-    "kannada": "மரம்",
     "transliteration": "Maram",
     "english": "Tree",
     "category": "Weather & Nature",
@@ -3827,7 +3402,6 @@
   {
     "id": "w_426",
     "tamil": "செடி",
-    "kannada": "செடி",
     "transliteration": "Seḍi",
     "english": "Plant / Shrub",
     "category": "Weather & Nature",
@@ -3836,7 +3410,6 @@
   {
     "id": "w_427",
     "tamil": "மலர்",
-    "kannada": "மலர்",
     "transliteration": "Malar",
     "english": "Flower",
     "category": "Weather & Nature",
@@ -3845,7 +3418,6 @@
   {
     "id": "w_428",
     "tamil": "இலை",
-    "kannada": "இலை",
     "transliteration": "Ilai",
     "english": "Leaf",
     "category": "Weather & Nature",
@@ -3854,7 +3426,6 @@
   {
     "id": "w_429",
     "tamil": "ஆறு",
-    "kannada": "ஆறு",
     "transliteration": "Āṟu",
     "english": "River",
     "category": "Weather & Nature",
@@ -3863,7 +3434,6 @@
   {
     "id": "w_430",
     "tamil": "கடல்",
-    "kannada": "கடல்",
     "transliteration": "Kadal",
     "english": "Sea / Ocean",
     "category": "Weather & Nature",
@@ -3872,7 +3442,6 @@
   {
     "id": "w_431",
     "tamil": "மலை",
-    "kannada": "மலை",
     "transliteration": "Malai",
     "english": "Hill / Mountain",
     "category": "Weather & Nature",
@@ -3881,7 +3450,6 @@
   {
     "id": "w_432",
     "tamil": "கைப்பேசி",
-    "kannada": "கைப்பேசி",
     "transliteration": "Kaippēsi",
     "english": "Mobile Phone",
     "category": "House & Objects",
@@ -3890,7 +3458,6 @@
   {
     "id": "w_433",
     "tamil": "இணையம்",
-    "kannada": "இணையம்",
     "transliteration": "Iṇaiyam",
     "english": "Internet",
     "category": "House & Objects",
@@ -3899,7 +3466,6 @@
   {
     "id": "w_434",
     "tamil": "கடவுச்சொல்",
-    "kannada": "கடவுச்சொல்",
     "transliteration": "Kaḍavuchol",
     "english": "Password",
     "category": "House & Objects",
@@ -3908,7 +3474,6 @@
   {
     "id": "w_435",
     "tamil": "சார்ஜர்",
-    "kannada": "சார்ஜர்",
     "transliteration": "Sārjar",
     "english": "Charger",
     "category": "House & Objects",
@@ -3917,7 +3482,6 @@
   {
     "id": "w_436",
     "tamil": "மடிக்கணினி",
-    "kannada": "மடிக்கணினி",
     "transliteration": "Maḍikkaṇiṉi",
     "english": "Laptop",
     "category": "House & Objects",
@@ -3926,7 +3490,6 @@
   {
     "id": "w_437",
     "tamil": "மின்சாரம்",
-    "kannada": "மின்சாரம்",
     "transliteration": "Minsāram",
     "english": "Electricity / Power",
     "category": "House & Objects",
@@ -3935,7 +3498,6 @@
   {
     "id": "w_438",
     "tamil": "தகவல்",
-    "kannada": "தகவல்",
     "transliteration": "Thagaval",
     "english": "Information",
     "category": "House & Objects",
@@ -3944,7 +3506,6 @@
   {
     "id": "w_439",
     "tamil": "கோப்பு",
-    "kannada": "கோப்பு",
     "transliteration": "Kōppu",
     "english": "File / Document",
     "category": "House & Objects",
@@ -3953,7 +3514,6 @@
   {
     "id": "w_440",
     "tamil": "புகைப்படம்",
-    "kannada": "புகைப்படம்",
     "transliteration": "Pugaippaḍam",
     "english": "Picture / Photo",
     "category": "House & Objects",
@@ -3962,7 +3522,6 @@
   {
     "id": "w_441",
     "tamil": "சத்தம்",
-    "kannada": "சத்தம்",
     "transliteration": "Sattham",
     "english": "Sound / Voice",
     "category": "House & Objects",
@@ -3971,7 +3530,6 @@
   {
     "id": "w_442",
     "tamil": "கண்",
-    "kannada": "கண்",
     "transliteration": "Kaṇ",
     "english": "Eye",
     "category": "Health & Emergency",
@@ -3980,7 +3538,6 @@
   {
     "id": "w_443",
     "tamil": "காது",
-    "kannada": "காது",
     "transliteration": "Kādhu",
     "english": "Ear",
     "category": "Health & Emergency",
@@ -3989,7 +3546,6 @@
   {
     "id": "w_444",
     "tamil": "மூக்கு",
-    "kannada": "மூக்கு",
     "transliteration": "Mūkku",
     "english": "Nose",
     "category": "Health & Emergency",
@@ -3998,7 +3554,6 @@
   {
     "id": "w_445",
     "tamil": "வாய்",
-    "kannada": "வாய்",
     "transliteration": "Vāy",
     "english": "Mouth",
     "category": "Health & Emergency",
@@ -4007,7 +3562,6 @@
   {
     "id": "w_446",
     "tamil": "பல்",
-    "kannada": "பல்",
     "transliteration": "Pal",
     "english": "Tooth / Teeth",
     "category": "Health & Emergency",
@@ -4016,7 +3570,6 @@
   {
     "id": "w_447",
     "tamil": "தலை",
-    "kannada": "தலை",
     "transliteration": "Thalai",
     "english": "Head",
     "category": "Health & Emergency",
@@ -4025,7 +3578,6 @@
   {
     "id": "w_448",
     "tamil": "கை",
-    "kannada": "கை",
     "transliteration": "Kai",
     "english": "Hand / Arm",
     "category": "Health & Emergency",
@@ -4034,7 +3586,6 @@
   {
     "id": "w_449",
     "tamil": "வயிறு",
-    "kannada": "வயிறு",
     "transliteration": "Vayiṟu",
     "english": "Stomach / Belly",
     "category": "Health & Emergency",
@@ -4043,7 +3594,6 @@
   {
     "id": "w_450",
     "tamil": "இதயம்",
-    "kannada": "இதயம்",
     "transliteration": "Idhayam",
     "english": "Heart",
     "category": "Health & Emergency",
@@ -4052,7 +3602,6 @@
   {
     "id": "w_451",
     "tamil": "தொண்டை",
-    "kannada": "தொண்டை",
     "transliteration": "Thoṇḍai",
     "english": "Throat",
     "category": "Health & Emergency",
@@ -4061,7 +3610,6 @@
   {
     "id": "w_452",
     "tamil": "முதுகு",
-    "kannada": "முதுகு",
     "transliteration": "Mudhugu",
     "english": "Back (Spine)",
     "category": "Health & Emergency",
@@ -4070,7 +3618,6 @@
   {
     "id": "w_453",
     "tamil": "பச்சரிசி",
-    "kannada": "பச்சரிசி",
     "transliteration": "Pachharisi",
     "english": "Raw Rice (Grains)",
     "category": "Food & Dining",
@@ -4079,7 +3626,6 @@
   {
     "id": "w_454",
     "tamil": "சமையல் எண்ணெய்",
-    "kannada": "சமையல் எண்ணெய்",
     "transliteration": "Samaiyal eṇṇai",
     "english": "Cooking Oil",
     "category": "Food & Dining",
@@ -4088,7 +3634,6 @@
   {
     "id": "w_455",
     "tamil": "பூண்டு",
-    "kannada": "பூண்டு",
     "transliteration": "Pūṇḍu",
     "english": "Garlic",
     "category": "Food & Dining",
@@ -4097,7 +3642,6 @@
   {
     "id": "w_456",
     "tamil": "இஞ்சி",
-    "kannada": "இஞ்சி",
     "transliteration": "Iñji",
     "english": "Ginger",
     "category": "Food & Dining",
@@ -4106,7 +3650,6 @@
   {
     "id": "w_457",
     "tamil": "பச்சை மிளகாய்",
-    "kannada": "பச்சை மிளகாய்",
     "transliteration": "Pachhai miḷagāy",
     "english": "Green Chilli",
     "category": "Food & Dining",
@@ -4115,7 +3658,6 @@
   {
     "id": "w_458",
     "tamil": "பருப்பு",
-    "kannada": "பருப்பு",
     "transliteration": "Paruppu",
     "english": "Lentils / Dal",
     "category": "Food & Dining",
@@ -4124,7 +3666,6 @@
   {
     "id": "w_459",
     "tamil": "மஞ்சள்",
-    "kannada": "மஞ்சள்",
     "transliteration": "Mañjaḷ",
     "english": "Turmeric",
     "category": "Food & Dining",
@@ -4133,7 +3674,6 @@
   {
     "id": "w_460",
     "tamil": "சீரகம்",
-    "kannada": "சீரகம்",
     "transliteration": "Sīragam",
     "english": "Cumin seeds",
     "category": "Food & Dining",
@@ -4142,7 +3682,6 @@
   {
     "id": "w_461",
     "tamil": "கடுகு",
-    "kannada": "கடுகு",
     "transliteration": "Kaḍugu",
     "english": "Mustard seeds",
     "category": "Food & Dining",
@@ -4151,7 +3690,6 @@
   {
     "id": "w_462",
     "tamil": "கொத்தமல்லி தழை",
-    "kannada": "கொத்தமல்லி தழை",
     "transliteration": "Kotthamalli thaḻai",
     "english": "Coriander leaves",
     "category": "Food & Dining",
@@ -4160,7 +3698,6 @@
   {
     "id": "w_463",
     "tamil": "கறிவேப்பிலை",
-    "kannada": "கறிவேப்பிலை",
     "transliteration": "Kaṟivēppilai",
     "english": "Curry leaves",
     "category": "Food & Dining",
@@ -4169,7 +3706,6 @@
   {
     "id": "w_464",
     "tamil": "புதினா",
-    "kannada": "புதினா",
     "transliteration": "Pudhiṉā",
     "english": "Mint leaves",
     "category": "Food & Dining",
@@ -4178,7 +3714,6 @@
   {
     "id": "w_465",
     "tamil": "கோதுமை",
-    "kannada": "கோதுமை",
     "transliteration": "Kōdhumai",
     "english": "Wheat",
     "category": "Food & Dining",
@@ -4187,7 +3722,6 @@
   {
     "id": "w_466",
     "tamil": "கேழ்வரகு",
-    "kannada": "கேழ்வரகு",
     "transliteration": "Kēḻvaragu",
     "english": "Finger Millet (Ragi)",
     "category": "Food & Dining",
@@ -4196,7 +3730,6 @@
   {
     "id": "w_467",
     "tamil": "அவல்",
-    "kannada": "அவல்",
     "transliteration": "Aval",
     "english": "Flattened rice / Poha",
     "category": "Food & Dining",
@@ -4205,7 +3738,6 @@
   {
     "id": "w_468",
     "tamil": "ரவை",
-    "kannada": "ரவை",
     "transliteration": "Ravai",
     "english": "Semolina / Sooji",
     "category": "Food & Dining",
@@ -4214,7 +3746,6 @@
   {
     "id": "w_469",
     "tamil": "ஆரஞ்சு பழம்",
-    "kannada": "ஆரஞ்சு பழம்",
     "transliteration": "Ārañju paḻam",
     "english": "Orange fruit",
     "category": "Food & Dining",
@@ -4223,7 +3754,6 @@
   {
     "id": "w_470",
     "tamil": "எலுமிச்சம்பழம்",
-    "kannada": "எலுமிச்சம்பழம்",
     "transliteration": "Elumichhampaḻam",
     "english": "Lemon",
     "category": "Food & Dining",
@@ -4232,7 +3762,6 @@
   {
     "id": "w_471",
     "tamil": "வெல்லம்",
-    "kannada": "வெல்லம்",
     "transliteration": "Vellam",
     "english": "Jaggery",
     "category": "Food & Dining",
@@ -4241,7 +3770,6 @@
   {
     "id": "w_472",
     "tamil": "தேன்",
-    "kannada": "தேன்",
     "transliteration": "Thēṉ",
     "english": "Honey",
     "category": "Food & Dining",
@@ -4250,7 +3778,6 @@
   {
     "id": "w_473",
     "tamil": "நிறம்",
-    "kannada": "நிறம்",
     "transliteration": "Niṟam",
     "english": "Colour",
     "category": "Adjectives",
@@ -4259,7 +3786,6 @@
   {
     "id": "w_474",
     "tamil": "சிவப்பு",
-    "kannada": "சிவப்பு",
     "transliteration": "Sivappu",
     "english": "Red",
     "category": "Adjectives",
@@ -4268,7 +3794,6 @@
   {
     "id": "w_475",
     "tamil": "நீலம்",
-    "kannada": "நீலம்",
     "transliteration": "Nīlam",
     "english": "Blue",
     "category": "Adjectives",
@@ -4277,7 +3802,6 @@
   {
     "id": "w_476",
     "tamil": "மஞ்சள்",
-    "kannada": "மஞ்சள்",
     "transliteration": "Mañjaḷ",
     "english": "Yellow",
     "category": "Adjectives",
@@ -4286,7 +3810,6 @@
   {
     "id": "w_477",
     "tamil": "பச்சை",
-    "kannada": "பச்சை",
     "transliteration": "Pachhai",
     "english": "Green",
     "category": "Adjectives",
@@ -4295,7 +3818,6 @@
   {
     "id": "w_478",
     "tamil": "வெள்ளை",
-    "kannada": "வெள்ளை",
     "transliteration": "Veḷḷai",
     "english": "White",
     "category": "Adjectives",
@@ -4304,7 +3826,6 @@
   {
     "id": "w_479",
     "tamil": "கருப்பு",
-    "kannada": "கருப்பு",
     "transliteration": "Karuppu",
     "english": "Black",
     "category": "Adjectives",
@@ -4313,7 +3834,6 @@
   {
     "id": "w_480",
     "tamil": "இளஞ்சிவப்பு",
-    "kannada": "இளஞ்சிவப்பு",
     "transliteration": "Iḷañjivappu",
     "english": "Pink",
     "category": "Adjectives",
@@ -4322,7 +3842,6 @@
   {
     "id": "w_481",
     "tamil": "ஆரஞ்சு",
-    "kannada": "ஆரஞ்சு",
     "transliteration": "Ārañju",
     "english": "Orange colour",
     "category": "Adjectives",
@@ -4331,7 +3850,6 @@
   {
     "id": "w_482",
     "tamil": "சட்டை",
-    "kannada": "சட்டை",
     "transliteration": "Saṭṭai",
     "english": "Shirt",
     "category": "House & Objects",
@@ -4340,7 +3858,6 @@
   {
     "id": "w_483",
     "tamil": "புடவை",
-    "kannada": "புடவை",
     "transliteration": "Puḍavai",
     "english": "Saree",
     "category": "House & Objects",
@@ -4349,7 +3866,6 @@
   {
     "id": "w_484",
     "tamil": "செருப்பு",
-    "kannada": "செருப்பு",
     "transliteration": "Seruppu",
     "english": "Footwear / Slippers",
     "category": "House & Objects",
@@ -4358,7 +3874,6 @@
   {
     "id": "w_485",
     "tamil": "குடை",
-    "kannada": "குடை",
     "transliteration": "Kuḍai",
     "english": "Umbrella",
     "category": "House & Objects",
@@ -4367,7 +3882,6 @@
   {
     "id": "w_486",
     "tamil": "கடிகாரம்",
-    "kannada": "கடிகாரம்",
     "transliteration": "Kaḍigāram",
     "english": "Clock / Watch",
     "category": "House & Objects",
@@ -4376,7 +3890,6 @@
   {
     "id": "w_487",
     "tamil": "படிகள்",
-    "kannada": "படிகள்",
     "transliteration": "Paḍigaḷ",
     "english": "Stairs / Steps",
     "category": "House & Objects",
@@ -4385,7 +3898,6 @@
   {
     "id": "w_488",
     "tamil": "தலையணை",
-    "kannada": "தலையணை",
     "transliteration": "Thalaiyaṇai",
     "english": "Pillow",
     "category": "House & Objects",
@@ -4394,7 +3906,6 @@
   {
     "id": "w_489",
     "tamil": "போர்வை",
-    "kannada": "போர்வை",
     "transliteration": "Pōrvai",
     "english": "Blanket / Bedsheet",
     "category": "House & Objects",
@@ -4403,7 +3914,6 @@
   {
     "id": "w_490",
     "tamil": "நாய்",
-    "kannada": "நாய்",
     "transliteration": "Nāy",
     "english": "Dog",
     "category": "Weather & Nature",
@@ -4412,7 +3922,6 @@
   {
     "id": "w_491",
     "tamil": "பூனை",
-    "kannada": "பூனை",
     "transliteration": "Pūṉai",
     "english": "Cat",
     "category": "Weather & Nature",
@@ -4421,7 +3930,6 @@
   {
     "id": "w_492",
     "tamil": "பசு",
-    "kannada": "பசு",
     "transliteration": "Pasu",
     "english": "Cow",
     "category": "Weather & Nature",
@@ -4430,7 +3938,6 @@
   {
     "id": "w_493",
     "tamil": "யானை",
-    "kannada": "யானை",
     "transliteration": "Yāṉai",
     "english": "Elephant",
     "category": "Weather & Nature",
@@ -4439,7 +3946,6 @@
   {
     "id": "w_494",
     "tamil": "பறவை",
-    "kannada": "பறவை",
     "transliteration": "Paṟavai",
     "english": "Bird",
     "category": "Weather & Nature",
@@ -4448,7 +3954,6 @@
   {
     "id": "w_495",
     "tamil": "மீன்",
-    "kannada": "மீன்",
     "transliteration": "Mīṉ",
     "english": "Fish",
     "category": "Weather & Nature",
@@ -4457,7 +3962,6 @@
   {
     "id": "w_496",
     "tamil": "குதிரை",
-    "kannada": "குதிரை",
     "transliteration": "Kudhirai",
     "english": "Horse",
     "category": "Weather & Nature",
@@ -4466,7 +3970,6 @@
   {
     "id": "w_497",
     "tamil": "புலி",
-    "kannada": "புலி",
     "transliteration": "Puli",
     "english": "Tiger",
     "category": "Weather & Nature",
@@ -4475,7 +3978,6 @@
   {
     "id": "w_498",
     "tamil": "சிங்கம்",
-    "kannada": "சிங்கம்",
     "transliteration": "Siṅgam",
     "english": "Lion",
     "category": "Weather & Nature",
@@ -4484,7 +3986,6 @@
   {
     "id": "w_499",
     "tamil": "குரங்கு",
-    "kannada": "குரங்கு",
     "transliteration": "Kuraṅgu",
     "english": "Monkey",
     "category": "Weather & Nature",
@@ -4493,7 +3994,6 @@
   {
     "id": "w_500",
     "tamil": "பாம்பு",
-    "kannada": "பாம்பு",
     "transliteration": "Pāmbu",
     "english": "Snake",
     "category": "Weather & Nature",
@@ -4502,7 +4002,6 @@
   {
     "id": "w_501",
     "tamil": "காடு",
-    "kannada": "காடு",
     "transliteration": "Kāḍu",
     "english": "Forest / Jungle",
     "category": "Weather & Nature",
@@ -4511,7 +4010,6 @@
   {
     "id": "w_502",
     "tamil": "மகிழ்ச்சி",
-    "kannada": "மகிழ்ச்சி",
     "transliteration": "Magiḻchhi",
     "english": "Happiness / Joy",
     "category": "Adjectives",
@@ -4520,7 +4018,6 @@
   {
     "id": "w_503",
     "tamil": "துக்கம்",
-    "kannada": "துக்கம்",
     "transliteration": "Dhukkam",
     "english": "Sadness / Sorrow",
     "category": "Adjectives",
@@ -4529,7 +4026,6 @@
   {
     "id": "w_504",
     "tamil": "கோபம்",
-    "kannada": "கோபம்",
     "transliteration": "Kōbam",
     "english": "Anger",
     "category": "Adjectives",
@@ -4538,7 +4034,6 @@
   {
     "id": "w_505",
     "tamil": "பயம்",
-    "kannada": "பயம்",
     "transliteration": "Bayam",
     "english": "Fear",
     "category": "Adjectives",
@@ -4547,7 +4042,6 @@
   {
     "id": "w_506",
     "tamil": "அன்பு",
-    "kannada": "அன்பு",
     "transliteration": "Anbu",
     "english": "Love / Affection",
     "category": "Adjectives",
@@ -4556,7 +4050,6 @@
   {
     "id": "w_507",
     "tamil": "அமைதி",
-    "kannada": "அமைதி",
     "transliteration": "Amaidhi",
     "english": "Peace / Calm",
     "category": "Adjectives",
@@ -4565,7 +4058,6 @@
   {
     "id": "w_508",
     "tamil": "ஆச்சரியம்",
-    "kannada": "ஆச்சரியம்",
     "transliteration": "Āchhariyam",
     "english": "Wonder / Surprise",
     "category": "Adjectives",
@@ -4574,7 +4066,6 @@
   {
     "id": "w_509",
     "tamil": "களைப்பு",
-    "kannada": "களைப்பு",
     "transliteration": "Kaḷaippu",
     "english": "Tiredness / Exhaustion",
     "category": "Adjectives",
@@ -4583,7 +4074,6 @@
   {
     "id": "w_510",
     "tamil": "தாகம்",
-    "kannada": "தாகம்",
     "transliteration": "Thāgam",
     "english": "Thirst",
     "category": "Adjectives",
@@ -4592,7 +4082,6 @@
   {
     "id": "w_511",
     "tamil": "தைரியம்",
-    "kannada": "தைரியம்",
     "transliteration": "Dhairiyam",
     "english": "Courage / Bravery",
     "category": "Adjectives",
@@ -4601,7 +4090,6 @@
   {
     "id": "w_512",
     "tamil": "மன அமைதி",
-    "kannada": "மன அமைதி",
     "transliteration": "Mana amaidhi",
     "english": "Peace of mind",
     "category": "Adjectives",
@@ -4610,7 +4098,6 @@
   {
     "id": "w_513",
     "tamil": "வாசி",
-    "kannada": "வாசி",
     "transliteration": "Vāsi",
     "english": "Read",
     "category": "Common Verbs",
@@ -4619,7 +4106,6 @@
   {
     "id": "w_514",
     "tamil": "எழுது",
-    "kannada": "எழுது",
     "transliteration": "Eḻudhu",
     "english": "Write",
     "category": "Common Verbs",
@@ -4628,7 +4114,6 @@
   {
     "id": "w_515",
     "tamil": "கேள்",
-    "kannada": "கேள்",
     "transliteration": "Kēḷ",
     "english": "Listen / Ask",
     "category": "Common Verbs",
@@ -4637,7 +4122,6 @@
   {
     "id": "w_516",
     "tamil": "பார்",
-    "kannada": "பார்",
     "transliteration": "Pār",
     "english": "Look / See",
     "category": "Common Verbs",
@@ -4646,7 +4130,6 @@
   {
     "id": "w_517",
     "tamil": "படு",
-    "kannada": "படு",
     "transliteration": "Paḍu",
     "english": "Sleep / Lie down",
     "category": "Common Verbs",
@@ -4655,7 +4138,6 @@
   {
     "id": "w_518",
     "tamil": "எழுந்திரு",
-    "kannada": "எழுந்திரு",
     "transliteration": "Eḻundhiru",
     "english": "Wake up / Get up",
     "category": "Common Verbs",
@@ -4664,7 +4146,6 @@
   {
     "id": "w_519",
     "tamil": "விளையாடு",
-    "kannada": "விளையாடு",
     "transliteration": "Viḷaiyāḍu",
     "english": "Play",
     "category": "Common Verbs",
@@ -4673,7 +4154,6 @@
   {
     "id": "w_520",
     "tamil": "பாடு",
-    "kannada": "பாடு",
     "transliteration": "Pāḍu",
     "english": "Sing",
     "category": "Common Verbs",
@@ -4682,7 +4162,6 @@
   {
     "id": "w_521",
     "tamil": "கற்றுக்கொள்",
-    "kannada": "கற்றுக்கொள்",
     "transliteration": "Katrukkoḷ",
     "english": "Learn",
     "category": "Common Verbs",
@@ -4691,7 +4170,6 @@
   {
     "id": "w_522",
     "tamil": "கற்றுக்கொடு",
-    "kannada": "கற்றுக்கொடு",
     "transliteration": "Katrukkoḍu",
     "english": "Teach",
     "category": "Common Verbs",
@@ -4700,7 +4178,6 @@
   {
     "id": "w_523",
     "tamil": "பேசு",
-    "kannada": "பேசு",
     "transliteration": "Pēsu",
     "english": "Talk / Speak",
     "category": "Common Verbs",
@@ -4709,7 +4186,6 @@
   {
     "id": "w_524",
     "tamil": "காத்திரு",
-    "kannada": "காத்திரு",
     "transliteration": "Kātthiru",
     "english": "Wait",
     "category": "Common Verbs",
@@ -4718,7 +4194,6 @@
   {
     "id": "w_525",
     "tamil": "கழுவு",
-    "kannada": "கழுவு",
     "transliteration": "Kaḻuvu",
     "english": "Wash / Clean",
     "category": "Common Verbs",
@@ -4727,7 +4202,6 @@
   {
     "id": "w_526",
     "tamil": "அமர்",
-    "kannada": "அமர்",
     "transliteration": "Amar",
     "english": "Sit / Gather",
     "category": "Common Verbs",
@@ -4736,7 +4210,6 @@
   {
     "id": "w_527",
     "tamil": "ஓடு",
-    "kannada": "ஓடு",
     "transliteration": "Ōḍu",
     "english": "Run",
     "category": "Common Verbs",
@@ -4745,7 +4218,6 @@
   {
     "id": "w_528",
     "tamil": "நட",
-    "kannada": "நட",
     "transliteration": "Naḍa",
     "english": "Walk",
     "category": "Common Verbs",
@@ -4754,7 +4226,6 @@
   {
     "id": "w_529",
     "tamil": "ஆசிரியர்",
-    "kannada": "ஆசிரியர்",
     "transliteration": "Āsiriyar",
     "english": "Teacher (Male)",
     "category": "People & Pronouns",
@@ -4763,7 +4234,6 @@
   {
     "id": "w_530",
     "tamil": "ஆசிரியை",
-    "kannada": "ஆசிரியை",
     "transliteration": "Āsiriyai",
     "english": "Teacher (Female)",
     "category": "People & Pronouns",
@@ -4772,7 +4242,6 @@
   {
     "id": "w_531",
     "tamil": "மாணவன்",
-    "kannada": "மாணவன்",
     "transliteration": "Māṇavaṉ",
     "english": "Student (Male)",
     "category": "People & Pronouns",
@@ -4781,7 +4250,6 @@
   {
     "id": "w_532",
     "tamil": "மாணவி",
-    "kannada": "மாணவி",
     "transliteration": "Māṇavi",
     "english": "Student (Female)",
     "category": "People & Pronouns",
@@ -4790,7 +4258,6 @@
   {
     "id": "w_533",
     "tamil": "விவசாயி",
-    "kannada": "விவசாயி",
     "transliteration": "Vivasāyi",
     "english": "Farmer",
     "category": "People & Pronouns",
@@ -4799,7 +4266,6 @@
   {
     "id": "w_534",
     "tamil": "காவல்துறை அதிகாரி",
-    "kannada": "காவல்துறை அதிகாரி",
     "transliteration": "Kāvalthuṟai adhigāri",
     "english": "Police officer",
     "category": "People & Pronouns",
@@ -4808,7 +4274,6 @@
   {
     "id": "w_535",
     "tamil": "வியாபாரி",
-    "kannada": "வியாபாரி",
     "transliteration": "Viyābāri",
     "english": "Merchant / Shopkeeper",
     "category": "People & Pronouns",
@@ -4817,7 +4282,6 @@
   {
     "id": "w_536",
     "tamil": "அண்டைவீட்டார்",
-    "kannada": "அண்டைவீட்டார்",
     "transliteration": "Aṇḍaivīṭṭār",
     "english": "Neighbors",
     "category": "People & Pronouns",

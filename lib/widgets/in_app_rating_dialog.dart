@@ -158,7 +158,7 @@ class _InAppRatingDialogState extends State<_InAppRatingDialog> {
         ),
         const SizedBox(height: 18),
         Text(
-          'ಧನ್ಯವಾದಗಳು! (Thank You)',
+          'நன்றி! (Thank You)',
           textAlign: TextAlign.center,
           style: TextStyle(
             fontSize: 20,
