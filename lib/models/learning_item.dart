@@ -2,15 +2,18 @@ enum ItemType { word, sentence }
 
 class LearningItem {
   final String id;
-  final String kannada;
+  final String tamil;
   final String transliteration;
   final String english;
   final String category;
   final ItemType type;
 
+  /// Backward-compatible alias for existing references
+  String get kannada => tamil;
+
   const LearningItem({
     required this.id,
-    required this.kannada,
+    required this.tamil,
     required this.transliteration,
     required this.english,
     required this.category,
@@ -22,7 +25,8 @@ class LearningItem {
 
   Map<String, dynamic> toJson() => {
         'id': id,
-        'kannada': kannada,
+        'tamil': tamil,
+        'kannada': tamil,
         'transliteration': transliteration,
         'english': english,
         'category': category,
@@ -31,7 +35,7 @@ class LearningItem {
 
   factory LearningItem.fromJson(Map<String, dynamic> json) => LearningItem(
         id: json['id'] as String,
-        kannada: json['kannada'] as String,
+        tamil: (json['tamil'] ?? json['kannada']) as String,
         transliteration: json['transliteration'] as String,
         english: json['english'] as String,
         category: json['category'] as String,

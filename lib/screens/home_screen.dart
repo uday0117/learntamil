@@ -340,7 +340,7 @@ class HomeScreen extends StatelessWidget {
               ),
               const SizedBox(height: 20),
 
-              // AdMob Banner Ad (learn_kannada_home_banner)
+              // AdMob Banner Ad (learn_tamil_home_banner)
               const AdBannerWidget(
                 margin: EdgeInsets.symmetric(vertical: 8),
               ),
@@ -379,7 +379,7 @@ class HomeScreen extends StatelessWidget {
                         ),
                         SizedBox(width: 8),
                         Text(
-                          'KANNADA WISDOM',
+                          'TAMIL WISDOM',
                           style: TextStyle(
                             color: AppColors.gold,
                             fontSize: 11,
@@ -391,9 +391,9 @@ class HomeScreen extends StatelessWidget {
                     ),
                     SizedBox(height: 10),
                     Text(
-                      'ಸಿರಿಗನ್ನಡಂ ಗೆಲ್ಗೆ, ಸಿರಿಗನ್ನಡಂ ಬಾಳ್ಗೆ',
+                      'யாதும் ஊரே யாவரும் கேளிர்',
                       style: TextStyle(
-                        fontFamily: 'NotoSansKannada',
+                        fontFamily: 'NotoSansTamil',
                         color: Colors.white,
                         fontSize: 18,
                         fontWeight: FontWeight.w700,
@@ -401,7 +401,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                     SizedBox(height: 4),
                     Text(
-                      'Sirigannadam gelge, Sirigannadam baalge\n"May rich Kannada triumph, May rich Kannada flourish"',
+                      'Yādhum oorē yāvarum kēḷir\n"To us all towns are our own, all humans our kin" — Purananuru',
                       style: TextStyle(
                         color: Colors.white70,
                         fontSize: 12,
@@ -572,7 +572,7 @@ class _EasterEggLogoWidgetState extends State<_EasterEggLogoWidget> {
   @override
   Widget build(BuildContext context) {
     return Tooltip(
-      message: 'Learn Kannada (Tap 5 times for Easter Egg)',
+      message: 'Learn Tamil (Tap 5 times for Easter Egg)',
       child: InkWell(
         onTap: _handleTap,
         onLongPress: () => showDeveloperEasterEggDialog(context),

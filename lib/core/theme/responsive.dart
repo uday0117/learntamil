@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// Helper utilities and widgets for making Learn Kannada fully responsive
+/// Helper utilities and widgets for making Learn Tamil fully responsive
 /// across all device form factors (small phones, large phones, foldables,
 /// tablets, iPads, and landscape orientations).
 class Responsive {

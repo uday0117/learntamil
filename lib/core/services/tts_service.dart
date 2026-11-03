@@ -22,7 +22,7 @@ class TtsService {
   Future<void> init() async {
     if (_isInitialized) return;
     try {
-      // On Android, use Google TTS engine if available since it reliably supports Kannada (kn-IN)
+      // On Android, use Google TTS engine if available since it reliably supports Tamil (ta-IN)
       if (!kIsWeb && defaultTargetPlatform == TargetPlatform.android) {
         try {
           final engines = await _flutterTts.getEngines;
@@ -34,12 +34,12 @@ class TtsService {
         }
       }
 
-      // Configure language with fallback (kn-IN -> kn_IN -> kn)
+      // Configure language with fallback (ta-IN -> ta_IN -> ta)
       dynamic langResult = await _flutterTts.setLanguage(AppConfig.ttsLocale);
       if (langResult == 0) {
-        langResult = await _flutterTts.setLanguage('kn_IN');
+        langResult = await _flutterTts.setLanguage('ta_IN');
         if (langResult == 0) {
-          await _flutterTts.setLanguage('kn');
+          await _flutterTts.setLanguage('ta');
         }
       }
 
@@ -107,8 +107,8 @@ class TtsService {
       currentlyPlayingId.value = id;
       final dynamic result = await _flutterTts.speak(text);
       if (result == 0) {
-        // If initial language code was rejected by the engine, fallback to generic Kannada
-        await _flutterTts.setLanguage('kn');
+        // If initial language code was rejected by the engine, fallback to generic Tamil
+        await _flutterTts.setLanguage('ta');
         final dynamic retryResult = await _flutterTts.speak(text);
         if (retryResult == 0) {
           currentlyPlayingId.value = null;

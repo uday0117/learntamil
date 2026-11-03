@@ -72,7 +72,7 @@ class _SearchScreenState extends State<SearchScreen> {
                 autofocus: true,
                 onChanged: (_) => setState(() {}),
                 decoration: InputDecoration(
-                  hintText: 'Search in Kannada, English...',
+                  hintText: 'Search in Tamil, English...',
                   hintStyle: TextStyle(
                     color: isDark ? AppColors.darkTextMuted : AppColors.textMuted,
                     fontSize: 14,
@@ -196,7 +196,7 @@ class _SearchScreenState extends State<SearchScreen> {
             ),
             const SizedBox(height: 20),
             Text(
-              'Search Kannada & English',
+              'Search Tamil & English',
               style: TextStyle(
                 fontSize: 17,
                 fontWeight: FontWeight.w700,
@@ -205,7 +205,7 @@ class _SearchScreenState extends State<SearchScreen> {
             ),
             const SizedBox(height: 8),
             Text(
-              'Type Kannada script (ನಮಸ್ಕಾರ), transliteration (Namaskara), or English meaning (Hello)',
+              'Type Tamil script (வணக்கம்), transliteration (Vanakkam), or English meaning (Hello)',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 13,

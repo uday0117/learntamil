@@ -1,4 +1,4 @@
-package com.ukrsolutions.learnkannada
+package com.ukrsolutions.learntamil
 
 import io.flutter.embedding.android.FlutterActivity
 

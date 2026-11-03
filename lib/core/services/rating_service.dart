@@ -157,7 +157,7 @@ class RatingService {
     } catch (_) {
       // Fallback direct url launcher
       final url = Uri.parse(
-        'https://play.google.com/store/apps/details?id=com.ukrsolutions.learnkannada',
+        'https://play.google.com/store/apps/details?id=com.ukrsolutions.learntamil',
       );
       if (await canLaunchUrl(url)) {
         return await launchUrl(url, mode: LaunchMode.externalApplication);
@@ -175,7 +175,7 @@ class RatingService {
       scheme: 'mailto',
       path: AppConfig.developerContact,
       queryParameters: {
-        'subject': 'Learn Kannada App Feedback ($rating Stars)',
+        'subject': 'Learn Tamil App Feedback ($rating Stars)',
         'body': 'Rating: $rating / 5\nApp Version: ${AppConfig.appVersion}\n\nFeedback:\n$comments',
       },
     );

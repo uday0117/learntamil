@@ -216,7 +216,7 @@ void showDeveloperEasterEggDialog(BuildContext context) {
                     title: 'Mission Statement',
                     children: [
                       Text(
-                        'Crafted with passion to empower learners, professionals, and travelers to effortlessly read, pronounce, and speak Kannada with authentic confidence.',
+                        'Crafted with passion to empower learners, professionals, and travelers to effortlessly read, pronounce, and speak Tamil with authentic confidence.',
                         style: TextStyle(
                           fontSize: 13,
                           height: 1.45,

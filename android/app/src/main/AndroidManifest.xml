@@ -3,14 +3,14 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
-        android:label="Learn Kannada"
+        android:label="Learn Tamil"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
 
         <!-- Google AdMob Application ID -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-1451522103593938~1717741424"/>
+            android:value="ca-app-pub-1451522103593938~2594983445"/>
 
         <activity
             android:name=".MainActivity"

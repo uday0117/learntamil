@@ -6,8 +6,8 @@ import 'monetization_service.dart';
 /// Centralized service for Google Mobile Ads (AdMob)
 ///
 /// Configured Ad Units:
-/// - Home Banner: learn_kannada_home_banner (ca-app-pub-1451522103593938/7708609710)
-/// - Quiz Interstitial: learn_kannada_quiz_interstitial (ca-app-pub-1451522103593938/2755665931)
+/// - Home Banner: learn_tamil_home_banner (ca-app-pub-1451522103593938/7708609710)
+/// - Quiz Interstitial: learn_tamil_quiz_interstitial (ca-app-pub-1451522103593938/2755665931)
 class AdService {
   static final AdService _instance = AdService._internal();
   factory AdService() => _instance;
@@ -24,9 +24,9 @@ class AdService {
 
   // Production Ad Units provided by the user
   static const String prodHomeBannerId =
-      'ca-app-pub-1451522103593938/7708609710';
+      'ca-app-pub-1451522103593938/3716493422';
   static const String prodQuizInterstitialId =
-      'ca-app-pub-1451522103593938/2755665931';
+      'ca-app-pub-1451522103593938/8777248414';
 
   // Standard Google AdMob Test Ad Units
   static const String testAndroidBannerId =

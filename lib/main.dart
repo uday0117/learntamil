@@ -41,7 +41,7 @@ void main() async {
   await AdService().init();
   await RatingService().init();
 
-  runApp(const LearnKannadaApp());
+  runApp(const LearnTamilApp());
 
   // Check for in-app updates in the background (Google Play flexible update)
   WidgetsBinding.instance.addPostFrameCallback((_) {
@@ -49,8 +49,8 @@ void main() async {
   });
 }
 
-class LearnKannadaApp extends StatelessWidget {
-  const LearnKannadaApp({super.key});
+class LearnTamilApp extends StatelessWidget {
+  const LearnTamilApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -70,3 +70,6 @@ class LearnKannadaApp extends StatelessWidget {
     );
   }
 }
+
+/// Backward compatibility alias
+typedef LearnKannadaApp = LearnTamilApp;

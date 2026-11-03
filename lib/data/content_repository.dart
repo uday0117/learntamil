@@ -3,7 +3,7 @@ import 'dart:math';
 import 'package:flutter/services.dart' show rootBundle;
 import '../models/learning_item.dart';
 import '../models/quiz_question.dart';
-import 'kannada_data.dart';
+import 'tamil_data.dart';
 
 abstract class IContentRepository {
   List<LearningItem> getWords();
@@ -101,7 +101,9 @@ class ContentRepository implements IContentRepository {
         .replaceAll('ḷ', 'l')
         .replaceAll('ṇ', 'n')
         .replaceAll('ṣ', 's')
-        .replaceAll('ṅ', 'n');
+        .replaceAll('ṅ', 'n')
+        .replaceAll('ṟ', 'r')
+        .replaceAll('ḻ', 'zh');
   }
 
   @override
@@ -120,11 +122,11 @@ class ContentRepository implements IContentRepository {
     }
 
     return source.where((item) {
-      final matchKannada = item.kannada.toLowerCase().contains(trimmed);
+      final matchTamil = item.tamil.toLowerCase().contains(trimmed);
       final matchTrans = _stripDiacritics(item.transliteration).contains(normalizedQuery) ||
           item.transliteration.toLowerCase().contains(trimmed);
       final matchEnglish = item.english.toLowerCase().contains(trimmed);
-      return matchKannada || matchTrans || matchEnglish;
+      return matchTamil || matchTrans || matchEnglish;
     }).toList();
   }
 
@@ -158,7 +160,7 @@ class ContentRepository implements IContentRepository {
       questions.add(
         QuizQuestion(
           id: 'q_${i + 1}',
-          kannada: current.kannada,
+          tamil: current.tamil,
           transliteration: current.transliteration,
           options: allOptions,
           correctIndex: correctIndex,

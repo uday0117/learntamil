@@ -119,7 +119,7 @@ class _SplashScreenState extends State<SplashScreen>
                           AppConfig.appTitle,
                           textAlign: TextAlign.center,
                           style: TextStyle(
-                            fontFamily: 'NotoSansKannada',
+                            fontFamily: 'NotoSansTamil',
                             fontSize: isCompactHeight ? 24 : 30,
                             fontWeight: FontWeight.w800,
                             color: isDark ? AppColors.accentGreen : AppColors.primary,

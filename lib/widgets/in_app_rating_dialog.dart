@@ -70,8 +70,8 @@ class _InAppRatingDialogState extends State<_InAppRatingDialog> {
               Expanded(
                 child: Text(
                   feedback.isNotEmpty
-                      ? 'ಧನ್ಯವಾದಗಳು! Review copied to clipboard — paste it on Google Play!'
-                      : 'ಧನ್ಯವಾದಗಳು! Thank you for supporting Learn Kannada!',
+                      ? 'நன்றி! Review copied to clipboard — paste it on Google Play!'
+                      : 'நன்றி! Thank you for supporting Learn Tamil!',
                   style: const TextStyle(fontWeight: FontWeight.w600),
                 ),
               ),
@@ -168,7 +168,7 @@ class _InAppRatingDialogState extends State<_InAppRatingDialog> {
         ),
         const SizedBox(height: 8),
         Text(
-          'Your feedback helps us make Learn Kannada better for everyone.',
+          'Your feedback helps us make Learn Tamil better for everyone.',
           textAlign: TextAlign.center,
           style: TextStyle(
             fontSize: 14,
@@ -222,7 +222,7 @@ class _InAppRatingDialogState extends State<_InAppRatingDialog> {
           Text(
             widget.isMilestone
                 ? 'Great Job on the Quiz!'
-                : 'Enjoying Learn Kannada?',
+                : 'Enjoying Learn Tamil?',
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 21,
@@ -232,11 +232,11 @@ class _InAppRatingDialogState extends State<_InAppRatingDialog> {
           ),
           const SizedBox(height: 4),
 
-          // Kannada subtitle
+          // Tamil subtitle
           Text(
-            'ನಿಮ್ಮ ಅನಿಸಿಕೆ ನಮಗೆ ಮುಖ್ಯ',
+            'உங்கள் கருத்து எங்களுக்கு முக்கியம்',
             style: TextStyle(
-              fontFamily: AppConfig.kannadaFontFamily,
+              fontFamily: AppConfig.tamilFontFamily,
               fontSize: 14,
               fontWeight: FontWeight.w600,
               color: isDark ? AppColors.accentGreen : AppColors.primary,

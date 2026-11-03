@@ -93,7 +93,7 @@ class _QuizScreenState extends State<QuizScreen> {
         _answered = false;
       });
     } else {
-      // Show Interstitial Ad (learn_kannada_quiz_interstitial) on quiz completion
+      // Show Interstitial Ad (learn_tamil_quiz_interstitial) on quiz completion
       AdService().showQuizInterstitial(
         onDismissed: () {
           if (mounted) {
@@ -304,10 +304,10 @@ class _QuizScreenState extends State<QuizScreen> {
           ),
           const SizedBox(height: 12),
           Text(
-            currentQuestion.kannada,
+            currentQuestion.tamil,
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontFamily: 'NotoSansKannada',
+              fontFamily: 'NotoSansTamil',
               fontSize: 32,
               fontWeight: FontWeight.w800,
               color: isDark ? AppColors.accentGreen : AppColors.primary,
@@ -333,7 +333,7 @@ class _QuizScreenState extends State<QuizScreen> {
                 onPressed: () {
                   TtsService().toggleSpeak(
                     id: 'quiz_${currentQuestion.id}',
-                    text: currentQuestion.kannada,
+                    text: currentQuestion.tamil,
                   );
                 },
                 tooltip: isPlaying
@@ -559,7 +559,7 @@ class _QuizScreenState extends State<QuizScreen> {
                         const SizedBox(height: 6),
                         Text(
                           isPass
-                              ? 'You have a good grasp of these Kannada words!'
+                              ? 'You have a good grasp of these Tamil words!'
                               : 'Review the question summary below to boost your recall.',
                           textAlign: TextAlign.center,
                           style: TextStyle(
@@ -664,7 +664,7 @@ class _QuizScreenState extends State<QuizScreen> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Enjoying Learn Kannada?',
+                                  'Enjoying Learn Tamil?',
                                   style: TextStyle(
                                     fontSize: 13,
                                     fontWeight: FontWeight.w700,
@@ -877,7 +877,7 @@ class _QuizScreenState extends State<QuizScreen> {
                                       onPressed: () {
                                         TtsService().toggleSpeak(
                                           id: 'summary_${q.id}',
-                                          text: q.kannada,
+                                          text: q.tamil,
                                         );
                                       },
                                       tooltip: isPlaying ? 'Mute / Stop audio' : 'Unmute / Listen pronunciation',
@@ -903,11 +903,11 @@ class _QuizScreenState extends State<QuizScreen> {
                             ),
                             const SizedBox(height: 10),
 
-                            // Kannada Text & Transliteration
+                            // Tamil Text & Transliteration
                             Text(
-                              q.kannada,
+                              q.tamil,
                               style: TextStyle(
-                                fontFamily: 'NotoSansKannada',
+                                fontFamily: 'NotoSansTamil',
                                 fontSize: 22,
                                 fontWeight: FontWeight.w800,
                                 color: isDark ? AppColors.accentGreen : AppColors.primary,

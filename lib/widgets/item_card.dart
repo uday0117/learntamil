@@ -56,11 +56,11 @@ class ItemCard extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      // Kannada Text
+                      // Tamil Text
                       Text(
-                        item.kannada,
+                        item.tamil,
                         style: TextStyle(
-                          fontFamily: 'NotoSansKannada',
+                          fontFamily: 'NotoSansTamil',
                           fontSize: 20,
                           fontWeight: FontWeight.w700,
                           color: isDark
@@ -103,7 +103,7 @@ class ItemCard extends StatelessWidget {
                       onPressed: () {
                         TtsService().toggleSpeak(
                           id: item.id,
-                          text: item.kannada,
+                          text: item.tamil,
                         );
                       },
                       tooltip: isPlaying

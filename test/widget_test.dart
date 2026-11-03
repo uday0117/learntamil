@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:learnkannada/core/constants/app_config.dart';
-import 'package:learnkannada/core/services/ad_service.dart';
-import 'package:learnkannada/core/services/favorites_service.dart';
-import 'package:learnkannada/core/services/monetization_service.dart';
-import 'package:learnkannada/core/services/theme_service.dart';
-import 'package:learnkannada/core/services/tts_service.dart';
-import 'package:learnkannada/data/content_repository.dart';
-import 'package:learnkannada/models/learning_item.dart';
-import 'package:learnkannada/core/services/rating_service.dart';
-import 'package:learnkannada/widgets/developer_easter_egg_dialog.dart';
-import 'package:learnkannada/widgets/in_app_rating_dialog.dart';
-import 'package:learnkannada/main.dart';
+import 'package:learntamil/core/constants/app_config.dart';
+import 'package:learntamil/core/services/ad_service.dart';
+import 'package:learntamil/core/services/favorites_service.dart';
+import 'package:learntamil/core/services/monetization_service.dart';
+import 'package:learntamil/core/services/theme_service.dart';
+import 'package:learntamil/core/services/tts_service.dart';
+import 'package:learntamil/data/content_repository.dart';
+import 'package:learntamil/models/learning_item.dart';
+import 'package:learntamil/core/services/rating_service.dart';
+import 'package:learntamil/widgets/developer_easter_egg_dialog.dart';
+import 'package:learntamil/widgets/in_app_rating_dialog.dart';
+import 'package:learntamil/main.dart';
 
 void main() {
   setUp(() {
@@ -25,7 +25,7 @@ void main() {
     test('Loads bundled words and categories', () {
       final words = repo.getWords();
       expect(words.isNotEmpty, true);
-      expect(words.any((w) => w.kannada == 'ನಮಸ್ಕಾರ'), true);
+      expect(words.any((w) => w.tamil == 'வணக்கம்'), true);
 
       final categories = repo.getWordCategories();
       expect(categories.contains('All'), true);
@@ -35,20 +35,20 @@ void main() {
     test('Loads bundled sentences and categories', () {
       final sentences = repo.getSentences();
       expect(sentences.isNotEmpty, true);
-      expect(sentences.any((s) => s.kannada == 'ನಿಮ್ಮ ಹೆಸರು ಏನು?'), true);
+      expect(sentences.any((s) => s.tamil == 'உங்கள் பெயர் என்ன?'), true);
 
       final categories = repo.getSentenceCategories();
       expect(categories.contains('All'), true);
       expect(categories.contains('Daily Life'), true);
     });
 
-    test('Search finds items across Kannada, transliteration, and English', () {
-      // By Kannada
-      final kannadaSearch = repo.search('ಧನ್ಯವಾದ');
-      expect(kannadaSearch.isNotEmpty, true);
+    test('Search finds items across Tamil, transliteration, and English', () {
+      // By Tamil
+      final tamilSearch = repo.search('நன்றி');
+      expect(tamilSearch.isNotEmpty, true);
 
       // By Transliteration
-      final transSearch = repo.search('Namaskara');
+      final transSearch = repo.search('Vanakkam');
       expect(transSearch.isNotEmpty, true);
 
       // By English
@@ -76,13 +76,13 @@ void main() {
       final favService = FavoritesService();
       await favService.init();
 
-      expect(favService.isFavorite('w_01'), false);
+      expect(favService.isFavorite('w_001'), false);
 
-      await favService.toggleFavorite('w_01');
-      expect(favService.isFavorite('w_01'), true);
+      await favService.toggleFavorite('w_001');
+      expect(favService.isFavorite('w_001'), true);
 
-      await favService.toggleFavorite('w_01');
-      expect(favService.isFavorite('w_01'), false);
+      await favService.toggleFavorite('w_001');
+      expect(favService.isFavorite('w_001'), false);
     });
   });
 
@@ -103,8 +103,8 @@ void main() {
 
   group('AdService Tests', () {
     test('Configures correct production ad unit IDs', () {
-      expect(AdService.prodHomeBannerId, 'ca-app-pub-1451522103593938/7708609710');
-      expect(AdService.prodQuizInterstitialId, 'ca-app-pub-1451522103593938/2755665931');
+      expect(AdService.prodHomeBannerId, 'ca-app-pub-1451522103593938/3716493422');
+      expect(AdService.prodQuizInterstitialId, 'ca-app-pub-1451522103593938/8777248414');
     });
   });
 
@@ -125,8 +125,8 @@ void main() {
   group('App Widget Smoke Test', () {
     testWidgets('App renders splash screen and transitions to home',
         (WidgetTester tester) async {
-      await tester.pumpWidget(const LearnKannadaApp());
-      expect(find.text('Learn Kannada'), findsWidgets);
+      await tester.pumpWidget(const LearnTamilApp());
+      expect(find.text('Learn Tamil'), findsWidgets);
       expect(find.text('Learn • Speak • Grow'), findsOneWidget);
 
       // Advance through splash timer and animation to home screen
@@ -145,7 +145,7 @@ void main() {
         tester.view.resetDevicePixelRatio();
       });
 
-      await tester.pumpWidget(const LearnKannadaApp());
+      await tester.pumpWidget(const LearnTamilApp());
       await tester.pumpAndSettle(const Duration(milliseconds: 2500));
       expect(find.text('Words'), findsWidgets);
       expect(find.text('Sentences'), findsWidgets);
@@ -251,7 +251,7 @@ void main() {
       await tester.tap(find.text('Open Rating Dialog'));
       await tester.pumpAndSettle();
 
-      expect(find.text('Enjoying Learn Kannada?'), findsOneWidget);
+      expect(find.text('Enjoying Learn Tamil?'), findsOneWidget);
       expect(find.text('Rate on Google Play'), findsOneWidget);
       expect(find.text('Maybe Later'), findsOneWidget);
 

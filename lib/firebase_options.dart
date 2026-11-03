@@ -63,6 +63,6 @@ class DefaultFirebaseOptions {
     messagingSenderId: '881055055497',
     projectId: 'learn-kannada-f5c5c',
     storageBucket: 'learn-kannada-f5c5c.firebasestorage.app',
-    iosBundleId: 'com.ukrsolutions.learnkannada',
+    iosBundleId: 'com.ukrsolutions.learntamil',
   );
 }

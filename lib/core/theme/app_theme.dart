@@ -106,8 +106,8 @@ class AppTheme {
         secondary: AppColors.gold,
         surface: AppColors.surfaceWhite,
       ),
-      fontFamily: 'NotoSansKannada',
-      fontFamilyFallback: const ['NotoSansKannada', 'Roboto', 'sans-serif'],
+      fontFamily: 'NotoSansTamil',
+      fontFamilyFallback: const ['NotoSansTamil', 'Roboto', 'sans-serif'],
       appBarTheme: const AppBarTheme(
         backgroundColor: AppColors.creamBackground,
         elevation: 0,
@@ -115,7 +115,7 @@ class AppTheme {
         centerTitle: false,
         iconTheme: IconThemeData(color: AppColors.textPrimary),
         titleTextStyle: TextStyle(
-          fontFamily: 'NotoSansKannada',
+          fontFamily: 'NotoSansTamil',
           color: AppColors.textPrimary,
           fontSize: 20,
           fontWeight: FontWeight.w700,
@@ -163,8 +163,8 @@ class AppTheme {
         secondary: AppColors.goldVibrant,
         surface: AppColors.darkSurface,
       ),
-      fontFamily: 'NotoSansKannada',
-      fontFamilyFallback: const ['NotoSansKannada', 'Roboto', 'sans-serif'],
+      fontFamily: 'NotoSansTamil',
+      fontFamilyFallback: const ['NotoSansTamil', 'Roboto', 'sans-serif'],
       appBarTheme: const AppBarTheme(
         backgroundColor: AppColors.darkBackground,
         elevation: 0,
@@ -172,7 +172,7 @@ class AppTheme {
         centerTitle: false,
         iconTheme: IconThemeData(color: AppColors.darkTextPrimary),
         titleTextStyle: TextStyle(
-          fontFamily: 'NotoSansKannada',
+          fontFamily: 'NotoSansTamil',
           color: AppColors.darkTextPrimary,
           fontSize: 20,
           fontWeight: FontWeight.w700,
