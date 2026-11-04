@@ -20,10 +20,9 @@ class AdService {
   RewardedAd? _rewardedAd;
   bool _isRewardedLoading = false;
 
-  /// In debug mode, Google AdMob requires test ad units to avoid policy violations.
-  /// When false in debug mode, standard Google test ad units are used.
-  /// In release mode, production ad units are ALWAYS served.
-  static bool forceLiveAds = false;
+  /// When true, production live ad units are used across all build configurations.
+  /// Set to true to guarantee real production ad units are always served.
+  static bool forceLiveAds = true;
 
   // Production Ad Units provided by the user
   static const String prodHomeBannerId =

@@ -106,6 +106,9 @@ void main() {
       expect(AdService.prodHomeBannerId, 'ca-app-pub-1451522103593938/3716493422');
       expect(AdService.prodQuizInterstitialId, 'ca-app-pub-1451522103593938/8777248414');
       expect(AdService.prodRewardedAdId, 'ca-app-pub-1451522103593938/2560817711');
+      expect(AdService().homeBannerAdUnitId, 'ca-app-pub-1451522103593938/3716493422');
+      expect(AdService().quizInterstitialAdUnitId, 'ca-app-pub-1451522103593938/8777248414');
+      expect(AdService().rewardedAdUnitId, 'ca-app-pub-1451522103593938/2560817711');
     });
 
     test('Rewarded ad awards reward smoothly when requested', () async {
